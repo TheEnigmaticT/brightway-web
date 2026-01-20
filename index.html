@@ -10,6 +10,19 @@
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
+  <div class="gate-overlay" data-gate>
+    <div class="gate-card" role="dialog" aria-labelledby="gate-title" aria-modal="true">
+      <p class="eyebrow">Brightway Private Preview</p>
+      <h1 id="gate-title">Enter access code</h1>
+      <p class="gate-subhead">This preview is shared with invited reviewers only.</p>
+      <form class="gate-form" data-gate-form>
+        <label class="gate-label" for="gate-password">Password</label>
+        <input id="gate-password" name="password" type="password" autocomplete="current-password" required />
+        <button class="btn primary" type="submit">Enter</button>
+        <p class="gate-error" data-gate-error hidden>That code didn’t match. Try again.</p>
+      </form>
+    </div>
+  </div>
   <header class="site-header" data-header>
     <div class="wrap header-inner">
       <a class="brand" href="#top">

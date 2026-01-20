@@ -1,6 +1,36 @@
 // client.ts
 var menuToggle = document.querySelector("[data-menu-toggle]");
 var nav = document.querySelector("[data-nav]");
+var gate = document.querySelector("[data-gate]");
+var gateForm = document.querySelector("[data-gate-form]");
+var gateError = document.querySelector("[data-gate-error]");
+var gatePassword = document.querySelector("#gate-password");
+var gateKey = "brightway-gate";
+var gatePasswordValue = "brightway101";
+var unlockGate = () => {
+  document.body.classList.remove("gate-locked");
+  gate?.classList.add("is-hidden");
+};
+if (gate && gateForm && gatePassword) {
+  document.body.classList.add("gate-locked");
+  const stored = window.sessionStorage.getItem(gateKey);
+  if (stored === "unlocked") {
+    unlockGate();
+  }
+  gateForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    if (gatePassword.value === gatePasswordValue) {
+      window.sessionStorage.setItem(gateKey, "unlocked");
+      gateError?.setAttribute("hidden", "true");
+      unlockGate();
+      gatePassword.value = "";
+    } else {
+      gateError?.removeAttribute("hidden");
+      gatePassword.focus();
+      gatePassword.select();
+    }
+  });
+}
 if (menuToggle && nav) {
   menuToggle.addEventListener("click", () => {
     const isOpen = menuToggle.getAttribute("aria-expanded") === "true";

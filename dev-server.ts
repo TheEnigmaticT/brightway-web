@@ -40,9 +40,17 @@ const server = Bun.serve({
           headers: { "content-type": "text/css; charset=utf-8" },
         });
       case "/client.js":
-        return new Response(Bun.file(`${root}/.dev/client.js`), {
-          headers: { "content-type": "text/javascript; charset=utf-8" },
-        });
+        {
+          const rootFile = Bun.file(`${root}/client.js`);
+          if (await rootFile.exists()) {
+            return new Response(rootFile, {
+              headers: { "content-type": "text/javascript; charset=utf-8" },
+            });
+          }
+          return new Response(Bun.file(`${root}/.dev/client.js`), {
+            headers: { "content-type": "text/javascript; charset=utf-8" },
+          });
+        }
       default:
         return new Response("Not found", { status: 404 });
     }
