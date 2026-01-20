@@ -35,6 +35,11 @@ const server = Bun.serve({
         return new Response(Bun.file(`${root}/index.html`), {
           headers: { "content-type": "text/html; charset=utf-8" },
         });
+      case "/zh":
+      case "/zh/":
+        return new Response(Bun.file(`${root}/zh/index.html`), {
+          headers: { "content-type": "text/html; charset=utf-8" },
+        });
       case "/styles.css":
         return new Response(Bun.file(`${root}/styles.css`), {
           headers: { "content-type": "text/css; charset=utf-8" },
