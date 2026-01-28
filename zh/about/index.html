@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>关于我们 | Brightway</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500,600&family=Space+Grotesk:wght@300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="gate-overlay" data-gate>
+    <div class="gate-card" role="dialog" aria-labelledby="gate-title" aria-modal="true">
+      <p class="eyebrow">Brightway 私密预览</p>
+      <h1 id="gate-title">请输入访问密码</h1>
+      <p class="gate-subhead">此预览仅供受邀查看。</p>
+      <form class="gate-form" data-gate-form>
+        <label class="gate-label" for="gate-password">密码</label>
+        <input id="gate-password" name="password" type="password" autocomplete="current-password" required />
+        <button class="btn primary" type="submit">进入</button>
+        <p class="gate-error" data-gate-error hidden>密码不正确，请再试一次。</p>
+      </form>
+    </div>
+  </div>
+  <header class="site-header" data-header>
+    <div class="wrap header-inner">
+      <a class="brand" href="/zh/">
+        <span class="brand-mark">Brightway</span>
+        <span class="brand-sub">国际学生贴心服务</span>
+      </a>
+      <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="primary-nav">
+        菜单
+      </button>
+      <nav id="primary-nav" class="nav" data-nav>
+        <a href="/zh/about/" data-nav-link class="is-active">关于我们</a>
+        <a href="/zh/services/" data-nav-link>服务内容</a>
+        <a href="/zh/difference/" data-nav-link>我们的不同</a>
+        <a href="/zh/partnerships/" data-nav-link>合作伙伴</a>
+        <div class="lang-toggle" role="group" aria-label="语言">
+          <a class="lang-btn" href="/about/">EN</a>
+          <a class="lang-btn is-active" href="/zh/about/">中文</a>
+        </div>
+        <a class="nav-cta" href="/zh/#apply">申请</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" aria-labelledby="page-hero-title">
+      <div class="wrap">
+        <p class="eyebrow">关于我们</p>
+        <h1 id="page-hero-title">远离家乡求学时，值得信赖的陪伴者。</h1>
+        <p class="page-hero-lede">Brightway 是专为国际家庭打造的贴心监护服务，帮助学生在加拿大安心生活。</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="mission-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">我们的使命</p>
+          <h2 id="mission-title">通过文化理解，保障安全、舒适与成长。</h2>
+          <p>国际学生需要的不只是文件上的监护人，而是懂文化、会沟通、关键时刻能到场的人。Brightway 致力于弥合家庭与学生之间的距离。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section story" aria-labelledby="story-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">我们的故事</p>
+          <h2 id="story-title">始于一个简单的发现：多数监护服务不过是纸上签名。</h2>
+          <p>Brightway 创立的初衷是让国际学生获得真实、持续、有温度的支持，而不仅仅是一个表格上的名字。我们建立了结合本地知识、文化理解和主动关怀的监护模式，帮助学生成长，让家庭安心。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team" aria-labelledby="team-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">我们的团队</p>
+          <h2 id="team-title">三座加拿大城市的本地团队。</h2>
+          <p>每一座城市都有专门的顾问、住房专员和多语种导师团队，熟悉当地系统。</p>
+        </div>
+        <div class="team-grid" data-reveal>
+          <div class="team-city">
+            <h3>温哥华 Vancouver</h3>
+            <p>我们的创始团队。与大温哥华地区高校、住房网络和服务国际学生的医疗机构深度合作。</p>
+          </div>
+          <div class="team-city">
+            <h3>多伦多 Toronto</h3>
+            <p>加拿大最大的学生城市。我们的团队覆盖 GTA 校园生态，熟悉每条交通线、诊所和租房区。</p>
+          </div>
+          <div class="team-city">
+            <h3>蒙特利尔 Montreal</h3>
+            <p>双语城市，系统独特。我们的团队能够处理法语要求、RAMQ 健康保险和蒙特利尔独特的住房市场。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section apply" aria-labelledby="about-cta-title">
+      <div class="wrap apply-grid" data-reveal>
+        <div>
+          <h2 id="about-cta-title">想了解更多？</h2>
+          <p>开始申请或预约通话，了解 Brightway 是否适合您的家庭。</p>
+        </div>
+        <div class="apply-actions">
+          <a class="btn primary" href="/zh/#apply">开始申请</a>
+          <a class="btn ghost" href="#">预约通话</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="brand-mark">Brightway</p>
+        <p>加拿大国际学生贴心服务。</p>
+      </div>
+      <div>
+        <p class="footer-title">联系</p>
+        <p>hello@brightway.ca</p>
+        <p>温哥华 · 多伦多 · 蒙特利尔</p>
+      </div>
+      <div>
+        <p class="footer-title">了解更多</p>
+        <a href="/zh/about/">关于我们</a>
+        <a href="/zh/services/">服务内容</a>
+        <a href="/zh/difference/">我们的不同</a>
+        <a href="/zh/partnerships/">合作伙伴</a>
+        <a href="/zh/#apply">申请</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/client.js"></script>
+</body>
+</html>

@@ -40,6 +40,46 @@ const server = Bun.serve({
         return new Response(Bun.file(`${root}/zh/index.html`), {
           headers: { "content-type": "text/html; charset=utf-8" },
         });
+      case "/about":
+      case "/about/":
+        return new Response(Bun.file(`${root}/about/index.html`), {
+          headers: { "content-type": "text/html; charset=utf-8" },
+        });
+      case "/services":
+      case "/services/":
+        return new Response(Bun.file(`${root}/services/index.html`), {
+          headers: { "content-type": "text/html; charset=utf-8" },
+        });
+      case "/difference":
+      case "/difference/":
+        return new Response(Bun.file(`${root}/difference/index.html`), {
+          headers: { "content-type": "text/html; charset=utf-8" },
+        });
+      case "/partnerships":
+      case "/partnerships/":
+        return new Response(Bun.file(`${root}/partnerships/index.html`), {
+          headers: { "content-type": "text/html; charset=utf-8" },
+        });
+      case "/zh/about":
+      case "/zh/about/":
+        return new Response(Bun.file(`${root}/zh/about/index.html`), {
+          headers: { "content-type": "text/html; charset=utf-8" },
+        });
+      case "/zh/services":
+      case "/zh/services/":
+        return new Response(Bun.file(`${root}/zh/services/index.html`), {
+          headers: { "content-type": "text/html; charset=utf-8" },
+        });
+      case "/zh/difference":
+      case "/zh/difference/":
+        return new Response(Bun.file(`${root}/zh/difference/index.html`), {
+          headers: { "content-type": "text/html; charset=utf-8" },
+        });
+      case "/zh/partnerships":
+      case "/zh/partnerships/":
+        return new Response(Bun.file(`${root}/zh/partnerships/index.html`), {
+          headers: { "content-type": "text/html; charset=utf-8" },
+        });
       case "/styles.css":
         return new Response(Bun.file(`${root}/styles.css`), {
           headers: { "content-type": "text/css; charset=utf-8" },

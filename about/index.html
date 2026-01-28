@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us | Brightway</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500,600&family=Space+Grotesk:wght@300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="gate-overlay" data-gate>
+    <div class="gate-card" role="dialog" aria-labelledby="gate-title" aria-modal="true">
+      <p class="eyebrow">Brightway Private Preview</p>
+      <h1 id="gate-title">Enter access code</h1>
+      <p class="gate-subhead">This preview is shared with invited reviewers only.</p>
+      <form class="gate-form" data-gate-form>
+        <label class="gate-label" for="gate-password">Password</label>
+        <input id="gate-password" name="password" type="password" autocomplete="current-password" required />
+        <button class="btn primary" type="submit">Enter</button>
+        <p class="gate-error" data-gate-error hidden>That code didn't match. Try again.</p>
+      </form>
+    </div>
+  </div>
+  <header class="site-header" data-header>
+    <div class="wrap header-inner">
+      <a class="brand" href="/">
+        <span class="brand-mark">Brightway</span>
+        <span class="brand-sub">Concierge Service for International Students</span>
+      </a>
+      <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="primary-nav">
+        Menu
+      </button>
+      <nav id="primary-nav" class="nav" data-nav>
+        <a href="/about/" data-nav-link class="is-active">About</a>
+        <a href="/services/" data-nav-link>Services</a>
+        <a href="/difference/" data-nav-link>Our Difference</a>
+        <a href="/partnerships/" data-nav-link>Partnerships</a>
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <a class="lang-btn is-active" href="/about/">EN</a>
+          <a class="lang-btn" href="/zh/about/">中文</a>
+        </div>
+        <a class="nav-cta" href="/#apply">Apply</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" aria-labelledby="page-hero-title">
+      <div class="wrap">
+        <p class="eyebrow">About Us</p>
+        <h1 id="page-hero-title">The trusted companion for students studying away from home.</h1>
+        <p class="page-hero-lede">Brightway is a concierge guardianship service built for international families navigating life in Canada.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="mission-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Our Mission</p>
+          <h2 id="mission-title">Ensuring safety, comfort, and personal growth through culturally-aware support.</h2>
+          <p>International students deserve more than paperwork guardianship. They need someone who understands the cultural context, speaks their language, and shows up when it matters. Brightway exists to bridge the gap between families at home and students finding their footing abroad.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section story" aria-labelledby="story-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Our Story</p>
+          <h2 id="story-title">Built from a simple observation: most guardianship services are just signatures on paper.</h2>
+          <p>Brightway was founded on the belief that international students need real, ongoing, human support, not a name on a form. We built a concierge guardianship model that combines local knowledge, cultural fluency, and proactive care to help students thrive and give families peace of mind.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team" aria-labelledby="team-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Our Team</p>
+          <h2 id="team-title">Local teams across three Canadian cities.</h2>
+          <p>Every city where we operate has a dedicated team of advisors, housing specialists, and multilingual mentors who know the local systems inside out.</p>
+        </div>
+        <div class="team-grid" data-reveal>
+          <div class="team-city">
+            <h3>Vancouver</h3>
+            <p>Our founding team. Deep connections with universities across Metro Vancouver, housing networks, and healthcare providers who work with international students.</p>
+          </div>
+          <div class="team-city">
+            <h3>Toronto</h3>
+            <p>Canada's largest student city. Our Toronto team covers the GTA's sprawling campus ecosystem and knows every transit route, clinic, and rental district.</p>
+          </div>
+          <div class="team-city">
+            <h3>Montreal</h3>
+            <p>A bilingual city with unique systems. Our Montreal team navigates French-language requirements, RAMQ health coverage, and the city's distinct housing market.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section apply" aria-labelledby="about-cta-title">
+      <div class="wrap apply-grid" data-reveal>
+        <div>
+          <h2 id="about-cta-title">Ready to learn more?</h2>
+          <p>Start an application or schedule a call with our team to see if Brightway is the right fit for your family.</p>
+        </div>
+        <div class="apply-actions">
+          <a class="btn primary" href="/#apply">Start an application</a>
+          <a class="btn ghost" href="#">Schedule a call</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="brand-mark">Brightway</p>
+        <p>Concierge service for international students in Canada.</p>
+      </div>
+      <div>
+        <p class="footer-title">Contact</p>
+        <p>hello@brightway.ca</p>
+        <p>Vancouver · Toronto · Montreal</p>
+      </div>
+      <div>
+        <p class="footer-title">Explore</p>
+        <a href="/about/">About Us</a>
+        <a href="/services/">Services</a>
+        <a href="/difference/">Our Difference</a>
+        <a href="/partnerships/">Partnerships</a>
+        <a href="/#apply">Apply</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/client.js"></script>
+</body>
+</html>

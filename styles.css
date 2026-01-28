@@ -938,6 +938,333 @@ img {
   }
 }
 
+/* Subpage hero */
+.page-hero {
+  padding: 80px 0 60px;
+  background: var(--forest-dark);
+  color: #fff;
+}
+
+.page-hero h1 {
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-size: clamp(2.4rem, 3.5vw, 3.6rem);
+  font-weight: 500;
+  line-height: 1.1;
+  margin: 0 0 16px;
+  max-width: 760px;
+}
+
+.page-hero .eyebrow {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.page-hero-lede {
+  font-size: 1.15rem;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 560px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* About page — team grid */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.team-city {
+  padding: 24px;
+  border: 1px solid var(--border);
+  background: var(--mist);
+}
+
+.team-city h3 {
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+/* Services page — service grid */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.service-item {
+  padding: 28px 24px;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
+.service-number {
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-size: 1.6rem;
+  color: var(--forest);
+  margin: 0 0 8px;
+  display: block;
+}
+
+.service-item h3 {
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+/* Services page — packages */
+.packages {
+  background: var(--sand);
+}
+
+.package-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.package-card {
+  padding: 32px 28px;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
+.package-card.is-featured {
+  border-color: var(--forest);
+  background: var(--mist);
+}
+
+.package-card h3 {
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin: 0 0 8px;
+}
+
+.package-price {
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-size: 2.2rem;
+  color: var(--forest-dark);
+  margin: 0 0 18px;
+}
+
+.package-price span {
+  font-size: 1rem;
+  color: var(--ink-soft);
+}
+
+.package-card ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.package-card li {
+  margin-bottom: 8px;
+}
+
+/* Difference page — comparison table */
+.comparison-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  margin-top: 32px;
+  border: 1px solid var(--border);
+}
+
+.comparison-col {
+  padding: 28px 24px;
+  background: #fff;
+}
+
+.comparison-col.is-brightway {
+  background: var(--mist);
+  border-left: 3px solid var(--forest);
+}
+
+.comparison-col h3 {
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+
+.comparison-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comparison-col li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.comparison-col li:last-child {
+  border-bottom: none;
+}
+
+/* Difference page — pillars */
+.pillar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.pillar-card {
+  padding: 28px 24px;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
+.pillar-card h3 {
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+/* Difference page — parent assurance */
+.assurance-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.assurance-grid h3 {
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+/* Partnerships page — benefits */
+.partner-benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.partner-benefits h3 {
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+/* Partnerships page — provide grid */
+.provide-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.provide-grid h3 {
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+/* Partnerships page — flow steps */
+.partner-flow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.flow-step {
+  padding: 28px 24px;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
+.flow-number {
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-size: 2.4rem;
+  color: var(--forest);
+  margin: 0 0 8px;
+  display: block;
+}
+
+.flow-step h3 {
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+/* Partnerships CTA section */
+.partner-cta {
+  background: var(--forest-dark);
+  color: #fff;
+}
+
+/* Story section */
+.story {
+  background: var(--mist);
+}
+
+/* What we provide section */
+.what-we-provide {
+  background: var(--sand);
+}
+
+/* Pillars section */
+.pillars {
+  background: #fff;
+}
+
+/* Parent assurance section */
+.parent-assurance {
+  background: var(--mist);
+}
+
+/* Comparison section */
+.comparison {
+  background: #fff;
+}
+
+/* Cities partner */
+.cities-partner {
+  background: var(--sand);
+}
+
+/* How it works */
+.how-it-works {
+  background: #fff;
+}
+
+/* Agents section */
+.agents {
+  background: var(--mist);
+}
+
+/* Why partner section */
+.why-partner {
+  background: var(--sand);
+}
+
+@media (max-width: 700px) {
+  .comparison-table {
+    grid-template-columns: 1fr;
+  }
+
+  .comparison-col.is-brightway {
+    border-left: none;
+    border-top: 3px solid var(--forest);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   [data-reveal] {
     transition: none;
