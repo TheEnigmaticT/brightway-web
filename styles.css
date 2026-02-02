@@ -1270,3 +1270,48 @@ img {
     transition: none;
   }
 }
+
+/* Coming Soon badge */
+.coming-soon {
+  display: inline-block;
+  background: var(--forest);
+  color: #fff;
+  font-size: 0.65em;
+  font-weight: 500;
+  padding: 0.2em 0.6em;
+  border-radius: var(--radius-sm);
+  vertical-align: middle;
+  margin-left: 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Pricing note styling */
+.pricing-note {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pricing-note p {
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+}
+
+/* Founder story styling */
+.founder-story {
+  max-width: 720px;
+  margin: 2rem auto 0;
+}
+
+.founder-story p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: var(--ink-soft);
+}
+
+.founder-story p:first-child {
+  font-size: 1.2rem;
+  color: var(--ink);
+}
