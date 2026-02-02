@@ -1315,3 +1315,252 @@ img {
   font-size: 1.2rem;
   color: var(--ink);
 }
+
+/* Student Ambassadors Section */
+.ambassadors {
+  background: var(--mist);
+}
+
+.ambassador-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.ambassador-card {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ambassador-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.ambassador-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.ambassador-info {
+  padding: 1.5rem;
+}
+
+.ambassador-info h3 {
+  font-family: var(--ff-display);
+  font-size: 1.4rem;
+  margin-bottom: 0.25rem;
+  color: var(--ink);
+}
+
+.ambassador-school {
+  font-weight: 500;
+  color: var(--forest);
+  margin-bottom: 0.25rem;
+}
+
+.ambassador-program {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin-bottom: 1rem;
+}
+
+.ambassador-quote {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--ink);
+  line-height: 1.5;
+  border-left: 3px solid var(--forest);
+  padding-left: 1rem;
+}
+
+.ambassador-cta {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+@media (max-width: 900px) {
+  .ambassador-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .ambassador-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ambassador-card img {
+    height: 240px;
+  }
+}
+
+/* Ambassador Program Page */
+.ambassador-program {
+  background: var(--sand);
+}
+
+.program-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.program-item {
+  background: #fff;
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.program-item h3 {
+  font-family: var(--ff-display);
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--forest);
+}
+
+.program-item p {
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+
+/* Ambassador Profiles */
+.ambassadors-list {
+  background: #fff;
+}
+
+.ambassador-profile {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 3rem;
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--mist);
+}
+
+.ambassador-profile:last-of-type {
+  border-bottom: none;
+}
+
+.ambassador-profile-image img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: var(--radius-lg);
+}
+
+.ambassador-profile-image.ambassador-placeholder {
+  width: 100%;
+  height: 380px;
+  background: linear-gradient(135deg, var(--forest) 0%, var(--ink) 100%);
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ambassador-placeholder span {
+  font-family: var(--ff-display);
+  font-size: 8rem;
+  color: rgba(255,255,255,0.3);
+}
+
+.ambassador-profile-content h3 {
+  font-family: var(--ff-display);
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+  color: var(--ink);
+}
+
+.ambassador-meta {
+  font-weight: 500;
+  color: var(--forest);
+  margin-bottom: 0.25rem;
+}
+
+.ambassador-origin {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin-bottom: 1.5rem;
+}
+
+.ambassador-profile-content h4 {
+  font-family: var(--ff-display);
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--ink);
+}
+
+.ambassador-profile-content p {
+  color: var(--ink-soft);
+  line-height: 1.7;
+}
+
+.ambassador-advice {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--ink) !important;
+  border-left: 4px solid var(--forest);
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+
+/* Ambassador CTA Section */
+.ambassador-cta-section {
+  background: var(--forest);
+  color: #fff;
+  text-align: center;
+}
+
+.ambassador-cta-section h2 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.ambassador-cta-section p {
+  color: rgba(255,255,255,0.8);
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.ambassador-cta-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.ambassador-cta-actions .btn.primary {
+  background: #fff;
+  color: var(--forest);
+}
+
+.ambassador-cta-actions .btn.ghost {
+  border-color: rgba(255,255,255,0.5);
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .program-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ambassador-profile {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .ambassador-profile-image img,
+  .ambassador-profile-image.ambassador-placeholder {
+    height: 300px;
+  }
+}
