@@ -1796,3 +1796,119 @@ img {
 .pencil-sketch:hover::before {
   opacity: 0;
 }
+
+/* ========== SERVICES PILLARS (Phase 1b) ========== */
+.pillars {
+  background: var(--cream);
+}
+
+.pillar {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  border-left: 4px solid var(--ocean);
+}
+
+.pillar-header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pillar-number {
+  font-family: var(--ff-display);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ocean);
+  letter-spacing: 0.05em;
+}
+
+.pillar-header h3 {
+  font-family: var(--ff-display);
+  font-size: 1.6rem;
+  margin: 0;
+  color: var(--ink);
+}
+
+.pillar-outcome {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--ink);
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.pillar-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.75rem 2rem;
+}
+
+.pillar-details li {
+  position: relative;
+  padding-left: 1.25rem;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+
+.pillar-details li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 6px;
+  height: 6px;
+  background: var(--ocean);
+  border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+  .pillar {
+    padding: 1.5rem;
+  }
+  
+  .pillar-header {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .pillar-header h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Approach Section */
+.approach {
+  background: var(--sand);
+}
+
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.approach-item {
+  text-align: center;
+}
+
+.approach-item h3 {
+  font-family: var(--ff-display);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--ink);
+}
+
+.approach-item p {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
