@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>治理与保障 | Brightway</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500,600&family=Space+Grotesk:wght@300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="gate-overlay" data-gate>
+    <div class="gate-card" role="dialog" aria-labelledby="gate-title" aria-modal="true">
+      <p class="eyebrow">Brightway 私密预览</p>
+      <h1 id="gate-title">请输入访问密码</h1>
+      <p class="gate-subhead">此预览仅供受邀查看。</p>
+      <form class="gate-form" data-gate-form>
+        <label class="gate-label" for="gate-password">密码</label>
+        <input id="gate-password" name="password" type="password" autocomplete="current-password" required />
+        <button class="btn primary" type="submit">进入</button>
+        <p class="gate-error" data-gate-error hidden>密码不正确，请再试一次。</p>
+      </form>
+    </div>
+  </div>
+  <header class="site-header" data-header>
+    <div class="wrap header-inner">
+      <a class="brand" href="/zh/">
+        <span class="brand-mark">Brightway</span>
+        <span class="brand-sub">国际学生监护服务</span>
+      </a>
+      <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="primary-nav">
+        菜单
+      </button>
+      <nav id="primary-nav" class="nav" data-nav>
+        <a href="/zh/about/" data-nav-link>关于我们</a>
+        <a href="/zh/problem/" data-nav-link>问题所在</a>
+        <a href="/zh/services/" data-nav-link>服务内容</a>
+        <a href="/zh/governance/" data-nav-link class="is-active">治理与保障</a>
+        <a href="/zh/difference/" data-nav-link>我们的不同</a>
+        <a href="/zh/partnerships/" data-nav-link>合作伙伴</a>
+        <div class="lang-toggle" role="group" aria-label="语言">
+          <a class="lang-btn" href="/governance/">EN</a>
+          <a class="lang-btn is-active" href="/zh/governance/">中文</a>
+        </div>
+        <a class="nav-cta" href="/zh/#apply">申请</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" aria-labelledby="page-hero-title">
+      <div class="wrap">
+        <p class="eyebrow">治理与保障</p>
+        <h1 id="page-hero-title">每个流程都内嵌问责机制</h1>
+        <p class="page-hero-lede">专业标准、规范程序、透明监督，服务家庭与合作机构</p>
+      </div>
+    </section>
+
+    <section class="section governance-section" aria-labelledby="safeguarding-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">学生保护</p>
+          <h2 id="safeguarding-title">学生保护协议</h2>
+        </div>
+        <div class="governance-grid" data-reveal>
+          <div class="governance-card">
+            <h3>员工审查</h3>
+            <ul>
+              <li>所有顾问全面背景调查</li>
+              <li>必要时的弱势群体筛查</li>
+              <li>推荐信核实与工作经历审查</li>
+              <li>持续绩效监测</li>
+            </ul>
+          </div>
+          <div class="governance-card">
+            <h3>沟通标准</h3>
+            <ul>
+              <li>所有学生互动系统记录</li>
+              <li>响应时间标准：常规4小时，紧急1小时</li>
+              <li>严重关切问题的明确升级路径</li>
+              <li>顾问-学生关系定期监督</li>
+            </ul>
+          </div>
+          <div class="governance-card">
+            <h3>边界维护</h3>
+            <ul>
+              <li>明确的顾问行为规范政策</li>
+              <li>专业关系指导原则</li>
+              <li>边界问题的报告机制</li>
+              <li>所有员工年度伦理培训</li>
+            </ul>
+          </div>
+          <div class="governance-card">
+            <h3>紧急协议</h3>
+            <ul>
+              <li>医疗紧急情况文档化程序</li>
+              <li>心理健康危机应对指导</li>
+              <li>家庭通知程序</li>
+              <li>与大学及地方当局协调</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="privacy-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">隐私与数据</p>
+          <h2 id="privacy-title">信息处理与家庭权利</h2>
+        </div>
+        <div class="governance-grid" data-reveal>
+          <div class="governance-card">
+            <h3>数据保护</h3>
+            <ul>
+              <li>遵守加拿大隐私法规（PIPEDA）</li>
+              <li>所有学生与家庭信息加密存储</li>
+              <li>限制访问：仅指定顾问可查看案例详情</li>
+              <li>定期安全审计与渗透测试</li>
+            </ul>
+          </div>
+          <div class="governance-card">
+            <h3>家庭访问权</h3>
+            <ul>
+              <li>家长保留请求子女信息的权利</li>
+              <li>每月提供定期更新报告</li>
+              <li>直接联系顾问咨询问题</li>
+              <li>明确可共享信息的政策</li>
+            </ul>
+          </div>
+          <div class="governance-card">
+            <h3>第三方共享</h3>
+            <ul>
+              <li>仅在必要时与大学共享信息</li>
+              <li>联系医疗机构需学生/家庭同意</li>
+              <li>数据不出售或用于商业目的</li>
+              <li>合作伙伴受保密协议约束</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section sand" aria-labelledby="insurance-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">保险与责任</p>
+          <h2 id="insurance-title">覆盖范围与专业问责</h2>
+        </div>
+        <div class="governance-grid" data-reveal>
+          <div class="governance-card">
+            <h3>职业责任</h3>
+            <ul>
+              <li>全面的错误与遗漏保险</li>
+              <li>咨询与协调服务覆盖</li>
+              <li>明确的服务范围限制文档</li>
+            </ul>
+          </div>
+          <div class="governance-card">
+            <h3>学生保险</h3>
+            <ul>
+              <li>学生须维持健康保险</li>
+              <li>提供加拿大医疗注册指导</li>
+              <li>协助保险公司理赔协调</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ocean" aria-labelledby="compliance-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow" style="color: rgba(255,255,255,0.7);">监管合规</p>
+          <h2 id="compliance-title" style="color: #fff;">在加拿大法律框架内运营</h2>
+        </div>
+        <div class="compliance-list" data-reveal>
+          <div class="compliance-item">
+            <span class="compliance-icon">✓</span>
+            <div>
+              <h4>安大略省商业注册</h4>
+              <p>正规注册公司，遵守安大略省商业法规运营</p>
+            </div>
+          </div>
+          <div class="compliance-item">
+            <span class="compliance-icon">✓</span>
+            <div>
+              <h4>移民报告</h4>
+              <p>清晰了解机构报告要求；不干扰大学合规流程</p>
+            </div>
+          </div>
+          <div class="compliance-item">
+            <span class="compliance-icon">✓</span>
+            <div>
+              <h4>住房标准</h4>
+              <p>住房验证按照安大略省住宅租赁法和市政法规进行</p>
+            </div>
+          </div>
+          <div class="compliance-item">
+            <span class="compliance-icon">✓</span>
+            <div>
+              <h4>医疗协调</h4>
+              <p>所有健康相关指导在安大略省医疗系统协议和隐私要求内运作</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="reporting-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">报告与透明</p>
+          <h2 id="reporting-title">我们如何维持问责</h2>
+        </div>
+        <div class="governance-grid" data-reveal>
+          <div class="governance-card">
+            <h3>事件记录</h3>
+            <ul>
+              <li>所有重大事件24小时内记录</li>
+              <li>及时向家庭通知相关事件</li>
+              <li>系统性问题的根本原因分析</li>
+              <li>基于经验教训的流程改进</li>
+            </ul>
+          </div>
+          <div class="governance-card">
+            <h3>家庭反馈</h3>
+            <ul>
+              <li>季度满意度调查</li>
+              <li>关切与建议的开放渠道</li>
+              <li>48小时内回应反馈</li>
+              <li>服务标准年度审查</li>
+            </ul>
+          </div>
+          <div class="governance-card">
+            <h3>大学合作</h3>
+            <ul>
+              <li>与合作机构定期协调会议</li>
+              <li>信息共享的明确协议</li>
+              <li>尊重大学政策与程序</li>
+              <li>学生福利问题的联合解决</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="brand-mark">Brightway</p>
+        <p>加拿大国际学生专业监护服务</p>
+      </div>
+      <div>
+        <p class="footer-title">联系</p>
+        <p>hello@brightway.ca</p>
+        <p>多伦多</p>
+      </div>
+      <div>
+        <p class="footer-title">了解更多</p>
+        <a href="/zh/about/">关于我们</a>
+        <a href="/zh/problem/">问题所在</a>
+        <a href="/zh/services/">服务内容</a>
+        <a href="/zh/governance/">治理与保障</a>
+        <a href="/zh/difference/">我们的不同</a>
+        <a href="/zh/partnerships/">合作伙伴</a>
+        <a href="/zh/#apply">申请</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/client.js"></script>
+</body>
+</html>

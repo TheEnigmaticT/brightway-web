@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>我们不是 | Brightway</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500,600&family=Space+Grotesk:wght@300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="gate-overlay" data-gate>
+    <div class="gate-card" role="dialog" aria-labelledby="gate-title" aria-modal="true">
+      <p class="eyebrow">Brightway 私密预览</p>
+      <h1 id="gate-title">请输入访问密码</h1>
+      <p class="gate-subhead">此预览仅供受邀查看。</p>
+      <form class="gate-form" data-gate-form>
+        <label class="gate-label" for="gate-password">密码</label>
+        <input id="gate-password" name="password" type="password" autocomplete="current-password" required />
+        <button class="btn primary" type="submit">进入</button>
+        <p class="gate-error" data-gate-error hidden>密码不正确，请再试一次。</p>
+      </form>
+    </div>
+  </div>
+  <header class="site-header" data-header>
+    <div class="wrap header-inner">
+      <a class="brand" href="/zh/">
+        <span class="brand-mark">Brightway</span>
+        <span class="brand-sub">国际学生监护服务</span>
+      </a>
+      <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="primary-nav">
+        菜单
+      </button>
+      <nav id="primary-nav" class="nav" data-nav>
+        <a href="/zh/about/" data-nav-link>关于我们</a>
+        <a href="/zh/problem/" data-nav-link>问题所在</a>
+        <a href="/zh/services/" data-nav-link>服务内容</a>
+        <a href="/zh/governance/" data-nav-link>治理与保障</a>
+        <a href="/zh/difference/" data-nav-link>我们的不同</a>
+        <a href="/zh/partnerships/" data-nav-link>合作伙伴</a>
+        <a href="/zh/not/" data-nav-link class="is-active">我们不是</a>
+        <div class="lang-toggle" role="group" aria-label="语言">
+          <a class="lang-btn" href="/not/">EN</a>
+          <a class="lang-btn is-active" href="/zh/not/">中文</a>
+        </div>
+        <a class="nav-cta" href="/zh/#apply">申请</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" aria-labelledby="page-hero-title">
+      <div class="wrap">
+        <p class="eyebrow">明确边界</p>
+        <h1 id="page-hero-title">Brightway 不是...</h1>
+        <p class="page-hero-lede">清晰的边界帮助家庭理解我们何时是——何时不是——合适的支持系统</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="not-title">
+      <div class="wrap">
+        <div class="not-grid" data-reveal>
+          <article class="not-card">
+            <div class="not-header">
+              <span class="not-icon">✕</span>
+              <h3>我们不是留学中介</h3>
+            </div>
+            <div class="not-content">
+              <p><strong>这意味着：</strong>我们不负责学校申请，也不从学校收取学生推荐佣金。</p>
+              <p><strong>我们做什么：</strong>我们服务已被加拿大大学录取的学生。我们的重点是支持在读学生，而非招收新生。</p>
+              <p><strong>为何重要：</strong>我们的建议公正无偏。我们推荐对学生最有利的方案，而非对合作机构最有利的方案。</p>
+            </div>
+          </article>
+
+          <article class="not-card">
+            <div class="not-header">
+              <span class="not-icon">✕</span>
+              <h3>我们不是住房供应商</h3>
+            </div>
+            <div class="not-content">
+              <p><strong>这意味着：</strong>我们不拥有、管理或出租房产。我们不是房东。</p>
+              <p><strong>我们做什么：</strong>我们验证住房选择、审查租约、入住前检查房产，并在出现问题时代表学生与房东协商。</p>
+              <p><strong>为何重要：</strong>我们的住房指导公正无偏。如果房产不符合标准，我们可以建议放弃，没有经济利益冲突。</p>
+            </div>
+          </article>
+
+          <article class="not-card">
+            <div class="not-header">
+              <span class="not-icon">✕</span>
+              <h3>我们不是纪律执行者</h3>
+            </div>
+            <div class="not-content">
+              <p><strong>这意味着：</strong>我们不监视学生违规行为，不向家长报告轻微违规，也不充当行为执法者。</p>
+              <p><strong>我们做什么：</strong>我们支持学生做出正确决定，指导后果认知，仅在安全风险时介入。</p>
+              <p><strong>为何重要：</strong>学生保持自主与隐私。他们可以把我们当作顾问，而非告密者。这建立了有效支持所需的信任。</p>
+            </div>
+          </article>
+
+          <article class="not-card">
+            <div class="not-header">
+              <span class="not-icon">✕</span>
+              <h3>我们不是父母的替代</h3>
+            </div>
+            <div class="not-content">
+              <p><strong>这意味着：</strong>我们不承担父母权威，不为学生做重大人生决定，也不取代家庭沟通。</p>
+              <p><strong>我们做什么：</strong>我们是本地资源和沟通桥梁。家长仍是主要决策者；我们提供他们所需的实地信息。</p>
+              <p><strong>为何重要：</strong>家庭关系保持核心地位。我们增强跨距离的家庭联系，而非取代它。</p>
+            </div>
+          </article>
+
+          <article class="not-card">
+            <div class="not-header">
+              <span class="not-icon">✕</span>
+              <h3>我们不是移民律师事务所</h3>
+            </div>
+            <div class="not-content">
+              <p><strong>这意味着：</strong>我们不处理签证申请，不提供法律移民建议，也不代表学生处理移民事务。</p>
+              <p><strong>我们做什么：</strong>我们指导学生了解文件要求，必要时联系合格移民专业人士，帮助他们理解大学合规义务。</p>
+              <p><strong>为何重要：</strong>移民法需要专业 expertise。我们坚守本职，法律事务出现时转介持证专业人士。</p>
+            </div>
+          </article>
+
+          <article class="not-card">
+            <div class="not-header">
+              <span class="not-icon">✕</span>
+              <h3>我们不是医疗或心理健康机构</h3>
+            </div>
+            <div class="not-content">
+              <p><strong>这意味着：</strong>我们不诊断病症，不提供治疗，不开具处方。</p>
+              <p><strong>我们做什么：</strong>我们帮助学生 navigate 医疗系统，联系合适专业人士，协调预约，确保家庭知情。</p>
+              <p><strong>为何重要：</strong>医疗需要持证从业者。我们的角色是协调与支持，而非临床护理。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section sand" aria-labelledby="instead-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">我们是什么</p>
+          <h2 id="instead-title">专业监护，填补缺口</h2>
+        </div>
+        <div class="instead-content" data-reveal>
+          <p>Brightway 占据特定空间：介于大学的正式职责与家庭的个人投入之间。我们提供机构无法配置的高接触、持续支持，同时尊重学生自主与父母的权威。</p>
+          <p>我们是顾问、倡导者、协调者和沟通者。我们在场、知情、负责。我们以可靠的本地存在 bridging 距离。</p>
+          <p>如果您的家庭需要我们提供的服务——并且能够接受我们所不是的——我们可能是合适的选择。</p>
+          <div class="apply-actions" style="margin-top: 2rem;">
+            <a class="btn primary" href="/zh/#apply">预约咨询</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="brand-mark">Brightway</p>
+        <p>加拿大国际学生专业监护服务</p>
+      </div>
+      <div>
+        <p class="footer-title">联系</p>
+        <p>hello@brightway.ca</p>
+        <p>多伦多</p>
+      </div>
+      <div>
+        <p class="footer-title">了解更多</p>
+        <a href="/zh/about/">关于我们</a>
+        <a href="/zh/problem/">问题所在</a>
+        <a href="/zh/services/">服务内容</a>
+        <a href="/zh/governance/">治理与保障</a>
+        <a href="/zh/difference/">我们的不同</a>
+        <a href="/zh/partnerships/">合作伙伴</a>
+        <a href="/zh/not/">我们不是</a>
+        <a href="/zh/#apply">申请</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/client.js"></script>
+</body>
+</html>
