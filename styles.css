@@ -386,6 +386,58 @@ img {
   padding: 80px 0;
 }
 
+/* Partners Banner - Full width, clean, no gradients */
+.partners-banner {
+  padding: 48px 0;
+  background: var(--sand);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.partners-banner .wrap {
+  width: 100%;
+  max-width: none;
+  padding: 0;
+}
+
+.partners-eyebrow {
+  text-align: center;
+  margin-bottom: 28px;
+  font-size: 0.7rem;
+  letter-spacing: 0.35em;
+}
+
+.partners-scroll {
+  overflow: hidden;
+  position: relative;
+}
+
+.partners-track {
+  display: flex;
+  gap: 80px;
+  animation: scroll 40s linear infinite;
+  width: max-content;
+  padding: 0 40px;
+}
+
+.partner-name {
+  font-family: "Fraunces", serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+  white-space: nowrap;
+  letter-spacing: -0.01em;
+}
+
+.partners-scroll:hover .partners-track {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
 .section-head h2 {
   font-family: "Fraunces", "Times New Roman", serif;
   font-size: clamp(2.2rem, 3.2vw, 3rem);
@@ -406,6 +458,55 @@ img {
   color: var(--ocean);
   margin-bottom: 10px;
   font-weight: 600;
+}
+
+/* Section background utilities */
+.section.sand {
+  background: var(--sand);
+}
+
+.section.ocean {
+  background: var(--ocean);
+  color: #fff;
+}
+
+.section.ocean .section-head h2,
+.section.ocean h2,
+.section.ocean h3,
+.section.ocean h4 {
+  color: #fff;
+}
+
+.section.ocean .eyebrow {
+  color: rgba(255,255,255,0.7);
+}
+
+.section.ocean .section-head p {
+  color: rgba(255,255,255,0.9);
+}
+
+/* CTA section - clean, left-aligned, not centered */
+.section.cta-section {
+  padding: 100px 0;
+}
+
+.section.cta-section .wrap {
+  max-width: 720px;
+}
+
+.section.cta-section h2 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.section.cta-section p {
+  color: rgba(255,255,255,0.9);
+  margin-bottom: 2rem;
+}
+
+.section.cta-section .btn.primary {
+  background: #fff;
+  color: var(--ocean);
 }
 
 .difference {
@@ -1307,6 +1408,14 @@ img {
   color: var(--ink-soft);
 }
 
+.pricing-actions {
+  margin-top: 2rem;
+}
+
+.cta-actions {
+  margin-top: 2.5rem;
+}
+
 /* Founder story styling */
 .founder-story {
   max-width: 720px;
@@ -1965,12 +2074,25 @@ img {
   margin: 0;
 }
 
+.solution-content {
+  margin-top: 2rem;
+}
+
+.solution-lead {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin-bottom: 2rem;
+}
+
+.section.ocean .solution-lead {
+  color: rgba(255,255,255,0.9);
+}
+
 .solution-roles {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 3rem;
   max-width: 900px;
-  margin: 3rem auto 0;
 }
 
 .solution-role h3 {
@@ -1979,6 +2101,7 @@ img {
   margin-bottom: 1rem;
   padding-bottom: 0.75rem;
   border-bottom: 1px solid rgba(255,255,255,0.2);
+  color: #fff;
 }
 
 .solution-role ul {
@@ -1991,6 +2114,7 @@ img {
   padding: 0.5rem 0;
   padding-left: 1.25rem;
   position: relative;
+  color: rgba(255,255,255,0.85);
 }
 
 .solution-role li::before {
