@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Brightway is a static marketing website for a concierge guardianship service supporting international students studying in Canada. It targets Chinese students/families and serves content in English (`/`) and Simplified Chinese (`/zh/`).
+Crestway Global is a static marketing website for a concierge guardianship service supporting international students studying in Canada. It targets Chinese students/families and serves content in English (`/`) and Simplified Chinese (`/zh/`).
 
 ## Tech Stack
 
@@ -31,7 +31,7 @@ The dev server auto-builds `client.ts` → `.dev/client.js` and serves all stati
 - `client.ts` — all client interactivity (compiled by Bun to `client.js`)
 - `dev-server.ts` — Bun HTTP server that builds and serves the site locally
 
-**client.ts** handles: access gate (password: `brightway101` stored in sessionStorage), hamburger menu, tab switching, IntersectionObserver-based scroll reveals, active nav tracking, and a 30-second auto-switch on the parents hero panel.
+**client.ts** handles: access gate (password: `crestway101` stored in sessionStorage), hamburger menu, tab switching, IntersectionObserver-based scroll reveals, active nav tracking, and a 30-second auto-switch on the parents hero panel.
 
 **HTML uses data attributes** as JS hooks (`data-gate`, `data-menu-toggle`, `data-reveal`, `data-tab-group`, etc.) rather than classes or IDs.
 

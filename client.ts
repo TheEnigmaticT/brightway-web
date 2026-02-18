@@ -5,8 +5,8 @@ const gate = document.querySelector<HTMLElement>("[data-gate]");
 const gateForm = document.querySelector<HTMLFormElement>("[data-gate-form]");
 const gateError = document.querySelector<HTMLElement>("[data-gate-error]");
 const gatePassword = document.querySelector<HTMLInputElement>("#gate-password");
-const gateKey = "brightway-gate";
-const gatePasswordValue = "brightway101";
+const gateKey = "crestway-gate";
+const gatePasswordValue = "crestway101";
 
 const unlockGate = () => {
   document.body.classList.remove("gate-locked");

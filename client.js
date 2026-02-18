@@ -5,8 +5,8 @@ var gate = document.querySelector("[data-gate]");
 var gateForm = document.querySelector("[data-gate-form]");
 var gateError = document.querySelector("[data-gate-error]");
 var gatePassword = document.querySelector("#gate-password");
-var gateKey = "brightway-gate";
-var gatePasswordValue = "brightway101";
+var gateKey = "crestway-gate";
+var gatePasswordValue = "crestway101";
 var unlockGate = () => {
   document.body.classList.remove("gate-locked");
   gate?.classList.add("is-hidden");
