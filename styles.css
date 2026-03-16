@@ -996,7 +996,27 @@ img {
   padding: 80px 0 60px;
   background: var(--forest-dark);
   color: #fff;
+  position: relative;
+  background-size: cover;
+  background-position: center;
 }
+
+.page-hero.has-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(6, 68, 55, 0.82);
+  pointer-events: none;
+}
+
+.page-hero.has-bg .wrap {
+  position: relative;
+  z-index: 1;
+}
+
+.page-hero.bg-library { background-image: url("/images/students-library.jpg"); }
+.page-hero.bg-meeting { background-image: url("/images/team-meeting.jpg"); }
+.page-hero.bg-advisor { background-image: url("/images/advisor-student.jpg"); }
 
 .page-hero h1 {
   font-family: "Fraunces", "Times New Roman", serif;
