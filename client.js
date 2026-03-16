@@ -54,6 +54,56 @@ parentsButtons.forEach((button) => {
     }
   });
 });
+var safetyButtons = document.querySelectorAll("[data-safety-toggle]");
+var safetyPanels = document.querySelectorAll("[data-safety-panel]");
+var setSafetyPanel = (target) => {
+  safetyButtons.forEach((button) => {
+    const isActive = button.dataset.safetyToggle === target;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-selected", String(isActive));
+  });
+  safetyPanels.forEach((panel) => {
+    const isActive = panel.dataset.safetyPanel === target;
+    panel.classList.toggle("is-active", isActive);
+    panel.setAttribute("aria-hidden", String(!isActive));
+  });
+};
+safetyButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const target = button.dataset.safetyToggle;
+    if (target) {
+      setSafetyPanel(target);
+    }
+  });
+});
+var gate = document.querySelector("[data-gate]");
+var gateForm = document.querySelector("[data-gate-form]");
+var gateInput = document.querySelector("[data-gate-input]");
+var gateError = document.querySelector("[data-gate-error]");
+var gatedContent = document.querySelector("[data-gated-content]");
+if (gate && gateForm && gateInput && gatedContent) {
+  const GATE_CODE = "crestway101";
+  const GATE_KEY = "crestway_gate";
+  if (sessionStorage.getItem(GATE_KEY) === "granted") {
+    gate.style.display = "none";
+    gatedContent.style.display = "";
+  } else {
+    gatedContent.style.display = "none";
+  }
+  gateForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    if (gateInput.value.trim().toLowerCase() === GATE_CODE) {
+      sessionStorage.setItem(GATE_KEY, "granted");
+      gate.style.display = "none";
+      gatedContent.style.display = "";
+    } else {
+      if (gateError)
+        gateError.hidden = false;
+      gateInput.value = "";
+      gateInput.focus();
+    }
+  });
+}
 var revealElements = document.querySelectorAll("[data-reveal]");
 if ("IntersectionObserver" in window) {
   const observer = new IntersectionObserver((entries) => {

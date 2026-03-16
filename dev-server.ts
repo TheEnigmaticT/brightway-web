@@ -18,87 +18,62 @@ const buildClient = async () => {
 
 await buildClient();
 
+const mimeTypes: Record<string, string> = {
+  ".html": "text/html; charset=utf-8",
+  ".css": "text/css; charset=utf-8",
+  ".js": "text/javascript; charset=utf-8",
+  ".png": "image/png",
+  ".jpg": "image/jpeg",
+  ".jpeg": "image/jpeg",
+  ".svg": "image/svg+xml",
+  ".webp": "image/webp",
+  ".gif": "image/gif",
+  ".ico": "image/x-icon",
+};
+
 const server = Bun.serve({
   port,
   async fetch(request) {
     const url = new URL(request.url);
-    if (url.pathname.startsWith("/images/")) {
-      const filePath = `${root}${url.pathname}`;
-      const file = Bun.file(filePath);
-      if (await file.exists()) {
-        return new Response(file);
+    let pathname = url.pathname;
+
+    // Serve client.js from root first, fall back to .dev/
+    if (pathname === "/client.js") {
+      const rootFile = Bun.file(`${root}/client.js`);
+      if (await rootFile.exists()) {
+        return new Response(rootFile, {
+          headers: { "content-type": "text/javascript; charset=utf-8" },
+        });
       }
-      return new Response("Not found", { status: 404 });
+      return new Response(Bun.file(`${root}/.dev/client.js`), {
+        headers: { "content-type": "text/javascript; charset=utf-8" },
+      });
     }
-    switch (url.pathname) {
-      case "/":
-        return new Response(Bun.file(`${root}/index.html`), {
-          headers: { "content-type": "text/html; charset=utf-8" },
-        });
-      case "/zh":
-      case "/zh/":
-        return new Response(Bun.file(`${root}/zh/index.html`), {
-          headers: { "content-type": "text/html; charset=utf-8" },
-        });
-      case "/about":
-      case "/about/":
-        return new Response(Bun.file(`${root}/about/index.html`), {
-          headers: { "content-type": "text/html; charset=utf-8" },
-        });
-      case "/services":
-      case "/services/":
-        return new Response(Bun.file(`${root}/services/index.html`), {
-          headers: { "content-type": "text/html; charset=utf-8" },
-        });
-      case "/difference":
-      case "/difference/":
-        return new Response(Bun.file(`${root}/difference/index.html`), {
-          headers: { "content-type": "text/html; charset=utf-8" },
-        });
-      case "/partnerships":
-      case "/partnerships/":
-        return new Response(Bun.file(`${root}/partnerships/index.html`), {
-          headers: { "content-type": "text/html; charset=utf-8" },
-        });
-      case "/zh/about":
-      case "/zh/about/":
-        return new Response(Bun.file(`${root}/zh/about/index.html`), {
-          headers: { "content-type": "text/html; charset=utf-8" },
-        });
-      case "/zh/services":
-      case "/zh/services/":
-        return new Response(Bun.file(`${root}/zh/services/index.html`), {
-          headers: { "content-type": "text/html; charset=utf-8" },
-        });
-      case "/zh/difference":
-      case "/zh/difference/":
-        return new Response(Bun.file(`${root}/zh/difference/index.html`), {
-          headers: { "content-type": "text/html; charset=utf-8" },
-        });
-      case "/zh/partnerships":
-      case "/zh/partnerships/":
-        return new Response(Bun.file(`${root}/zh/partnerships/index.html`), {
-          headers: { "content-type": "text/html; charset=utf-8" },
-        });
-      case "/styles.css":
-        return new Response(Bun.file(`${root}/styles.css`), {
-          headers: { "content-type": "text/css; charset=utf-8" },
-        });
-      case "/client.js":
-        {
-          const rootFile = Bun.file(`${root}/client.js`);
-          if (await rootFile.exists()) {
-            return new Response(rootFile, {
-              headers: { "content-type": "text/javascript; charset=utf-8" },
-            });
-          }
-          return new Response(Bun.file(`${root}/.dev/client.js`), {
-            headers: { "content-type": "text/javascript; charset=utf-8" },
-          });
-        }
-      default:
-        return new Response("Not found", { status: 404 });
+
+    // Try exact file first
+    let filePath = `${root}${pathname}`;
+    let file = Bun.file(filePath);
+    if (await file.exists() && !filePath.endsWith("/")) {
+      const ext = pathname.substring(pathname.lastIndexOf("."));
+      const contentType = mimeTypes[ext] || "application/octet-stream";
+      return new Response(file, { headers: { "content-type": contentType } });
     }
+
+    // Directory: try index.html
+    if (pathname.endsWith("/")) {
+      filePath = `${root}${pathname}index.html`;
+    } else {
+      filePath = `${root}${pathname}/index.html`;
+    }
+
+    file = Bun.file(filePath);
+    if (await file.exists()) {
+      return new Response(file, {
+        headers: { "content-type": "text/html; charset=utf-8" },
+      });
+    }
+
+    return new Response("Not found", { status: 404 });
   },
 });
 

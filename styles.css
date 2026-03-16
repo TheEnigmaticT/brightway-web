@@ -78,11 +78,12 @@ img {
 }
 
 .brand-sub {
-  font-size: 0.8rem;
-  color: var(--ocean);
+  font-size: 0.55rem;
+  color: var(--forest);
   text-transform: uppercase;
-  letter-spacing: 0.22em;
-  font-weight: 600;
+  letter-spacing: 0.15em;
+  font-weight: 500;
+  white-space: nowrap;
 }
 
 .nav {
@@ -101,8 +102,12 @@ img {
 
 .nav a.is-active,
 .nav a:hover {
-  border-color: var(--ocean);
-  color: var(--ocean-dark);
+  border-color: var(--forest);
+  color: var(--forest-dark);
+}
+
+.nav a {
+  white-space: nowrap;
 }
 
 .nav-cta {
@@ -134,7 +139,7 @@ img {
 
 .lang-btn.is-active {
   background: var(--forest-dark);
-  color: #fff;
+  color: #fff !important;
 }
 
 .menu-toggle {
@@ -154,7 +159,7 @@ img {
 }
 
 .hero.has-hero-image {
-  background-image: url("/images/hero-student-parent.png");
+  background-image: url("/images/hero-bg.jpg");
   background-size: cover;
   background-position: center right;
   color: #fff;
@@ -358,6 +363,12 @@ img {
   font-weight: 500;
   color: var(--ink-soft);
   white-space: nowrap;
+}
+
+.partner-logo {
+  height: 40px;
+  width: auto;
+  opacity: 0.85;
   letter-spacing: -0.01em;
 }
 
@@ -387,7 +398,7 @@ img {
   text-transform: uppercase;
   font-size: 0.75rem;
   letter-spacing: 0.25em;
-  color: var(--ocean);
+  color: var(--forest);
   margin-bottom: 10px;
   font-weight: 600;
 }
@@ -2467,4 +2478,161 @@ img {
 .apply iframe {
   min-height: 700px;
   border-radius: var(--radius-md);
+}
+
+/* ========== ACCESS GATE ========== */
+.gate-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.gate-dialog {
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+}
+
+.gate-dialog h2 {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.gate-dialog p {
+  color: var(--ink-soft);
+  margin-bottom: 1.5rem;
+}
+
+[data-gate-form] {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+[data-gate-input] {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  font-size: 1rem;
+  background: #fff;
+}
+
+[data-gate-input]:focus {
+  outline: 2px solid var(--forest);
+  outline-offset: 1px;
+}
+
+.gate-error {
+  color: var(--clay);
+  font-size: 0.875rem;
+}
+
+.gate-back {
+  margin-top: 1.5rem;
+}
+
+.gate-back a {
+  color: var(--forest);
+}
+
+/* ========== SAFETY TABS ========== */
+.safety-tabs {
+  margin-top: 2rem;
+}
+
+.safety-tabs .toggle-tabs {
+  margin-bottom: 1.5rem;
+}
+
+.safety-tabs .toggle-panel h3 {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.35rem;
+  margin-bottom: 0.75rem;
+}
+
+.safety-tabs .toggle-panel p {
+  margin-bottom: 1rem;
+}
+
+.safety-tabs .toggle-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.safety-tabs .toggle-panel li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.safety-tabs .toggle-panel li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--forest);
+  font-weight: 600;
+}
+
+/* ========== HEALTH & WELLNESS ========== */
+.health-partners {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.health-partner {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 2rem;
+}
+
+.health-partner h3 {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.partner-logo-placeholder {
+  width: 100%;
+  height: 60px;
+  background: var(--mist);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* ========== CHALLENGE LIST (University page) ========== */
+.challenge-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.challenge-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.challenge-list li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--ink-soft);
 }

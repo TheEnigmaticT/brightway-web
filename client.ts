@@ -64,6 +64,65 @@ parentsButtons.forEach((button) => {
   });
 });
 
+// Safety section tabs
+const safetyButtons = document.querySelectorAll<HTMLButtonElement>("[data-safety-toggle]");
+const safetyPanels = document.querySelectorAll<HTMLElement>("[data-safety-panel]");
+
+const setSafetyPanel = (target: string) => {
+  safetyButtons.forEach((button) => {
+    const isActive = button.dataset.safetyToggle === target;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-selected", String(isActive));
+  });
+
+  safetyPanels.forEach((panel) => {
+    const isActive = panel.dataset.safetyPanel === target;
+    panel.classList.toggle("is-active", isActive);
+    panel.setAttribute("aria-hidden", String(!isActive));
+  });
+};
+
+safetyButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const target = button.dataset.safetyToggle;
+    if (target) {
+      setSafetyPanel(target);
+    }
+  });
+});
+
+// Access gate (for password-protected pages)
+const gate = document.querySelector<HTMLElement>("[data-gate]");
+const gateForm = document.querySelector<HTMLFormElement>("[data-gate-form]");
+const gateInput = document.querySelector<HTMLInputElement>("[data-gate-input]");
+const gateError = document.querySelector<HTMLElement>("[data-gate-error]");
+const gatedContent = document.querySelector<HTMLElement>("[data-gated-content]");
+
+if (gate && gateForm && gateInput && gatedContent) {
+  const GATE_CODE = "crestway101";
+  const GATE_KEY = "crestway_gate";
+
+  if (sessionStorage.getItem(GATE_KEY) === "granted") {
+    gate.style.display = "none";
+    gatedContent.style.display = "";
+  } else {
+    gatedContent.style.display = "none";
+  }
+
+  gateForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    if (gateInput.value.trim().toLowerCase() === GATE_CODE) {
+      sessionStorage.setItem(GATE_KEY, "granted");
+      gate.style.display = "none";
+      gatedContent.style.display = "";
+    } else {
+      if (gateError) gateError.hidden = false;
+      gateInput.value = "";
+      gateInput.focus();
+    }
+  });
+}
+
 const revealElements = document.querySelectorAll<HTMLElement>("[data-reveal]");
 if ("IntersectionObserver" in window) {
   const observer = new IntersectionObserver(
