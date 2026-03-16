@@ -1,43 +1,41 @@
 Page,Section,English,中文
-Homepage,brand-name,Crestway Global,Crestway Global
-Homepage,brand-sub,Comprehensive Student Welfare & Success Management,国际学生综合支持服务
+Homepage,title,Crestway Global | Comprehensive Student Success,Crestway Global | 加拿大国际学生专业监护服务
+Homepage,brand-mark,Crestway Global,Crestway Global
+Homepage,brand-sub,Comprehensive Student Success,国际学生成功支持
 Homepage,menu-toggle,Menu,菜单
 Homepage,nav-about,About,关于我们
 Homepage,nav-services,Services,服务内容
 Homepage,nav-governance,Governance,治理与保障
 Homepage,nav-difference,Our Difference,我们的不同
 Homepage,nav-partnerships,Partnerships,合作伙伴
-Homepage,lang-label (aria),Language,语言
 Homepage,nav-cta,Apply,申请
-Homepage,page-title,Crestway Global | Comprehensive Student Welfare & Success Management,Crestway Global | 加拿大国际学生专业监护服务
 Homepage,hero-title,"Ensuring a safer, supported, and more confident journey abroad.",独立不该等于孤身一人。
 Homepage,hero-lede,"A premium, dedicated support system for international families, combining institutional expertise with culturally informed care.",开启新生活常伴不确定感，你不必独自面对。
 Homepage,hero-cta,Apply for Fall Semester 2026,申请 2026
 Homepage,hero-tab-parents,For Parents,家长视角
 Homepage,hero-tab-students,For Students,学生视角
-Homepage,hero-tabs-label (aria),Audience focus,受众切换
-Homepage,hero-parents-h2,Your child is starting university in Canada. You are thousands of miles away.,孩子要去加拿大读大学，而你在万里之外。
-Homepage,hero-parents-p1,"When challenges arise, a dedicated local advisor is already responding.",当凌晨三点电话响起，你知道当地已经有人接起。
-Homepage,hero-parents-p2,"International students encounter complex situations: housing issues, travel complications, unfamiliar administrative processes, and the emotional challenges of adapting to a new country. Parents need reliable information about their child's wellbeing.",国际学生会遇到真实的问题：公寓被锁、假期航班误点、银行手续复杂、思乡让人难以专注。很多家长担心到失眠，只想知道孩子今天有没有好好吃饭。
-Homepage,hero-students-h2,Independent living with professional guidance available when needed.,你想要独立，也得到了。但晚上十点买感冒药时，你需要有人知道去哪儿。
-Homepage,hero-students-p1,"Studying abroad offers significant opportunity. However, navigating unfamiliar systems—healthcare, housing, academic requirements—can be challenging without local knowledge.",出国本该令人兴奋，但从签证手续到连吃三天泡面，兴奋很快变成生存模式。
-Homepage,hero-students-p2,Crestway Global provides structured support that enables students to focus on their academic and personal growth.,Crestway Global 面向那些想真正享受这段旅程、而不是仅仅熬过去的学生。
+Homepage,hero-panel-parents-h2,"Your child is starting school in Canada. You are thousands of miles away.",孩子要去加拿大读书，而你在万里之外。
+Homepage,hero-panel-parents-p1,"When challenges arise, a dedicated local advisor is already responding.",当凌晨三点电话响起，你知道当地已经有人接起。
+Homepage,hero-panel-parents-p2,"International students encounter complex situations: housing issues, academic complications, culture and emotional challenges. Parents need reliable information about their child's wellbeing and a high-touch response system.",国际学生常面临住宿、学业、文化差异和情感挑战等复杂情况。家长需获取可靠信息了解孩子的身心健康，并获得高效响应支持系统。
+Homepage,hero-panel-students-h2,Independent living with professional guidance available when needed.,你想要独立，也得到了。但晚上十点买感冒药时，你需要有人知道去哪儿。
+Homepage,hero-panel-students-p1,"Studying abroad offers significant opportunity. However, navigating unfamiliar systems—healthcare, housing, academic requirements—can be challenging without local knowledge.","出国本该令人兴奋，但从签证手续到连吃三天泡面，兴奋很快变成生存模式。"
+Homepage,hero-panel-students-p2,Crestway Global provides structured support that enables students to focus on their academic and personal growth.,Crestway Global 面向那些想真正享受这段旅程、而不是仅仅熬过去的学生。
 Homepage,rail-1-title,24/7 emergency line,24/7 紧急电话
-Homepage,rail-1-text,"Health, wellness, and safety support-answered by someone who knows your student's name.",接听的人认识你的孩子，不是呼叫中心。
+Homepage,rail-1-p,"Health, wellness, and safety support-answered by someone who knows your student's name.",全天候紧急支持服务。
 Homepage,rail-2-title,Monthly parent updates,每月家长更新
-Homepage,rail-2-text,"Progress, housing, and how they're adjusting socially.",包含进展、住宿、社交适应等具体信息。
+Homepage,rail-2-p,"Progress on academics, health, wellness and how they're adjusting socially.",学业进展、健康状况、心理状态及社交适应情况。
 Homepage,rail-3-title,Arrival and Settlement Support,抵达与第一周
-Homepage,rail-3-text,"Airport reception, housing verification, city orientation.",机场接机、住房检查、城市入门指导。
-Homepage,partners-eyebrow,Trusted Partner Institutions,*(section not present in ZH homepage)*
-Homepage,partner-1,University of Toronto,*(section not present in ZH homepage)*
-Homepage,partner-2,Western University,*(section not present in ZH homepage)*
-Homepage,partner-3,Toronto Metropolitan University,*(section not present in ZH homepage)*
-Homepage,partner-4,York University,*(section not present in ZH homepage)*
-Homepage,partner-5,University of Waterloo,*(section not present in ZH homepage)*
-Homepage,partner-6,George Brown College,*(section not present in ZH homepage)*
+Homepage,rail-3-p,"Airport reception, housing verification, city orientation.",机场接机、住房检查、城市入门指导。
+Homepage,partners-eyebrow,Trusted Partner Schools,
+Homepage,partner-logo-alt-1,University of Toronto,
+Homepage,partner-logo-alt-2,Western University,
+Homepage,partner-logo-alt-3,Toronto Metropolitan University,
+Homepage,partner-logo-alt-4,York University,
+Homepage,partner-logo-alt-5,University of Waterloo,
+Homepage,partner-logo-alt-6,George Brown College,
 Homepage,difference-eyebrow,Our Difference,我们的不同
 Homepage,difference-title,A trusted human between your family and the unknown.,在家庭与未知之间，有一个值得信赖的人。
-Homepage,difference-text,"Crestway Global is a professional support service providing structured, culturally-informed care. Our team maintains regular contact with students, enabling parents to remain informed without managing day-to-day concerns.","Crestway Global 是一项贴心且专业的本地支持服务，既有温度，也懂文化。我们在当地守护学生，让家长保持了解，却不必焦虑地""盯着看""。"
+Homepage,difference-p,"Crestway Global is a professional support service providing structured, culturally-informed care. Our team maintains regular contact with students, enabling parents to remain informed without managing day-to-day concerns.","Crestway Global 是一项贴心且专业的本地支持服务，既有温度，也懂文化。我们在当地守护学生，让家长保持了解，却不必焦虑地"盯着看"。"
 Homepage,difference-card-1-alt,A Crestway Global advisor meeting a student in a campus cafe.,Crestway Global 顾问与学生在校园咖啡馆交流。
 Homepage,difference-card-1-h3,"Experienced advisors, local expertise",真实的人，真实的情境
 Homepage,difference-card-1-p,"Our team conducts in-person housing assessments, reviews lease documentation, and maintains current knowledge of healthcare systems and insurance protocols.",我们亲自到场，看房、核对房东信息，并知道哪家诊所接受国际保险。
@@ -47,116 +45,142 @@ Homepage,difference-card-2-p,Scheduled check-ins enable early identification of 
 Homepage,difference-card-3-alt,International students walking together in a city neighborhood.,学生在城市中结伴而行。
 Homepage,difference-card-3-h3,Support without surveillance,支持，而非监视
 Homepage,difference-card-3-p,"Students keep independence, but don't have to solve everything from scratch when life gets complicated.",学生依然自主，但不必从零开始摸索每一件事。
-Homepage,facts-eyebrow,Key Facts,关键事实
-Homepage,facts-title,Clarity for families. Confidence for students.,给家庭清晰，给学生底气。
-Homepage,fact-1-number,24/7,24/7
-Homepage,fact-1-text,Emergency line answered by a real Crestway Global advisor.,紧急电话由 Crestway Global 顾问直接接听。
-Homepage,fact-2-number,1,1
-Homepage,fact-2-text,Local team in Toronto.,多伦多本地团队。温哥华和蒙特利尔即将开放。
-Homepage,fact-3-number,Monthly,每月
-Homepage,fact-3-text,"Parent updates with actual, specific details.",家长更新，信息具体明确。
-Homepage,fact-4-number,Week 1,首周
-Homepage,fact-4-text,"Arrival pickup, housing checks, and city orientation.",接机、看房、城市入门。
+Homepage,keyfacts-eyebrow,Key Facts,关键事实
+Homepage,keyfacts-title,Clarity for families. Confidence for students.,给家庭清晰，给学生底气。
+Homepage,keyfacts-1-number,24/7,24/7
+Homepage,keyfacts-1-p,Emergency support available around the clock.,紧急电话由 Crestway Global 顾问直接接听。
+Homepage,keyfacts-2-number,1,1
+Homepage,keyfacts-2-p,"Support team in Toronto: mentors, ambassadors, advisors, healthcare professionals.",多领域专家团队驻多伦多，包括导师、校园大使、顾问及医疗专业人士。
+Homepage,keyfacts-3-number,Monthly,每月
+Homepage,keyfacts-3-p,"Parent updates with actual, specific details.",家长更新，信息具体明确。
+Homepage,keyfacts-4-number,Week 1,首周
+Homepage,keyfacts-4-p,"Arrival pickup, housing checks, and city orientation.",接机、看房、城市入门。
 Homepage,parents-eyebrow,For Parents,给家长
 Homepage,parents-title,Distance remains constant. Peace of mind is possible.,太平洋的宽度不变，但你会感觉更近。
-Homepage,parents-text,"Families choose Crestway Global because they want to know their child is supported, not just in emergencies, but every day.",家庭选择 Crestway Global 的原因很简单：希望孩子每天都被照顾到，而不仅仅是在紧急时刻。
-Homepage,parents-tabs-label (aria),Before and after Crestway Global,Crestway Global 前后对比
+Homepage,parents-p,"Families choose Crestway Global because they want to know their child is supported, not just in emergencies, but every day.",家庭选择 Crestway Global 的原因很简单：希望孩子每天都被照顾到，而不仅仅是在紧急时刻。
 Homepage,parents-tab-before,Before Crestway Global,使用 Crestway Global 之前
 Homepage,parents-tab-after,After Crestway Global,使用 Crestway Global 之后
 Homepage,parents-before-1,You call your daughter. She sounds tired. You can't tell if it's finals stress or something worse.,你打给女儿，她说很累，你无法判断是期末压力还是更严重的问题。
 Homepage,parents-before-2,Your son says his roommate moved out. You don't know if he can afford rent alone.,儿子说室友搬走了，你不知道他是否负担得起房租。
 Homepage,parents-before-3,The school sends a notice about a policy or requirement. You find out a month late.,学校发来政策或手续通知，你一个月后才知道。
 Homepage,parents-after-1,Your student's advisor calls you first when something's off. Before it becomes a crisis.,一旦出现问题，顾问会先联系你，在危机前就处理。
-Homepage,parents-after-2,"When housing falls through, someone's already scouting new options and checking lease terms.",住房出问题时，新的选择已在筛选中，合同条款也有人把关。
+Homepage,parents-after-2,"When housing falls through, someone's already scouting new options and checking lease terms.","住房出问题时，新的选择已在筛选中，合同条款也有人把关。"
 Homepage,parents-after-3,"You get monthly updates with specifics: housing, engagement, and next steps.",你每月收到具体更新：住宿、校园参与、下一步安排。
 Homepage,students-eyebrow,For Students,给学生
 Homepage,students-title,You're still running your own life. But you're not figuring everything out from scratch.,你仍在经营自己的生活，但不必从零开始摸索。
-Homepage,students-text,"Crestway Global is for students who want to actually enjoy this chapter, not just get through it.",Crestway Global 面向那些想真正享受这段旅程、而不是仅仅熬过去的学生。
-Homepage,students-item-1,A local number to call when you're lost on transit or your debit card got declined.,迷路、公交不懂、银行卡被拒时，有本地号码可打。
-Homepage,students-item-2,Someone who's seen a hundred students bomb their first midterm and knows what actually helps.,有人见过无数学生第一次期中失利，知道真正有效的方法。
-Homepage,students-item-3,Introductions to other international students who get what you're going through.,引荐认识同样经历的国际学生，建立新圈子。
-Homepage,students-item-4,"Help with the unsexy stuff: bank accounts, doctors, and rental agreements.",帮你处理繁琐但重要的事：开户、就医、租房协议。
+Homepage,students-p,"Crestway Global is for students who want to actually enjoy this chapter, not just get through it.",Crestway Global 面向那些想真正享受这段旅程、而不是仅仅熬过去的学生。
+Homepage,students-01,A local number to call when you're lost on transit or your debit card got declined.,迷路、公交不懂、银行卡被拒时，有本地号码可打。
+Homepage,students-02,Someone who's seen a hundred students bomb their first midterm and knows what actually helps.,有人见过无数学生第一次期中失利，知道真正有效的方法。
+Homepage,students-03,Introductions to other international students who get what you're going through.,引荐认识同样经历的国际学生，建立新圈子。
+Homepage,students-04,"Help with the unsexy stuff: bank accounts, doctors, and rental agreements.",帮你处理繁琐但重要的事：开户、就医、租房协议。
 Homepage,ambassadors-eyebrow,Student Ambassadors,学生大使
 Homepage,ambassadors-title,Real students who've been where you're going.,他们走过你即将踏上的路。
-Homepage,ambassadors-text,"Our ambassadors are current international students at Canadian universities. They represent Crestway Global on campus, host study groups, and help new students navigate everything from transit to homesickness.",我们的大使是在加拿大大学就读的在校国际学生。他们代表 Crestway Global 参与校园活动，组织学习小组，帮助新生处理从交通到思乡的一切问题。
-Homepage,ambassador-anna-alt,"Anna, Student Ambassador at University of Waterloo",Anna，滑铁卢大学学生大使
+Homepage,ambassadors-p,"Our ambassadors are current international students at Canadian universities. They represent Crestway Global on campus, host study groups, and help new students navigate everything from transit to homesickness.",我们的大使是在加拿大大学就读的在校国际学生。他们代表 Crestway Global 参与校园活动，组织学习小组，帮助新生处理从交通到思乡的一切问题。
+Homepage,ambassador-anna-alt,"Anna, Student Ambassador at University of Waterloo","Anna，滑铁卢大学学生大使"
 Homepage,ambassador-anna-name,Anna,Anna
 Homepage,ambassador-anna-school,University of Waterloo,滑铁卢大学
-Homepage,ambassador-anna-program,"Computer Science, 3rd Year",计算机科学，大三
+Homepage,ambassador-anna-program,"Computer Science, 3rd Year","计算机科学，大三"
 Homepage,ambassador-anna-quote,"""Be open to making friends. You're not the only one feeling alone.""","""敞开心扉交朋友。你不是唯一感到孤独的人。"""
-Homepage,ambassador-ridhima-alt,"Ridhima, Student Ambassador at York University",Ridhima，约克大学学生大使
+Homepage,ambassador-ridhima-alt,"Ridhima, Student Ambassador at York University","Ridhima，约克大学学生大使"
 Homepage,ambassador-ridhima-name,Ridhima,Ridhima
 Homepage,ambassador-ridhima-school,York University,约克大学
-Homepage,ambassador-ridhima-program,"Commerce (Finance), 3rd Year",商科（金融），大三
+Homepage,ambassador-ridhima-program,"Commerce (Finance), 3rd Year","商科（金融），大三"
 Homepage,ambassador-ridhima-quote,"""Take small steps every day to step outside your comfort zone.""","""每天迈出一小步，走出舒适区。"""
-Homepage,ambassador-tien-alt,"Tien, Student Ambassador at York University",Tien，约克大学学生大使
+Homepage,ambassador-tien-alt,"Tien, Student Ambassador at York University","Tien，约克大学学生大使"
 Homepage,ambassador-tien-name,Tien,Tien
 Homepage,ambassador-tien-school,York University,约克大学
-Homepage,ambassador-tien-program,"Statistics, 3rd Year",统计学，大三
+Homepage,ambassador-tien-program,"Statistics, 3rd Year","统计学，大三"
 Homepage,ambassador-tien-quote,"""Don't be afraid to ask for help. Support won't come automatically.""","""不要害怕寻求帮助。支持不会自动找上门。"""
 Homepage,ambassadors-cta,Meet All Ambassadors,认识所有大使
-Homepage,safety-oversize,Safety,安全
 Homepage,safety-eyebrow,Safety & Wellbeing,安全与身心健康
-Homepage,safety-title,Safety is the foundation. Not the differentiator.,"""孩子很安全""只是底线，不是卖点。"
-Homepage,safety-text,Every guardianship service promises safety. Here's what ours actually includes.,每一家都会承诺安全，但我们更具体。
-Homepage,safety-item-1,"We visit housing before you sign anything. We check smoke detectors, run background on landlords, confirm the neighborhood matches the listing photos.",签约前实地看房，检查消防设备、核验房东、确认社区与照片一致。
-Homepage,safety-item-2,"24/7 emergency line answered by someone who knows your student by name, not a call center.",24/7 紧急电话由认识学生的人接听。
-Homepage,safety-item-3,"Arrival pickup from the airport, first-week orientation to the city, and a clear map of what to do when something goes wrong.",接机、第一周城市入门、遇到问题的清晰应对流程。
-Homepage,outcomes-oversize,Outcomes,发展
-Homepage,outcomes-eyebrow,Outcomes & Integration,发展与融入
-Homepage,outcomes-title,Make the return on a Canadian degree show up sooner.,让加拿大文凭的回报更早显现。
-Homepage,outcomes-text,"International families invest in opportunity. We help students convert that investment into relationships, clarity, and forward motion.",留学是一笔投资。我们帮助学生把投入转化为人脉、方向与机会。
-Homepage,outcomes-item-1,Introductions to alumni and professional networks that open doors early.,对接校友与职业网络，尽早打开机会。
-Homepage,outcomes-item-2,"Guidance on government offices, school systems, and unfamiliar paperwork.",政府机构、学校制度与陌生手续的指导。
-Homepage,outcomes-item-3,"A local person to explain expectations, options, and cultural norms.",本地顾问解释文化差异、规则与选择。
+Homepage,safety-title,Safety isn't a feature. It's the starting point.,安全不是一种功能，而是我们的起点。
+Homepage,safety-p,"Every guardianship service says ""your child is safe."" We'd rather show you what that actually looks like.",每家监护服务机构都承诺"您的孩子很安全"，但我们更愿意向您展示这究竟意味着什么。
+Homepage,safety-tab-families,For Families,为家庭提供安心
+Homepage,safety-tab-students,For Students,为学生提供支持
+Homepage,safety-families-h3,Peace of Mind for Families,为家庭带来的安心保障
+Homepage,safety-families-p1,"Knowing your child has a trusted safety network nearby changes everything. You stop wondering and start sleeping.",知道您的孩子身边有值得信赖的安全网络，一切都会有所不同。您不再担忧，终于能安心入睡。
+Homepage,safety-families-p2,"Through our partnership with Community Patrol, Crestway Global gives students immediate access to help when they need it. That means you and your child can focus on what matters: grades, growth, and actually enjoying the experience.","通过与 Community Patrol 的合作，Crestway Global 为学生提供即时帮助，当他们需要时即可获得支持。这意味着您和孩子可以专注于真正重要的事：成绩、成长和享受这段经历。"
+Homepage,safety-families-li-1,"We visit housing before anything gets signed. Smoke detectors, landlord background checks, neighborhood verification.",在签署任何协议前，我们都会实地探访住宿。包括烟雾报警器检查、房东背景调查及社区核实。
+Homepage,safety-families-li-2,24/7 emergency line answered by someone who knows your student's name. Not a call center.,24/7紧急热线由熟悉您学生姓名的人接听，而非普通呼叫中心。
+Homepage,safety-families-li-3,"Airport pickup, first-week city orientation, and a clear plan for when something goes wrong.",机场接机、第一周城市导览，以及遇到问题时的清晰应对方案。
+Homepage,safety-families-li-4,"Crestway Assist: a 24/7 safety button inside the app. One tap connects your child to someone who already knows their situation.",Crestway Assist：应用内的24/7安全按钮，一键连接已了解您孩子情况的专人。
+Homepage,safety-students-h3,Personal Safety & Assistance,个人安全与支持
+Homepage,safety-students-p1,"New country. Unfamiliar situations. That's normal. What shouldn't be normal is having no one to call.",新国家、不熟悉的环境，这是正常的。不正常的是，无人可联系。
+Homepage,safety-students-p2,"Through our partnership with Community Patrol, you can access priority assistance through the Crestway app. If you need guidance or someone to step in, help is one notification away.","通过与 Community Patrol 的合作，您可通过Crestway应用获得优先协助。如需指导或有人介入，只需一次通知，帮助即可抵达。"
+Homepage,safety-students-li-1,"We check your housing before you move in. Fire safety, landlord verification, neighborhood walkthrough.",在您入住前，我们会检查住宿环境，包括消防安全、房东背景调查及社区实地考察。
+Homepage,safety-students-li-2,24/7 line answered by someone who knows your name and your situation.,24/7热线由熟悉您姓名及情况的人接听。
+Homepage,safety-students-li-3,"First-week city orientation so you know where the clinic is, how transit works, and what to do if something goes sideways.",第一周城市导览，帮助您了解诊所位置、交通方式及遇到问题时的应对措施。
+Homepage,safety-students-li-4,"Crestway Assist: a safety button in the app. One tap. Someone who knows you responds.",Crestway Assist：应用内的安全按钮，一键响应，了解您情况的专人将提供帮助。
+Homepage,health-eyebrow,Health & Wellness,健康与福祉服务
+Homepage,health-title,Private healthcare and wellness care through tier-one partners.,通过一级合作伙伴提供的私人医疗与健康护理服务。
+Homepage,health-p,University health centres handle basics. We go further. Crestway Global students get access to private healthcare and mental wellness providers who actually specialize in international student needs.,大学健康中心处理基础需求，但我们更进一步。Crestway Global 学生可享受专为国际学生设计的私人医疗及心理健康服务。
+Homepage,health-partner-1-logo-label,Cleveland Clinic Canada logo,医疗合作伙伴标志
+Homepage,health-partner-1-logo-text,Cleveland Clinic Canada,Partner Logo
+Homepage,health-partner-1-h3,Cleveland Clinic Canada,Cleveland Clinic Canada
+Homepage,health-partner-1-p,"Direct access to a private clinic. In-house nurse visits so students get care without leaving home. Priority appointments with physicians who understand international insurance and immigration medical requirements.",可直接预约私人诊所，校内护士定期探访，学生无需离家即可获得医疗照顾。优先安排医生，熟悉国际保险及移民医疗要求。
+Homepage,health-partner-2-logo-label,Homewood Health logo,心理健康合作伙伴标志
+Homepage,health-partner-2-logo-text,Homewood Health,Partner Logo
+Homepage,health-partner-2-h3,Homewood Health,Homewood Health
+Homepage,health-partner-2-p,"Confidential mental wellness support focused on the things that actually trip students up: study habits, time management, exam stress, and life skills. Not crisis therapy. Practical help for staying on track.",保密心理支持，专注学生易受困扰的领域：学习习惯、时间管理、考试压力及生活技能。非危机干预，而是提供实用帮助，协助学生保持正轨。
+Homepage,health-partner-3-logo-label,Insurance navigation,保险导航合作伙伴标志
+Homepage,health-partner-3-logo-text,Insurance Nav,Partner Logo
+Homepage,health-partner-3-h3,Insurance Navigation,保险导航服务
+Homepage,health-partner-3-p,"Canadian healthcare is confusing even for Canadians. We help students register with a family doctor, understand what their insurance covers, and avoid surprise bills.",加拿大医疗体系对加拿大人来说都复杂，我们协助学生注册家庭医生，理解保险范围，避免意外账单。
+Homepage,academics-oversize,Outcomes,发展
+Homepage,academics-eyebrow,Outcomes & Integration,发展与融入
+Homepage,academics-title,Make the return on a Canadian degree show up sooner.,让加拿大文凭的回报更早显现。
+Homepage,academics-p,"International families invest in opportunity. We help students convert that investment into relationships, clarity, and forward motion.",留学是一笔投资。我们帮助学生把投入转化为人脉、方向与机会。
+Homepage,academics-li-1,Introductions to alumni and professional networks that open doors early.,对接校友与职业网络，尽早打开机会。
+Homepage,academics-li-2,"Guidance on government offices, school systems, and unfamiliar paperwork.",政府机构、学校制度与陌生手续的指导。
+Homepage,academics-li-3,"A local person to explain expectations, options, and cultural norms.",本地顾问解释文化差异、规则与选择。
 Homepage,admissions-eyebrow,Admissions,申请
 Homepage,admissions-title,We accept fewer students than we turn away.,我们拒绝的多于录取的。
-Homepage,admissions-text,"Personalized support requires a low ratio of students to staff. If we accepted everyone, we'd become what we're not: a checkbox guardianship service that loses track of individuals.","个性化支持需要低师生比。若接收所有申请，我们将变成""只做手续""的机构，而不是我们坚持的服务。"
+Homepage,admissions-p,"Personalized support requires a low ratio of students to staff. If we accepted everyone, we'd become what we're not: a checkbox guardianship service that loses track of individuals.","个性化支持需要低师生比。若接收所有申请，我们将变成"只做手续"的机构，而不是我们坚持的服务。"
 Homepage,admissions-looking-h3,What we're looking for,我们在寻找
-Homepage,admissions-looking-1,"Students who want to grow, not just survive.",希望成长，而不是仅仅生存的学生。
-Homepage,admissions-looking-2,Consistent effort (your transcript doesn't need to be perfect).,努力且稳定的学习态度。
-Homepage,admissions-looking-3,Willingness to engage with a new community.,愿意融入新社区。
-Homepage,admissions-looking-4,Parents who want to stay involved without hovering.,希望参与但不想过度干预的家长。
+Homepage,admissions-looking-li-1,"Students who want to grow, not just survive.",希望成长，而不是仅仅生存的学生。
+Homepage,admissions-looking-li-2,Consistent effort (your transcript doesn't need to be perfect).,努力且稳定的学习态度。
+Homepage,admissions-looking-li-3,Willingness to engage with a new community.,愿意融入新社区。
+Homepage,admissions-looking-li-4,Parents who want to stay involved without hovering.,希望参与但不想过度干预的家长。
 Homepage,admissions-not-h3,What we're not looking for,我们不适合
-Homepage,admissions-not-1,"Students who need 24/7 supervision (we're support, not surveillance).",需要 24/7 监护的学生（我们是支持，不是监视）。
-Homepage,admissions-not-2,Families expecting us to replace parenting entirely.,期待我们替代家庭教育的家庭。
+Homepage,admissions-not-li-1,"Students who need 24/7 supervision (we're support, not surveillance).",需要 24/7 监护的学生（我们是支持，不是监视）。
+Homepage,admissions-not-li-2,Families expecting us to replace parenting entirely.,期待我们替代家庭教育的家庭。
 Homepage,faq-eyebrow,FAQ,常见问题
 Homepage,faq-title,The questions parents actually ask.,家长最常问的问题。
-Homepage,faq-q1,What happens if my child has an emergency at 2am?,凌晨两点有紧急情况怎么办？
-Homepage,faq-a1,"Students contact our emergency line, answered by an assigned advisor familiar with their situation. We coordinate hospital visits, housing access issues, travel complications, and other urgent matters. Families receive notification once the situation is addressed.",学生拨打我们的紧急电话，会有了解他/她的顾问接听。我们处理过就医、被锁在门外、航班误点等情况。问题解决后我们会第一时间联系你。
-Homepage,faq-q2,How is this different from the guardianship my kid's school requires?,这和学校要求的监护服务有什么不同？
-Homepage,faq-a2,"Most school-required guardianship services are paperwork. We're involved week to week: sharing context, guiding decisions, and helping families navigate local systems.",多数学校的监护服务只做文件签字。我们每周参与：提供背景、协助决策、帮助家庭理解本地系统。
-Homepage,faq-q3,My kid wants independence. Won't this feel like babysitting?,"孩子要独立，这会不会像""看管""？"
-Homepage,faq-a3,"Our students aren't being watched. They're being supported. When they need help, they don't have to figure it out alone.",我们不是监督，而是支持。当他/她需要帮助时，不必一个人摸索。
+Homepage,faq-1-summary,What happens if my child has an emergency at 2am?,凌晨两点有紧急情况怎么办？
+Homepage,faq-1-p,"Students contact our emergency line, answered by an assigned advisor familiar with their situation. We coordinate hospital visits, housing access issues, travel complications, and other urgent matters. Families receive notification once the situation is addressed.",学生拨打我们的紧急电话，会有了解他/她的顾问接听。我们处理过就医、被锁在门外、航班误点等情况。问题解决后我们会第一时间联系你。
+Homepage,faq-2-summary,How is this different from the guardianship my kid's school requires?,这和学校要求的监护服务有什么不同？
+Homepage,faq-2-p,"Most school-required guardianship services are paperwork. We're involved week to week: sharing context, guiding decisions, and helping families navigate local systems.",多数学校的监护服务只做文件签字。我们每周参与：提供背景、协助决策、帮助家庭理解本地系统。
+Homepage,faq-3-summary,My kid wants independence. Won't this feel like babysitting?,孩子要独立，这会不会像"看管"？
+Homepage,faq-3-p,"Our students aren't being watched. They're being supported. When they need help, they don't have to figure it out alone.",我们不是监督，而是支持。当他/她需要帮助时，不必一个人摸索。
 Homepage,trust-eyebrow,Why Families Choose Crestway Global,为什么家庭选择 Crestway Global
 Homepage,trust-title,"Emotional trust, backed by rational reassurance.",情感信任与理性安心并存。
 Homepage,trust-p1,"Families choose Crestway Global for one simple reason: they want to know their child is supported. Not just in emergencies, but every day.",家庭选择 Crestway Global 的原因很简单：希望孩子每天都被照顾到，而不仅仅是在紧急时刻。
 Homepage,trust-p2,"We provide trusted, on-the-ground support that safeguards students' safety, wellbeing, and growth, while giving parents clarity and peace of mind from anywhere in the world.",我们提供本地可信赖的支持，关注安全、身心与成长，同时让家长随时掌握情况。
-Homepage,trust-p3,Because confidence abroad comes from knowing someone you trust is always there.,"远在海外，安心来自""有人一直在""。"
+Homepage,trust-p3,"Because confidence abroad comes from knowing someone you trust is always there.",远在海外，安心来自"有人一直在"。
 Homepage,cities-eyebrow,Explore Our Cities,城市支持
 Homepage,cities-title,Local support in the places students actually live.,学生真正生活的地方，我们在现场。
 Homepage,city-toronto-alt,Aerial view of Toronto skyline near the waterfront.,多伦多天际线与湖岸航拍图。
 Homepage,city-toronto-h3,Toronto,多伦多 Toronto
-Homepage,city-toronto-p,Our founding team. Canada's largest university ecosystem with deep on-the-ground support.,我们的创始团队。加拿大最大高校生态，深度本地支持。
-Homepage,city-vancouver-alt,Aerial view of Vancouver with mountains and harbor.,温哥华航拍图，远处可见山海。
+Homepage,city-toronto-p,Our founding team. Canada's largest post-secondary ecosystem with deep on-the-ground support.,我们的创始团队。加拿大最大高校生态，深度本地支持。
+Homepage,city-vancouver-alt,"Aerial view of Vancouver with mountains and harbor.",温哥华航拍图，远处可见山海。
 Homepage,city-vancouver-h3,Vancouver,温哥华 Vancouver
-Homepage,city-vancouver-badge,Coming Soon,即将开放
+Homepage,city-vancouver-coming-soon,Coming Soon,即将开放
 Homepage,city-vancouver-p,Coastal campuses and global connections. Expansion planned for 2026.,海岸校园与全球连接。计划 2026 年拓展。
 Homepage,city-montreal-alt,Aerial view of Montreal with historic buildings and skyline.,蒙特利尔航拍图，历史建筑与天际线同框。
 Homepage,city-montreal-h3,Montreal,蒙特利尔 Montreal
-Homepage,city-montreal-badge,Coming Soon,即将开放
+Homepage,city-montreal-coming-soon,Coming Soon,即将开放
 Homepage,city-montreal-p,A bilingual student city. Expansion planned for 2026.,双语学生城市。计划 2026 年拓展。
 Homepage,apply-title,Request a Consultation,预约咨询
-Homepage,apply-text,Share a few details so we can personalize your consultation. We review every inquiry to ensure the best possible fit.,请分享一些信息，以便我们为您定制咨询方案。我们会审核每一份咨询申请，确保最佳匹配。
-Homepage,apply-iframe-title,Crestway Global Consultation,Crestway Global Consultation
-Homepage,next-title,"A trusted support system - for students abroad, and families at home.",给海外学生与国内家庭的可信支持体系。
+Homepage,apply-p,Share a few details so we can personalize your consultation. We review every inquiry to ensure the best possible fit.,请分享一些信息，以便我们为您定制咨询方案。我们会审核每一份咨询申请，确保最佳匹配。
+Homepage,next-title,A trusted support system - for students abroad and families at home.,给海外学生与国内家庭的可信支持体系。
 Homepage,next-cta-primary,Apply now,立即申请
 Homepage,next-cta-ghost,Read the FAQ,阅读常见问题
 Homepage,footer-brand,Crestway Global,Crestway Global
 Homepage,footer-description,Educational guardianship and support services for international students in Canada.,加拿大国际学生专业监护服务。
 Homepage,footer-contact-title,Contact,联系
 Homepage,footer-email,hello@crestwayglobal.com,hello@crestwayglobal.com
-Homepage,footer-city,Toronto,多伦多
+Homepage,footer-address-1,"110 Sheppard Ave E, Suite 110","110 Sheppard Ave E, Suite 110"
+Homepage,footer-address-2,"North York, ON M2N 6K1","North York, ON M2N 6K1"
 Homepage,footer-explore-title,Explore,了解更多
 Homepage,footer-link-about,About Us,关于我们
 Homepage,footer-link-services,Services,服务内容
@@ -165,32 +189,33 @@ Homepage,footer-link-difference,Our Difference,我们的不同
 Homepage,footer-link-partnerships,Partnerships,合作伙伴
 Homepage,footer-link-ambassadors,Ambassadors,学生大使
 Homepage,footer-link-apply,Apply,申请
-About,page-title,About Us | Crestway Global,关于我们 | Crestway Global
+About,title,About Us | Crestway Global,关于我们 | Crestway Global
 About,hero-eyebrow,About Us,关于我们
 About,hero-title,The trusted companion for students studying away from home.,专业监护，结合制度 expertise 与文化理解
 About,hero-lede,"A premium, dedicated support system for international families, combining institutional expertise with culturally informed care.",为国际家庭提供专业监护服务，融合制度 expertise 与文化敏感支持
 About,mission-eyebrow,Our Mission,我们的使命
 About,mission-title,"Ensuring a safer, supported, and more confident journey abroad — for your child, and for you.",弥合大学支持与家庭期望之间的差距
-About,mission-p1,"Sending your child overseas is one of the biggest decisions a family can make. Crestway Global exists so you never have to wonder if your child is safe, supported, or thriving.",Crestway Global 的建立旨在解决一个 documented 缺口：加拿大大学提供必要的学术和行政支持，但缺乏国际家庭期望的持续、个性化福利监测资源。
+About,mission-p1,"Sending your child overseas is one of the biggest decisions a family can make. Crestway Global exists so you never have to wonder if your child is safe, supported, or thriving.","Crestway Global 的建立旨在解决一个 documented 缺口：加拿大大学提供必要的学术和行政支持，但缺乏国际家庭期望的持续、个性化福利监测资源。"
 About,mission-p2,"Crestway Global provides structured, on-the-ground support so your child is guided academically, emotionally, and practically while you remain informed, reassured, and confident from anywhere in the world. For families who believe that safety, wellbeing, and academic success go hand in hand, Crestway Global ensures students don't just attend university — they thrive.",我们的方法将专业 expertise 与文化理解相结合。我们维护安全、沟通和问责的结构化协议——同时认识到有效的监护需要人际关系和文化 fluency。
 About,founders-eyebrow,Leadership,领导层
 About,founders-title,Combined expertise in public safety and institutional development,公共安全与制度发展的综合 expertise
-About,founders-text,"Crestway Global's founders bring complementary backgrounds: decades of law enforcement and community safety experience, alongside real estate development and student housing operations.",Crestway Global 的创始人带来互补的背景：数十年的执法和社区安全经验，以及房地产开发和学生住房运营。
+About,founders-p,"Crestway Global's founders bring complementary backgrounds: decades of law enforcement and community safety experience, alongside real estate development and student housing operations.",Crestway Global 的创始人带来互补的背景：数十年的执法和社区安全经验，以及房地产开发和学生住房运营。
 About,dave-alt,Dave Murray as a young police officer,年轻时的 Dave Murray
 About,dave-caption,"Dave at age 20, early in his police career",Dave 20岁时，警察生涯早期
 About,dave-name,Dave Murray,Dave Murray
-About,dave-title,Co-Founder & Director of Operations,联合创始人兼运营总监
-About,dave-p1,"Dave Murray served the City of Toronto for 31 years as a police officer, retiring at the rank of Staff Sergeant. His career included seven years as a criminal investigator, developing expertise in safety assessment, risk management, and community protection protocols.",Dave Murray 在多伦多市警察局服务31年，以 Staff Sergeant 级别退休。他的职业生涯包括七年刑事调查员经历，培养了安全评估、风险管理和社区保护协议方面的 expertise。
+About,dave-role,Co-Founder & Director of Operations,联合创始人兼运营总监
+About,dave-p1,"Dave Murray served the City of Toronto for 31 years as a police officer, retiring at the rank of Staff Sergeant. His career included seven years as a criminal investigator, developing expertise in safety assessment, risk management, and community protection protocols.","Dave Murray 在多伦多市警察局服务31年，以 Staff Sergeant 级别退休。他的职业生涯包括七年刑事调查员经历，培养了安全评估、风险管理和社区保护协议方面的 expertise。"
 About,dave-p2,"This background directly informs Crestway Global's safeguarding procedures. Dave established our housing verification protocols, emergency response systems, and staff training programs. His institutional knowledge of Toronto's support systems—healthcare, law enforcement, social services—enables Crestway Global to navigate complex situations effectively.",这一背景直接 inform Crestway Global 的 safeguarding 程序。Dave 建立了我们的住房验证协议、紧急响应系统和员工培训项目。他对多伦多支持系统——医疗、执法、社会服务——的制度 knowledge 使 Crestway Global 能够有效 navigate 复杂情况。
 About,dave-p3,"Dave leads operations with an emphasis on documented procedures, accountability, and preventive care. His approach ensures that Crestway Global's support is both personally attentive and professionally structured.",Dave 以强调文档化程序、问责和 preventive care 的方式领导运营。他的方法确保 Crestway Global 的支持既个人 attentive 又专业 structured。
+About,doug-alt,Doug Hochglaube,Doug Hochglaube
 About,doug-name,Doug Hochglaube,Doug Hochglaube
-About,doug-title,Co-Founder & Strategic Director,联合创始人兼战略总监
-About,doug-p1,"Doug Hochglaube is a real estate developer with nearly two decades of experience in student housing and community-focused projects across Ontario. His work has involved the development and management of housing for thousands of students, giving him direct insight into the gaps between institutional support and student needs.",Doug Hochglaube 是一位房地产开发商，在安大略省学生住房和社区 focus 项目方面有将近二十年经验。他的工作涉及开发和管理数千名学生的住房，使他对机构支持与学生需求之间的 gap 有直接 insight。
-About,doug-p2,"This operational background shapes Crestway Global's structural approach. Doug developed our partnership frameworks with universities, our housing assessment protocols, and our scalability planning. His experience with regulatory compliance, insurance, and risk management informs our governance standards.",这种运营背景塑造 Crestway Global 的结构化方法。Doug 开发了我们与大学的合作框架、住房评估协议和可扩展性规划。他在 regulatory compliance、保险和风险管理方面的经验 inform 我们的治理标准。
-About,doug-p3,"Doug directs Crestway Global's institutional relationships and strategic development, ensuring that our growth maintains service quality and professional standards. His focus is on building sustainable systems that can deliver consistent, accountable support at scale.",Doug 指导 Crestway Global 的机构关系和战略发展，确保我们的增长保持服务质量和专业标准。他的 focus 是建立可持续系统，能够在规模上提供一致、可问责的支持。
+About,doug-role,Co-Founder & Strategic Director,联合创始人兼战略总监
+About,doug-p1,"Doug Hochglaube is a real estate developer with nearly two decades of experience in student housing and community-focused projects across Ontario. His work has involved the development and management of housing for thousands of students, giving him direct insight into the gaps between institutional support and student needs.","Doug Hochglaube 是一位房地产开发商，在安大略省学生住房和社区 focus 项目方面有将近二十年经验。他的工作涉及开发和管理数千名学生的住房，使他对机构支持与学生需求之间的 gap 有直接 insight。"
+About,doug-p2,"This operational background shapes Crestway Global's structural approach. Doug developed our partnership frameworks with universities, our housing assessment protocols, and our scalability planning. His experience with regulatory compliance, insurance, and risk management informs our governance standards.","这种运营背景塑造 Crestway Global 的结构化方法。Doug 开发了我们与大学的合作框架、住房评估协议和可扩展性规划。他在 regulatory compliance、保险和风险管理方面的经验 inform 我们的治理标准。"
+About,doug-p3,"Doug directs Crestway Global's institutional relationships and strategic development, ensuring that our growth maintains service quality and professional standards. His focus is on building sustainable systems that can deliver consistent, accountable support at scale.","Doug 指导 Crestway Global 的机构关系和战略发展，确保我们的增长保持服务质量和专业标准。他的 focus 是建立可持续系统，能够在规模上提供一致、可问责的支持。"
 About,team-eyebrow,Our Team,我们的团队
 About,team-title,"Local expertise in Toronto, with expansion coming soon.",多伦多本地专业团队
-About,team-text,"Our founding team in Toronto brings deep connections with universities, housing networks, and healthcare providers who work with international students.",我们在多伦多的创始团队与大学、住房网络和服务国际学生的医疗机构有深厚的联系。
+About,team-p,"Our founding team in Toronto brings deep connections with universities, housing networks, and healthcare providers who work with international students.",我们在多伦多的创始团队与大学、住房网络和服务国际学生的医疗机构有深厚的联系。
 About,team-toronto-h3,Toronto,多伦多
 About,team-toronto-p,"Our founding team. Canada's largest student city with deep connections across the GTA's sprawling campus ecosystem. We know every transit route, clinic, and rental district that matters to international students.",我们的创始团队。加拿大最大的学生城市，在大多伦多地区校园生态系统中有深厚的联系。我们熟悉国际学生关心的每条交通路线、诊所和租房区域。
 About,values-eyebrow,What Guides Us,指导原则
@@ -204,91 +229,100 @@ About,values-3-p,"Students aren't case numbers. We know their names, their goals
 About,values-4-h3,Transparent communication,透明沟通
 About,values-4-p,"Parents receive regular, specific updates. No vague reassurances—real information about how their child is doing.",家长收到定期、具体的更新。没有模糊的安慰——而是关于孩子情况的真实信息。
 About,cta-title,Ready to learn more?,想了解更多？
-About,cta-text,Start an application or schedule a call with our team to see if Crestway Global is the right fit for your family.,开始申请或预约通话，了解 Crestway Global 是否适合您的家庭。
+About,cta-p,Start an application or schedule a call with our team to see if Crestway Global is the right fit for your family.,开始申请或预约通话，了解 Crestway Global 是否适合您的家庭。
 About,cta-primary,Start an application,开始申请
 About,cta-ghost,Schedule a call,预约通话
-Services,page-title,Services | Crestway Global,服务内容 | Crestway Global
+About,footer-description,Educational guardianship and support services for international students in Canada.,加拿大国际学生专业监护服务
+Services,title,Services | Crestway Global,服务内容 | Crestway Global
 Services,hero-eyebrow,Services,服务内容
-Services,hero-title,Five pillars of comprehensive support.,五大支柱，全面监护
+Services,hero-title,Six pillars of student success.,学生成功的六大支柱。
 Services,hero-lede,Structured oversight that enables student success and family confidence.,系统化支持，助力学生成功，让家长安心
 Services,pillars-sr-title,Our Service Pillars,我们的服务支柱
-Services,pillar-1-h3,Arrival & Settlement,抵达与安置
-Services,pillar-1-outcome,Students arrive prepared and housed safely.,学生安全抵达，住房无忧
-Services,pillar-1-detail-1,Pre-arrival immigration and documentation review,出发前移民与文件审核
-Services,pillar-1-detail-2,Housing needs assessment and verified options,住房需求评估与验证房源
-Services,pillar-1-detail-3,In-person lease review and move-in coordination,实地租约审查与搬入协调
-Services,pillar-1-detail-4,Airport reception and escort to residence,机场接机与护送至住处
-Services,pillar-1-detail-5,City orientation and essential services setup,城市导览与基础服务办理
-Services,pillar-2-h3,Health & Safety,健康与安全
-Services,pillar-2-outcome,Physical and mental wellbeing maintained throughout the academic year.,全年维护身心健康
-Services,pillar-2-detail-1,Family physician registration and health insurance navigation,家庭医生注册与医疗保险指导
-Services,pillar-2-detail-2,Mental health resource coordination,心理健康资源协调
-Services,pillar-2-detail-3,24/7 emergency response line,24/7 紧急响应热线
-Services,pillar-2-detail-4,Hospital and medical appointment accompaniment,医院就医陪同
-Services,pillar-2-detail-5,Regular wellness check-ins,定期健康检查
-Services,pillar-3-h3,Academic Integration,学业融入
-Services,pillar-3-outcome,Students navigate academic requirements and campus life effectively.,学生有效应对学术要求与校园生活
-Services,pillar-3-detail-1,Course enrollment and timetable guidance,选课与课程表指导
-Services,pillar-3-detail-2,Connection to academic support resources,学术支持资源对接
-Services,pillar-3-detail-3,Study skills and time management coaching,学习技巧与时间管理辅导
-Services,pillar-3-detail-4,Communication with academic advisors when appropriate,必要时与学业导师沟通
-Services,pillar-3-detail-5,Progress monitoring and intervention if needed,学业进展监测与及时干预
-Services,pillar-4-h3,Cultural Adaptation,文化适应
-Services,pillar-4-outcome,Students build community and confidence in their new environment.,学生建立社交圈，适应新环境
-Services,pillar-4-detail-1,Mandarin-speaking mentorship for daily life navigation,普通话导师协助日常生活
-Services,pillar-4-detail-2,"Budgeting, transit, and life skills guidance",预算管理、交通、生活技能指导
-Services,pillar-4-detail-3,Social events and peer community building,社交活动与同伴社区建设
-Services,pillar-4-detail-4,Cultural norms and expectations orientation,文化规范与期望介绍
-Services,pillar-4-detail-5,Homesickness and adjustment support,思乡情绪与适应期支持
-Services,pillar-5-h3,Family Communication,家庭沟通
-Services,pillar-5-outcome,Parents remain informed and connected across distance.,家长远程了解孩子状况，保持联系
-Services,pillar-5-detail-1,Monthly written updates on student wellbeing,每月书面更新学生状况
-Services,pillar-5-detail-2,Direct advisor access for questions and concerns,专属顾问直接答疑
-Services,pillar-5-detail-3,Immediate notification of significant issues,重大事项即时通知
-Services,pillar-5-detail-4,Cultural translation of academic and administrative matters,学业与行政事务中文解释
-Services,pillar-5-detail-5,Scheduled video conferences upon request,按需安排视频沟通
+Services,pillar-01-h3,Arrival & Settlement,抵达与安置
+Services,pillar-01-outcome,Students arrive prepared and housed safely.,学生安全抵达，住房无忧
+Services,pillar-01-li-1,Pre-arrival immigration and documentation review,出发前移民与文件审核
+Services,pillar-01-li-2,Housing needs assessment and verified options,住房需求评估与验证房源
+Services,pillar-01-li-3,In-person lease review and move-in coordination,实地租约审查与搬入协调
+Services,pillar-01-li-4,Airport reception and escort to residence,机场接机与护送至住处
+Services,pillar-01-li-5,City orientation and essential services setup,城市导览与基础服务办理
+Services,pillar-02-h3,Health & Safety,健康与安全
+Services,pillar-02-outcome,Physical and mental wellbeing maintained throughout the academic year.,全年维护身心健康
+Services,pillar-02-li-1,Family physician registration and health insurance navigation,家庭医生注册与医疗保险指导
+Services,pillar-02-li-2,Mental health resource coordination,心理健康资源协调
+Services,pillar-02-li-3,24/7 emergency response line,24/7 紧急响应热线
+Services,pillar-02-li-4,Hospital and medical appointment accompaniment,医院就医陪同
+Services,pillar-02-li-5,Regular wellness check-ins,定期健康检查
+Services,pillar-02-li-6,Access to private healthcare and wellness providers through Crestway Global's partner network,通过 Crestway Global 合作伙伴网络获取私人医疗与健康服务
+Services,pillar-02-li-7,"Crestway Assist: 24/7 safety button in the app, connecting students directly to someone who knows their name and situation",Crestway Assist：应用内的24/7安全按钮，直接连接了解您姓名及情况的专人
+Services,pillar-03-h3,Academic Monitoring & Support,学业监测与支持服务
+Services,pillar-03-outcome,Academic monitoring and intervention when required.,学业监测及必要时的干预措施。
+Services,pillar-03-li-1,Course enrollment and timetable guidance,选课与课程表指导
+Services,pillar-03-li-2,Connection to academic support resources,学术支持资源对接
+Services,pillar-03-li-3,Study skills and time management coaching,学习技巧与时间管理辅导
+Services,pillar-03-li-4,Communication with academic advisors when appropriate,必要时与学业导师沟通
+Services,pillar-03-li-5,Progress monitoring and intervention if needed,学业进展监测与及时干预
+Services,pillar-04-h3,Cultural Adaptation,文化适应
+Services,pillar-04-outcome,Students build community and confidence in their new environment.,学生建立社交圈，适应新环境
+Services,pillar-04-li-1,Mandarin-speaking mentorship for daily life navigation,普通话导师协助日常生活
+Services,pillar-04-li-2,"Budgeting, transit, and life skills guidance","预算管理、交通、生活技能指导"
+Services,pillar-04-li-3,Social events and peer community building,社交活动与同伴社区建设
+Services,pillar-04-li-4,Cultural norms and expectations orientation,文化规范与期望介绍
+Services,pillar-04-li-5,Homesickness and adjustment support,思乡情绪与适应期支持
+Services,pillar-05-h3,Family Communication,家庭沟通
+Services,pillar-05-outcome,Parents remain informed and connected across distance.,家长远程了解孩子状况，保持联系
+Services,pillar-05-li-1,Monthly digital updates on student wellbeing,每月提供数字版学生身心健康更新报告
+Services,pillar-05-li-2,Direct advisor access for questions and concerns,专属顾问直接答疑
+Services,pillar-05-li-3,Immediate notification of significant issues,重大事项即时通知
+Services,pillar-05-li-4,Cultural translation of academic and administrative matters,学业与行政事务中文解释
+Services,pillar-05-li-5,Scheduled monthly video conferences,每月定期视频会议
+Services,pillar-06-h3,Safety & Protection,安全与保护
+Services,pillar-06-outcome,Students have access to a trusted safety network whenever they need it.,学生随时可获得信任的安全支持网络。
+Services,pillar-06-li-1,Partnership with Community Patrol for priority assistance,与Community Patrol合作，提供优先协助。
+Services,pillar-06-li-2,Crestway Assist: 24/7 safety button in the app connecting students to someone who knows their situation,Crestway Assist：应用内24/7安全按钮，可即时联系了解学生情况的人。
+Services,pillar-06-li-3,"Housing verification before move-in (fire safety, landlord checks, neighborhood walkthrough)",入住前的住房核实（包括消防安全检查、房东审核及社区实地考察）。
+Services,pillar-06-li-4,First-week city orientation and emergency response planning,入学首周的城市导览及应急计划制定。
+Services,pillar-06-li-5,Coordination with local emergency services when needed,必要时协调当地应急服务。
 Services,approach-eyebrow,Our Approach,我们的方式
-Services,approach-title,"Professional guardianship, not emergency intervention.",专业监护，而非紧急干预
-Services,approach-text,"Crestway Global's value is in preventing crises, not just responding to them. Regular check-ins, proactive planning, and consistent communication keep small issues from becoming serious problems.",Crestway Global 的价值在于预防问题，而非仅仅应对危机。定期检查、主动规划、持续沟通，将小问题扼杀在萌芽状态。
+Services,approach-title,"Guidance that keeps students on track, not reactive support.",以引导为主，而非被动应对的指导方式。
+Services,approach-p,"At Crestway Global, our focus is on helping students stay on track and thrive throughout their academic journey. Through regular check-ins, thoughtful planning, and consistent communication, we give students the structure they need to navigate life in a new country with confidence. Small challenges get addressed early, so students stay focused on their studies, personal growth, and success.","在Crestway Global，我们的目标是帮助学生在学术旅程中保持专注并取得成功。通过定期沟通、周密规划和持续互动，为学生提供结构化支持，助力其在新国家自信应对生活挑战。小问题早发现，确保学生专注学业、个人成长与成功。"
 Services,approach-1-h3,Structured Check-ins,定期检查
 Services,approach-1-p,"Scheduled touchpoints ensure consistent contact, not just crisis response.",固定沟通确保持续关注，而非仅在危机时响应
 Services,approach-2-h3,Assigned Advisors,专属顾问
 Services,approach-2-p,Each student works with a consistent advisor who knows their situation.,每位学生配备固定顾问，深入了解学生情况
 Services,approach-3-h3,Documented Communication,记录存档
 Services,approach-3-p,All interactions recorded for continuity and family transparency.,所有互动记录在案，确保服务连续性与家长透明
-Services,approach-4-h3,*(not present in EN)*,机构合作
-Services,approach-4-p,*(not present in EN)*,与大学、医疗机构、住房服务建立合作关系
+Services,approach-4-h3,,机构合作
+Services,approach-4-p,,与大学、医疗机构、住房服务建立合作关系
 Services,pricing-eyebrow,Pricing,费用
 Services,pricing-title,Customized to student needs,根据学生需求定制
-Services,pricing-text,"Programs are tailored based on age, campus, housing situation, and support requirements. Pricing is provided following a family consultation and needs assessment.",项目根据年龄、校区、住房情况与支持需求量身定制。费用在家庭咨询与需求评估后提供。
-Services,pricing-how-h3,How pricing works,*(ZH uses inline paragraph instead)*
+Services,pricing-p,"Programs are tailored based on age, campus, housing situation, and support requirements. Pricing is provided following a family consultation and needs assessment.",项目根据年龄、校区、住房情况与支持需求量身定制。费用在家庭咨询与需求评估后提供。
+Services,pricing-how-h3,How pricing works,
 Services,pricing-how-p,"Every family's situation is unique. During consultation, we assess your student's specific needs and recommend appropriate support levels. Transparent pricing is provided based on the services required.",每个家庭情况独特。咨询期间，我们评估学生具体需求，推荐适当支持级别。费用根据所需服务透明报价。
-Services,pricing-point-1,Initial consultation at no cost,*(not listed separately in ZH)*
-Services,pricing-point-2,Customized program based on assessment,*(not listed separately in ZH)*
-Services,pricing-point-3,"Clear, upfront pricing before engagement",*(not listed separately in ZH)*
-Services,pricing-point-4,No hidden fees or surprise charges,*(not listed separately in ZH)*
-Services,pricing-cta-text,Ready to discuss your family's needs?,*(not present in ZH)*
+Services,pricing-li-1,Initial consultation at no cost,
+Services,pricing-li-2,Customized program based on assessment,
+Services,pricing-li-3,"Clear, upfront pricing before engagement",
+Services,pricing-li-4,No hidden fees or surprise charges,
+Services,pricing-cta-p,Ready to discuss your family's needs?,
 Services,pricing-cta-btn,Schedule a consultation,预约咨询
-Difference,page-title,The Crestway Global Difference | Crestway Global,我们的不同 | Crestway Global
+Difference,title,The Crestway Global Difference | Crestway Global,我们的不同 | Crestway Global
 Difference,hero-eyebrow,The Crestway Global Difference,我们的不同
 Difference,hero-title,Guardianship with structured accountability.,专业监护，结构化问责。
-Difference,hero-lede,"Most guardianship services handle paperwork and little else. We provide ongoing, documented support.",多数监护服务签完文件就消失了。我们每周都在。
+Difference,hero-lede,Most guardianship services handle paperwork and little else. We provide ongoing documented support.,多数监护服务签完文件就消失了。我们每周都在。
 Difference,comparison-eyebrow,Side by Side,对比
 Difference,comparison-title,What typical guardianship looks like vs. what Crestway Global does.,普通监护 vs. Crestway Global。
 Difference,comparison-typical-h3,Typical Guardianship,普通监护
-Difference,comparison-typical-1,Signs custodianship paperwork,签署监护文件
-Difference,comparison-typical-2,Available by email for emergencies,紧急时可通过邮件联系
-Difference,comparison-typical-3,No regular contact with the student,与学生无日常联系
-Difference,comparison-typical-4,No housing involvement,不参与住房事务
-Difference,comparison-typical-5,No parent updates,不提供家长更新
-Difference,comparison-typical-6,One-size-fits-all service,一刀切的服务
-Difference,comparison-cg-h3,Crestway Global,Crestway Global
-Difference,comparison-cg-1,Handles all legal guardianship requirements,处理所有法律监护要求
-Difference,comparison-cg-2,24/7 emergency line answered by someone who knows your student,24/7 紧急热线，接听的人认识您的孩子
-Difference,comparison-cg-3,Weekly or monthly check-ins with a dedicated advisor,每周或每月由专属顾问沟通
-Difference,comparison-cg-4,"Full housing search, inspection, and move-in support",全程找房、验房、搬入支持
-Difference,comparison-cg-5,Regular parent updates with specifics,定期家长更新，内容具体
-Difference,comparison-cg-6,Personalized support based on each student's needs,根据每位学生需求定制支持
+Difference,comparison-typical-li-1,Signs custodianship paperwork,签署监护文件
+Difference,comparison-typical-li-2,Available by email for emergencies,紧急时可通过邮件联系
+Difference,comparison-typical-li-3,No regular contact with the student,与学生无日常联系
+Difference,comparison-typical-li-4,No housing involvement,不参与住房事务
+Difference,comparison-typical-li-5,No parent updates,不提供家长更新
+Difference,comparison-typical-li-6,One-size-fits-all service,一刀切的服务
+Difference,comparison-cw-h3,Crestway Global,Crestway Global
+Difference,comparison-cw-li-1,24/7 emergency support,24/7紧急支持服务
+Difference,comparison-cw-li-2,Weekly or monthly check-ins with a dedicated advisor,每周或每月由专属顾问沟通
+Difference,comparison-cw-li-3,"Full housing search, inspection, and move-in assistance","全程找房、验房、入住协助"
+Difference,comparison-cw-li-4,Regular parent updates with academic and wellness details,定期向家长发送学业与身心健康详情报告
+Difference,comparison-cw-li-5,Personalized support based on each student's needs,根据每位学生需求定制支持
 Difference,pillars-eyebrow,Three Pillars,三大支柱
 Difference,pillars-title,What makes Crestway Global different isn't one thing. It's how everything connects.,Crestway Global 的不同不在于某一件事，而在于一切如何连接。
 Difference,pillar-1-h3,"Real people, real context",真实的人，真实的情境
@@ -297,19 +331,19 @@ Difference,pillar-2-h3,"Proactive, not reactive",主动，而非被动
 Difference,pillar-2-p,"Regular touchpoints catch issues early. We don't wait for a crisis. If a student seems withdrawn, if grades are slipping, if housing problems are brewing, we call the family first. Prevention is always better than damage control.",定期跟进，及时发现苗头。不等危机发生——如果学生情绪低落、成绩下滑、住房出问题，我们先联系家庭。预防永远好过善后。
 Difference,pillar-3-h3,Support without surveillance,支持，而非监视
 Difference,pillar-3-p,"Students keep their independence. We're not watching their every move. But when life gets complicated, confusing paperwork, a medical issue, a housing emergency, they have someone to call who already understands the situation.",学生保持独立。我们不监控每一步。但当生活变得复杂——繁琐的手续、健康问题、住房紧急情况——他们有人可以打电话，而那个人已经了解情况。
-Difference,diff-facts-eyebrow,Key Facts,关键事实
-Difference,diff-facts-title,The numbers behind the care.,关怀背后的数字。
-Difference,diff-fact-1-number,24/7,24/7
-Difference,diff-fact-1-text,Emergency line answered by a real Crestway Global advisor.,紧急电话由 Crestway Global 顾问直接接听。
-Difference,diff-fact-2-number,1,3
-Difference,diff-fact-2-text,Local team in Toronto.,温哥华、多伦多、蒙特利尔本地团队。
-Difference,diff-fact-3-number,Monthly,每月
-Difference,diff-fact-3-text,"Parent updates with actual, specific details.",家长更新，信息具体明确。
-Difference,diff-fact-4-number,Week 1,首周
-Difference,diff-fact-4-text,"Arrival pickup, housing checks, and city orientation.",接机、看房、城市入门。
+Difference,keyfacts-eyebrow,Key Facts,关键事实
+Difference,keyfacts-title,The numbers behind the care.,关怀背后的数字。
+Difference,keyfacts-1-number,24/7,24/7
+Difference,keyfacts-1-p,Emergency line answered by a real Crestway Global advisor.,紧急电话由 Crestway Global 顾问直接接听。
+Difference,keyfacts-2-number,1,3
+Difference,keyfacts-2-p,Local team in Toronto.,温哥华、多伦多、蒙特利尔本地团队。
+Difference,keyfacts-3-number,Monthly,每月
+Difference,keyfacts-3-p,"Parent updates with actual, specific details.",家长更新，信息具体明确。
+Difference,keyfacts-4-number,Week 1,首周
+Difference,keyfacts-4-p,"Arrival pickup, housing checks, and city orientation.",接机、看房、城市入门。
 Difference,assurance-eyebrow,Parent Assurance,家长保障
 Difference,assurance-title,"Built for families who want clarity, not just promises.",为追求清晰而非空洞承诺的家庭而建。
-Difference,assurance-text,"From the moment you engage Crestway Global, we create a structured relationship that keeps you informed and involved.",从您选择 Crestway Global 起，我们就建立结构化的沟通关系，让您随时了解情况。
+Difference,assurance-p,"From the moment you engage Crestway Global, we create a structured relationship that keeps you informed and involved.",从您选择 Crestway Global 起，我们就建立结构化的沟通关系，让您随时了解情况。
 Difference,assurance-1-h3,Family onboarding call,家庭入门通话
 Difference,assurance-1-p,"Before your student arrives, we walk through expectations, communication preferences, and emergency protocols together.",学生抵达前，我们一起梳理期望、沟通偏好和紧急预案。
 Difference,assurance-2-h3,Dedicated case manager,专属案例经理
@@ -318,26 +352,28 @@ Difference,assurance-3-h3,Weekly pre-arrival updates,出发前每周更新
 Difference,assurance-3-p,"In the weeks before departure, we keep families informed on housing status, document readiness, and orientation plans.",出发前数周，持续告知住房状态、文件准备和入门计划。
 Difference,assurance-4-h3,Parent dashboard,家长信息看板
 Difference,assurance-4-p,"A clear view of your student's support timeline, upcoming check-ins, and key milestones.",清晰查看学生的支持时间线、即将到来的沟通和关键节点。
-Difference,diff-cta-title,See the difference for yourself.,亲身感受不同。
-Difference,diff-cta-text,Start an application or talk to our team about what Crestway Global support looks like in practice.,开始申请或与我们的团队聊聊 Crestway Global 的支持如何运作。
-Difference,diff-cta-primary,Start an application,开始申请
-Difference,diff-cta-ghost,Schedule a call,预约通话
-Partnerships,page-title,Partnerships | Crestway Global,合作伙伴 | Crestway Global
+Difference,cta-title,See the difference for yourself.,亲身感受不同。
+Difference,cta-p,Start an application or talk to our team about what Crestway Global support looks like in practice.,开始申请或与我们的团队聊聊 Crestway Global 的支持如何运作。
+Difference,cta-primary,Start an application,开始申请
+Difference,cta-ghost,Schedule a call,预约通话
+Difference,footer-description,Educational guardianship and support services for international students in Canada.,加拿大国际学生成功支持。
+Difference,footer-address,"110 Sheppard Ave E, Suite 110 / North York, ON M2N 6K1",温哥华 · 多伦多 · 蒙特利尔
+Partnerships,title,Partnerships | Crestway Global,合作伙伴 | Crestway Global
 Partnerships,hero-eyebrow,Partnerships,合作伙伴
 Partnerships,hero-title,Building Global Partnerships to Empower International Students,建立全球合作，赋能国际学生
-Partnerships,hero-lede,"Crestway Global collaborates with institutions, recruitment agents, and businesses worldwide to create seamless support, opportunities, and growth for students.",Crestway Global 与全球院校、招生代理和企业合作，为学生创造无缝支持、发展机会和成长空间。
+Partnerships,hero-lede,"Crestway Global collaborates with institutions, recruitment agents, and businesses worldwide to create seamless support, opportunities, and growth for students.","Crestway Global 与全球院校、招生代理和企业合作，为学生创造无缝支持、发展机会和成长空间。"
 Partnerships,institutions-eyebrow,For Institutions & Universities,面向院校与大学
 Partnerships,institutions-title,Bridge the gap between admission and successful settlement.,弥合录取与成功安顿之间的差距。
-Partnerships,institutions-text,Crestway Global does not recruit students and does not interfere with academic decision-making. We exist to make your international students more successful after they arrive.,Crestway Global 不招生，也不干预学术决策。我们的存在是为了让您的国际学生在抵达后更加成功。
-Partnerships,inst-1-h3,Fewer non-academic escalations,减少非学术事务升级
-Partnerships,inst-1-p,"Housing crises, health emergencies, and homesickness rarely reach your international office. We handle them before they become your problem.",住房危机、健康紧急情况和思乡问题很少需要找到国际办公室。我们在问题变成您的麻烦之前就处理好了。
-Partnerships,inst-2-h3,"Protected students, reassured parents",学生受保护，家长更安心
-Partnerships,inst-2-p,Families feel confident their child has local support. That confidence translates to fewer worried calls to your admissions team.,家庭对孩子有本地支持感到放心。这种信心意味着更少的担忧电话打到您的招生团队。
-Partnerships,inst-3-h3,Reduced administrative workload,减轻行政负担
-Partnerships,inst-3-p,"Your admissions, international offices, and faculty can focus on academics while we handle settlement logistics and day-to-day student support.",您的招生、国际办公室和教职人员可以专注于学术事务，而我们处理安顿物流和日常学生支持。
+Partnerships,institutions-p,Crestway Global does not recruit students and does not interfere with academic decision-making. We exist to make your international students more successful after they arrive.,Crestway Global 不招生，也不干预学术决策。我们的存在是为了让您的国际学生在抵达后更加成功。
+Partnerships,institutions-1-h3,Fewer non-academic escalations,减少非学术事务升级
+Partnerships,institutions-1-p,"Housing crises, health emergencies, and homesickness rarely reach your international office. We handle them before they become your problem.",住房危机、健康紧急情况和思乡问题很少需要找到国际办公室。我们在问题变成您的麻烦之前就处理好了。
+Partnerships,institutions-2-h3,"Protected students, reassured parents",学生受保护，家长更安心
+Partnerships,institutions-2-p,Families feel confident their child has local support. That confidence translates to fewer worried calls to your admissions team.,家庭对孩子有本地支持感到放心。这种信心意味着更少的担忧电话打到您的招生团队。
+Partnerships,institutions-3-h3,Reduced administrative workload,减轻行政负担
+Partnerships,institutions-3-p,"Your admissions, international offices, and faculty can focus on academics while we handle settlement logistics and day-to-day student support.",您的招生、国际办公室和教职人员可以专注于学术事务，而我们处理安顿物流和日常学生支持。
 Partnerships,agents-eyebrow,For Recruitment Agents,面向招生代理
 Partnerships,agents-title,Your trusted partner in Canada for post-admission support.,您在加拿大的可信赖合作伙伴，提供录取后支持。
-Partnerships,agents-text,"We complement, not replace, your core recruitment role. When families remember who helped their child succeed in Canada, your name comes up.",我们补充而非取代您的核心招生角色。当家庭回忆起谁帮助他们的孩子在加拿大取得成功时，您的名字会被提起。
+Partnerships,agents-p,"We complement, not replace, your core recruitment role. When families remember who helped their child succeed in Canada, your name comes up.",我们补充而非取代您的核心招生角色。当家庭回忆起谁帮助他们的孩子在加拿大取得成功时，您的名字会被提起。
 Partnerships,agents-1-h3,Students who transition successfully,学生成功过渡
 Partnerships,agents-1-p,Your placements don't just arrive—they thrive. Students who feel supported stay enrolled and recommend you to others.,您安置的学生不仅仅是抵达——他们蓬勃发展。感到被支持的学生会继续学业并向他人推荐您。
 Partnerships,agents-2-h3,Stronger parent trust,增强家长信任
@@ -348,7 +384,7 @@ Partnerships,agents-4-h3,Higher retention and satisfaction,更高的留存率和
 Partnerships,agents-4-p,Supported students complete their programs. Satisfied families send siblings and cousins. Your referral network grows.,获得支持的学生完成学业。满意的家庭会推荐兄弟姐妹和亲戚。您的推荐网络不断扩大。
 Partnerships,business-eyebrow,For Businesses & Organizations,面向企业与机构
 Partnerships,business-title,"Access motivated, global student talent.",接触积极进取的全球学生人才。
-Partnerships,business-text,"Crestway Global partners with local and global businesses to offer internships, volunteer programs, and experiential learning opportunities for international students.",Crestway Global 与本地和全球企业合作，为国际学生提供实习、志愿者项目和体验式学习机会。
+Partnerships,business-p,"Crestway Global partners with local and global businesses to offer internships, volunteer programs, and experiential learning opportunities for international students.","Crestway Global 与本地和全球企业合作，为国际学生提供实习、志愿者项目和体验式学习机会。"
 Partnerships,business-1-h3,Global talent pipeline,全球人才渠道
 Partnerships,business-1-p,"Connect with motivated international students who bring diverse perspectives, multilingual skills, and fresh energy to your team.",与积极进取的国际学生建立联系，他们带来多元视角、多语言技能和新鲜活力。
 Partnerships,business-2-h3,Positive brand engagement,积极的品牌互动
@@ -367,11 +403,17 @@ Partnerships,why-4-h3,Seamless collaboration,无缝协作
 Partnerships,why-4-p,"Transparent processes, clear structured reporting, and partnership-focused solutions. You always know how your referred students are doing.",透明的流程、清晰的结构化报告和以合作为导向的解决方案。您始终了解转介学生的情况。
 Partnerships,why-5-h3,Global perspective,全球视野
 Partnerships,why-5-p,"We connect institutions, agents, and students worldwide. Our team understands both Canadian systems and the cultures our students come from.",我们连接全球的院校、代理和学生。我们的团队理解加拿大系统，也理解学生来自的文化。
+Partnerships,uni-cta-eyebrow,For Universities & Agents,为大学及招生代理机构
+Partnerships,uni-cta-title,Want to see the full partnership model?,想了解完整的合作模式吗？
+Partnerships,uni-cta-p,"We've put together a detailed overview of how Crestway Global works alongside universities and recruitment agents. If you're exploring structured student support for your institution, this is a good starting point.",我们整理了 Crestway Global 与大学及招生代理机构合作的详细模式。如果您正在为机构寻找结构化的学生支持方案，这将是一个好的起点。
+Partnerships,uni-cta-primary,View Partnership Details,查看合作详情
+Partnerships,uni-cta-ghost,Contact us directly,直接联系我们
 Partnerships,partner-cta-title,Let's build something that works for your students.,让我们共同为学生打造有效的支持。
-Partnerships,partner-cta-text,"Whether you're a university, recruitment agent, or business organization, we'd like to show you what structured, on-the-ground support looks like in practice.",无论您是大学、招生代理还是企业机构，我们期待向您展示结构化实地支持的实际效果。
+Partnerships,partner-cta-p,"Whether you're a university, recruitment agent, or business organization, we'd like to show you what on-the-ground support looks like in practice.",无论您是大学、招生代理还是企业机构，我们期待向您展示结构化实地支持的实际效果。
 Partnerships,partner-cta-primary,Contact us,联系我们
 Partnerships,partner-cta-ghost,Schedule a call,预约通话
-Ambassadors,page-title,Student Ambassadors | Crestway Global,学生大使 | Crestway Global
+Partnerships,footer-description,Educational guardianship and support services for international students in Canada.,加拿大国际学生成功支持。
+Ambassadors,title,Student Ambassadors | Crestway Global,学生大使 | Crestway Global
 Ambassadors,hero-eyebrow,Student Ambassadors,学生大使
 Ambassadors,hero-title,Real students who've been where you're going.,他们走过你即将踏上的路。
 Ambassadors,hero-lede,"Our ambassadors are current international students at Canadian universities. They represent Crestway Global on campus, host study groups, and help new students navigate everything from transit to homesickness.",我们的大使是在加拿大大学就读的在校国际学生。他们代表 Crestway Global 参与校园活动，组织学习小组，帮助新生处理从交通到思乡的一切问题。
@@ -387,8 +429,8 @@ Ambassadors,program-4-h3,Leadership,领导力
 Ambassadors,program-4-p,"Act as role models, propose new engagement activities, and collaborate with Crestway Global coordinators to improve the student experience.",成为榜样，提出新的活动方案，与 Crestway Global 协调员合作改善学生体验。
 Ambassadors,meet-eyebrow,Meet the Team,认识团队
 Ambassadors,meet-title,Our Ambassadors,我们的大使
-Ambassadors,meet-text,"Students from York, TMU, Waterloo, and Western share their journeys and advice.",来自约克大学、多伦多都会大学、滑铁卢大学和西安大略大学的学生分享他们的经历和建议。
-Ambassadors,anna-alt,"Anna, Student Ambassador at University of Waterloo",Anna，滑铁卢大学学生大使
+Ambassadors,meet-p,"Students from York, TMU, Waterloo, and Western share their journeys and advice.",来自约克大学、多伦多都会大学、滑铁卢大学和西安大略大学的学生分享他们的经历和建议。
+Ambassadors,anna-alt,"Anna, Student Ambassador at University of Waterloo","Anna，滑铁卢大学学生大使"
 Ambassadors,anna-name,Anna,Anna
 Ambassadors,anna-meta,University of Waterloo · Computer Science · 3rd Year,滑铁卢大学 · 计算机科学 · 大三
 Ambassadors,anna-origin,Originally from Japan,来自日本
@@ -402,7 +444,7 @@ Ambassadors,anna-advice-h4,Advice for New Students,给新生的建议
 Ambassadors,anna-advice-p,"""Be open to making friends. You're not the only one feeling alone, and connecting with others makes a big difference. Also, don't forget to take breaks from studying.""","""敞开心扉交朋友。你不是唯一感到孤独的人，与他人建立联系会带来很大的不同。还有，别忘了在学习之余休息一下。"""
 Ambassadors,anna-fav-h4,Favourite Canadian Experience,最喜欢的加拿大体验
 Ambassadors,anna-fav-p,"Watching baseball games at the Rogers Centre. The stadium is huge, and the fans' energy makes it unforgettable!",在罗杰斯中心看棒球比赛。体育场很大，球迷的热情让人难忘！
-Ambassadors,ridhima-alt,"Ridhima, Student Ambassador at York University",Ridhima，约克大学学生大使
+Ambassadors,ridhima-alt,"Ridhima, Student Ambassador at York University","Ridhima，约克大学学生大使"
 Ambassadors,ridhima-name,Ridhima,Ridhima
 Ambassadors,ridhima-meta,York University · Commerce (Finance) · 3rd Year,约克大学 · 商科（金融）· 大三
 Ambassadors,ridhima-origin,Originally from India,来自印度
@@ -416,7 +458,7 @@ Ambassadors,ridhima-advice-h4,Advice for New Students,给新生的建议
 Ambassadors,ridhima-advice-p,"""Take small steps every day to step outside your comfort zone — whether it's joining a club, attending a campus event, or introducing yourself to someone new.""","""每天迈出一小步，走出舒适区——无论是加入一个社团、参加校园活动，还是向新认识的人介绍自己。"""
 Ambassadors,ridhima-fav-h4,Favourite Canadian Experience,最喜欢的加拿大体验
 Ambassadors,ridhima-fav-p,Visiting Montreal. The architecture is so amazing and the nightlife there is fantastic.,去蒙特利尔。那里的建筑太美了，夜生活也很棒。
-Ambassadors,tien-alt,"Tien, Student Ambassador at York University",Tien，约克大学学生大使
+Ambassadors,tien-alt,"Tien, Student Ambassador at York University","Tien，约克大学学生大使"
 Ambassadors,tien-name,Tien,Tien
 Ambassadors,tien-meta,York University · Statistics · 3rd Year,约克大学 · 统计学 · 大三
 Ambassadors,tien-origin,Originally from Vietnam,来自越南
@@ -435,7 +477,7 @@ Ambassadors,fernand-name,Fernand,Fernand
 Ambassadors,fernand-meta,Toronto Metropolitan University · Computer Science · 2nd Year,多伦多都会大学 · 计算机科学 · 大二
 Ambassadors,fernand-origin,Originally from Venezuela,来自委内瑞拉
 Ambassadors,fernand-journey-h4,Fernand's Journey,Fernand 的故事
-Ambassadors,fernand-journey-p,"I came to Canada in 2022 with my family as immigrants due to the situation in our home country. Moving here meant starting from scratch, adapting to a new environment, and learning a new language while building a life in a completely different society. My journey has taught me resilience, determination, and adaptability.",2022 年，由于我们国家的局势，我和家人作为移民来到加拿大。搬到这里意味着从零开始，适应新环境，学习新语言，同时在一个完全不同的社会中建立新生活。这段经历教会了我坚韧、决心和适应能力。
+Ambassadors,fernand-journey-p,"I came to Canada in 2022 with my family as immigrants due to the situation in our home country. Moving here meant starting from scratch, adapting to a new environment, and learning a new language while building a life in a completely different society. My journey has taught me resilience, determination, and adaptability.","2022 年，由于我们国家的局势，我和家人作为移民来到加拿大。搬到这里意味着从零开始，适应新环境，学习新语言，同时在一个完全不同的社会中建立新生活。这段经历教会了我坚韧、决心和适应能力。"
 Ambassadors,fernand-why-h4,Why I Became an Ambassador,为什么成为大使
 Ambassadors,fernand-why-p,I want to share my experience as an international student and help others feel less alone during their transition. I want to make the process of adaptation easier for new students. Just like I wish it had been for me.,我想分享我作为国际学生的经历，帮助其他人在过渡期间不那么孤独。我想让新生的适应过程更容易，就像我希望当初对我来说更容易一样。
 Ambassadors,fernand-challenge-h4,Biggest Challenge,最大的挑战
@@ -457,26 +499,28 @@ Ambassadors,shafaq-challenge-p,"Adapting to the cold weather, figuring out Toron
 Ambassadors,shafaq-advice-h4,Advice for New Students,给新生的建议
 Ambassadors,shafaq-advice-p,"""Try to find people who help you grow, whether they're classmates, mentors, or friends. Don't hesitate to seek help if you're struggling — you're never alone in this journey.""","""试着找到能帮助你成长的人，无论是同学、导师还是朋友。如果你遇到困难，不要犹豫寻求帮助——在这段旅程中你永远不是孤独的。"""
 Ambassadors,shafaq-fav-h4,Favourite Canadian Experience,最喜欢的加拿大体验
-Ambassadors,shafaq-fav-p,Poutine is such a classic comfort dish! My family trip to Brockville stands out — taking the 1000 Islands cruise and hiking through Algonquin Park trails in fall were unforgettable moments.,Poutine 是经典的舒适美食！我和家人去布罗克维尔的短途旅行令人难忘——乘坐千岛湖游轮，在秋天徒步穿越阿冈昆公园的小径都是难忘的时刻。
-Ambassadors,ambassador-cta-title,Want to become a Student Ambassador?,想成为学生大使吗？
-Ambassadors,ambassador-cta-text,"We're looking for students at York, TMU, Queens, Western, UofT, and Waterloo who want to help fellow international students thrive.",我们正在寻找约克大学、多伦多都会大学、皇后大学、西安大略大学、多伦多大学和滑铁卢大学的学生，帮助其他国际学生茁壮成长。
-Ambassadors,ambassador-cta-primary,Apply to Join,申请加入
-Ambassadors,ambassador-cta-ghost,Contact Us,联系我们
-Problem,page-title,The Problem | Crestway Global,问题所在 | Crestway Global
+Ambassadors,shafaq-fav-p,"Poutine is such a classic comfort dish! My family trip to Brockville stands out — taking the 1000 Islands cruise and hiking through Algonquin Park trails in fall were unforgettable moments.",Poutine 是经典的舒适美食！我和家人去布罗克维尔的短途旅行令人难忘——乘坐千岛湖游轮，在秋天徒步穿越阿冈昆公园的小径都是难忘的时刻。
+Ambassadors,cta-title,Want to become a Student Ambassador?,想成为学生大使吗？
+Ambassadors,cta-p,"We're looking for students at York, TMU, Queens, Western, UofT, and Waterloo who want to help fellow international students thrive.",我们正在寻找约克大学、多伦多都会大学、皇后大学、西安大略大学、多伦多大学和滑铁卢大学的学生，帮助其他国际学生茁壮成长。
+Ambassadors,cta-primary,Apply to Join,申请加入
+Ambassadors,cta-ghost,Contact Us,联系我们
+Ambassadors,footer-description,Educational guardianship and support services for international students in Canada.,加拿大国际学生专业监护服务。
+Problem,title,The Problem | Crestway Global,问题所在 | Crestway Global
 Problem,hero-eyebrow,The Reality of International Education,国际教育的现实
 Problem,hero-title,The Reality of International Education,国际教育的现实
 Problem,hero-lede,"Every year, students arrive overseas with immense ambition but without a local structure.",每年，无数学生怀揣远大抱负抵达海外，却缺乏本地支持体系。
 Problem,challenge-eyebrow,The Challenge,挑战
 Problem,challenge-title,"While universities provide world-class education at scale, their resources are designed for high-volume support.",大学提供世界一流的大规模教育，但其资源面向高容量支持设计。
-Problem,challenge-text,"Students are often required to navigate complex systems, join waiting lists, and seek out help only after a problem arises.",学生往往需要自行应对复杂体系、排队等候，且只有在问题出现后才能寻求帮助。
+Problem,challenge-p,"Students are often required to navigate complex systems, join waiting lists, and seek out help only after a problem arises.",学生往往需要自行应对复杂体系、排队等候，且只有在问题出现后才能寻求帮助。
 Problem,gap-eyebrow,Closing the Gap,弥补缺口
 Problem,gap-title,Crestway Global exists to close the gap.,Crestway Global 的使命是弥补这一缺口。
-Problem,gap-1,"Families expect safety, accountability and a point of contact who knows their children personally.",家庭期望安全、问责，以及一位真正了解自己孩子的联系人。
-Problem,gap-2,"We act as an accelerated support layer, identifying risks and intervening early. We don't wait for a student to struggle.",我们充当加速支持层，识别风险并尽早干预。我们不会等到学生陷入困境才行动。
-Problem,gap-3,"We provide personalized 1:1 support for their academic journey, manage their daily logistics and safeguard their mental wellbeing.",我们为学生的学业旅程提供个性化的一对一支持，管理日常事务并守护其心理健康。
-Problem,gap-4,"By maintaining a proactive, constant and professional dialogue between the student, the university, and the family, we ensure that their transition into adulthood is expertly managed.",通过在学生、大学和家庭之间保持主动、持续且专业的沟通，我们确保学生的成人过渡得到专业管理。
-Problem,gap-5,"For international families, this is the essential infrastructure that turns potential risk into a secure path for success.",对于国际家庭而言，这是将潜在风险转化为安全成功之路的关键基础设施。
-Governance,page-title,Governance & Safeguarding | Crestway Global,治理与保障 | Crestway Global
+Problem,gap-01,"Families expect safety, accountability and a point of contact who knows their children personally.",家庭期望安全、问责，以及一位真正了解自己孩子的联系人。
+Problem,gap-02,"We act as an accelerated support layer, identifying risks and intervening early. We don't wait for a student to struggle.",我们充当加速支持层，识别风险并尽早干预。我们不会等到学生陷入困境才行动。
+Problem,gap-03,"We provide personalized 1:1 support for their academic journey, manage their daily logistics and safeguard their mental wellbeing.",我们为学生的学业旅程提供个性化的一对一支持，管理日常事务并守护其心理健康。
+Problem,gap-04,"By maintaining a proactive, constant and professional dialogue between the student, the university, and the family, we ensure that their transition into adulthood is expertly managed.","通过在学生、大学和家庭之间保持主动、持续且专业的沟通，我们确保学生的成人过渡得到专业管理。"
+Problem,gap-05,"For international families, this is the essential infrastructure that turns potential risk into a secure path for success.",对于国际家庭而言，这是将潜在风险转化为安全成功之路的关键基础设施。
+Problem,footer-description,Educational guardianship and support services for international students in Canada.,加拿大国际学生专业监护服务
+Governance,title,Governance & Safeguarding | Crestway Global,治理与保障 | Crestway Global
 Governance,hero-eyebrow,Governance & Safeguarding,治理与保障
 Governance,hero-title,Accountability built into every process.,每个流程都内嵌问责机制
 Governance,hero-lede,"Professional standards, documented procedures, and transparent oversight for families and partner institutions.",专业标准、规范程序、透明监督，服务家庭与合作机构
@@ -514,14 +558,14 @@ Governance,insurance-1-h3,Professional Liability,职业责任
 Governance,insurance-1-li-1,Comprehensive errors and omissions insurance,全面的错误与遗漏保险
 Governance,insurance-1-li-2,Coverage for advisory and coordination services,咨询与协调服务覆盖
 Governance,insurance-1-li-3,Clear scope of service limitations documented,明确的服务范围限制文档
-Governance,insurance-2-h3,Documentation Standards,*(not present in ZH)*
-Governance,insurance-2-li-1,All incidents logged with detailed records,*(not present in ZH)*
-Governance,insurance-2-li-2,Regular case review for quality assurance,*(not present in ZH)*
-Governance,insurance-2-li-3,Transparent reporting to families and institutions,*(not present in ZH)*
-Governance,insurance-3-h3,Student Coverage,学生保险
-Governance,insurance-3-li-1,Students required to maintain health insurance,学生须维持健康保险
-Governance,insurance-3-li-2,Guidance provided on Canadian healthcare enrollment,提供加拿大医疗注册指导
-Governance,insurance-3-li-3,Coordination with insurance providers for claims,协助保险公司理赔协调
+Governance,insurance-2-h3,Documentation Standards,学生保险
+Governance,insurance-2-li-1,All incidents logged with detailed records,学生须维持健康保险
+Governance,insurance-2-li-2,Regular case review for quality assurance,提供加拿大医疗注册指导
+Governance,insurance-2-li-3,Transparent reporting to families and institutions,协助保险公司理赔协调
+Governance,insurance-3-h3,Student Coverage,
+Governance,insurance-3-li-1,Students required to maintain health insurance,
+Governance,insurance-3-li-2,Guidance provided on Canadian healthcare enrollment,
+Governance,insurance-3-li-3,Coordination with insurance providers for claims,
 Governance,compliance-eyebrow,Regulatory Compliance,监管合规
 Governance,compliance-title,Operating within Canadian legal frameworks,在加拿大法律框架内运营
 Governance,compliance-1-h4,Ontario Business Registration,安大略省商业注册
@@ -546,7 +590,8 @@ Governance,reporting-3-h3,University Partnership,大学合作
 Governance,reporting-3-li-1,Collaborative and scheduled oversight with institutions to ensure student wellbeing.,与机构协作并定期监督，确保学生福祉。
 Governance,reporting-3-li-2,Clear data sharing that respects institutional boundaries.,尊重机构边界的清晰数据共享。
 Governance,reporting-3-li-3,Strict adherence to university regulations and procedures.,严格遵守大学规章制度与程序。
-Parents,page-title,For Parents | Crestway Global,为家长 | Crestway Global
+Governance,footer-description,Educational guardianship and support services for international students in Canada.,加拿大国际学生专业监护服务
+Parents,title,For Parents | Crestway Global,为家长 | Crestway Global
 Parents,hero-eyebrow,For Parents,为家长
 Parents,hero-title,Your child is far away. Your peace of mind doesn't have to be.,孩子远在异国，安心可以近在咫尺
 Parents,hero-lede,"We understand what Chinese families need: safety first, regular communication, and the assurance that someone trustworthy is caring for your child.",我们理解中国家庭的需求：安全第一、定期沟通、有值得信赖的人照顾您的孩子
@@ -560,40 +605,98 @@ Parents,priority-3-h3,Mandarin Support,中文支持
 Parents,priority-3-p,Advisors who speak your language. No communication barriers when discussing your child's needs.,讲中文的顾问。讨论孩子需求时没有沟通障碍。
 Parents,priority-4-h3,Emotional Care,情感关怀
 Parents,priority-4-p,We understand homesickness and the pressure of studying abroad. We catch problems before they become crises.,我们理解思乡之情和留学压力。我们在问题变成危机之前发现它们。
-Parents,commitment-eyebrow,Our Commitment,我们的承诺
-Parents,commitment-title,What you can count on,您可以依赖的保障
-Parents,commitment-1-h4,We visit housing before your child moves in,孩子入住前我们检查住房
-Parents,commitment-1-p,"We inspect every property for safety, verify landlords, check neighborhood conditions. No surprises when your child arrives.",我们检查每处房产的安全、核实房东、查看社区状况。孩子到达时不会有意外。
-Parents,commitment-2-h4,We answer the phone at 2 AM,凌晨2点我们也接电话
-Parents,commitment-2-p,Emergencies don't wait for business hours. Your child has a direct line to someone who knows them and can help.,紧急情况不等人。您的孩子有一条直接线路，有人认识他们并能提供帮助。
-Parents,commitment-3-h4,We tell you what's really happening,我们如实告知情况
-Parents,commitment-3-p,"No filtering, no delays. If there's a problem, you know immediately. If things are going well, you know that too.",不隐瞒，不延迟。如果有问题，您立即知道。如果一切顺利，您也知道。
-Parents,commitment-4-h4,We help with the small things,我们帮助处理日常小事
-Parents,commitment-4-p,"Bank accounts, phone plans, where to buy familiar food. The daily details that make life abroad manageable.",银行账户、手机套餐、哪里买熟悉的食材。让海外生活可管理的日常细节。
-Parents,commitment-5-h4,We respect your family decisions,我们尊重您的家庭决定
-Parents,commitment-5-p,We provide information and support. You remain the decision-maker for your child's life.,我们提供信息和支持。您仍是孩子生活的决策者。
+Parents,reassurance-eyebrow,Our Commitment,我们的承诺
+Parents,reassurance-title,What you can count on,您可以依赖的保障
+Parents,reassurance-1-h4,We visit housing before your child moves in,孩子入住前我们检查住房
+Parents,reassurance-1-p,"We inspect every property for safety, verify landlords, check neighborhood conditions. No surprises when your child arrives.",我们检查每处房产的安全、核实房东、查看社区状况。孩子到达时不会有意外。
+Parents,reassurance-2-h4,We answer the phone at 2 AM,凌晨2点我们也接电话
+Parents,reassurance-2-p,Emergencies don't wait for business hours. Your child has a direct line to someone who knows them and can help.,紧急情况不等人。您的孩子有一条直接线路，有人认识他们并能提供帮助。
+Parents,reassurance-3-h4,We tell you what's really happening,我们如实告知情况
+Parents,reassurance-3-p,"No filtering, no delays. If there's a problem, you know immediately. If things are going well, you know that too.",不隐瞒，不延迟。如果有问题，您立即知道。如果一切顺利，您也知道。
+Parents,reassurance-4-h4,We help with the small things,我们帮助处理日常小事
+Parents,reassurance-4-p,"Bank accounts, phone plans, where to buy familiar food. The daily details that make life abroad manageable.",银行账户、手机套餐、哪里买熟悉的食材。让海外生活可管理的日常细节。
+Parents,reassurance-5-h4,We respect your family decisions,我们尊重您的家庭决定
+Parents,reassurance-5-p,We provide information and support. You remain the decision-maker for your child's life.,我们提供信息和支持。您仍是孩子生活的决策者。
 Parents,communication-eyebrow,Communication,沟通
 Parents,communication-title,How we keep you connected,我们如何保持联系
-Parents,comm-step-1-h4,Weekly Check-ins,每周沟通
-Parents,comm-step-1-p,Your child meets with their advisor to discuss how the week went,您的孩子与顾问会面，讨论一周情况
-Parents,comm-step-2-h4,Monthly Reports,每月报告
-Parents,comm-step-2-p,You receive a detailed written update on all aspects of your child's life,您收到孩子生活各方面的详细书面更新
-Parents,comm-step-3-h4,Immediate Alerts,即时提醒
-Parents,comm-step-3-p,"If something important happens, we contact you right away",如有重要事项发生，我们立即联系您
+Parents,communication-step-01-h4,Weekly Check-ins,每周沟通
+Parents,communication-step-01-p,Your child meets with their advisor to discuss how the week went,您的孩子与顾问会面，讨论一周情况
+Parents,communication-step-02-h4,Monthly Reports,每月报告
+Parents,communication-step-02-p,You receive a detailed written update on all aspects of your child's life,您收到孩子生活各方面的详细书面更新
+Parents,communication-step-03-h4,Immediate Alerts,即时提醒
+Parents,communication-step-03-p,"If something important happens, we contact you right away",如有重要事项发生，我们立即联系您
 Parents,concerns-eyebrow,Common Concerns,常见顾虑
 Parents,concerns-title,Questions Chinese parents ask us,中国家长常问我们的问题
-Parents,concerns-q1,Will my child be safe in Canada?,我的孩子在加拿大会安全吗？
-Parents,concerns-a1,"Canada is among the safest countries for international students. We add an extra layer: verified housing, known contacts in emergencies, and advisors who check in regularly. We treat your child's safety as if they were our own.",加拿大是留学生最安全的国家之一。我们增加额外保障：核实住房、紧急情况已知联系人、定期沟通的顾问。我们把您孩子的安全当作自己的孩子来对待。
-Parents,concerns-q2,How do I know what's really happening if I'm so far away?,这么远我怎么知道真实情况？
-Parents,concerns-a2,"Our monthly reports cover academics, health, social life, and emotional wellbeing. We include specifics: grades, doctor visits, activities, mood. If something is wrong, we tell you immediately. No surprises.",我们的月度报告涵盖学业、健康、社交生活和情绪状态。我们包含具体细节：成绩、就医、活动、心情。如果有问题，我们立即告知。没有意外。
-Parents,concerns-q3,My child is very independent. Will they feel watched?,我的孩子很独立，会觉得被监视吗？
-Parents,concerns-a3,"Our support is available, not imposed. Independent students use us as a resource when needed. We respect their autonomy while remaining available for guidance.",我们的支持是可用的，不是强加的。独立的学生在需要时把我们当作资源。我们尊重他们的自主，同时保持提供指导的可及性。
-Parents,concerns-q4,What if my child gets sick?,如果孩子生病了怎么办？
-Parents,concerns-a4,"We help them register with a family doctor, understand their insurance, and navigate the healthcare system. For serious issues, we accompany them to appointments and keep you informed every step of the way.",我们帮助他们注册家庭医生、理解保险、 navigate 医疗系统。对于严重问题，我们陪同就医，每一步都让您知情。
-Parents,concerns-q5,How do you handle the language barrier?,如何处理语言障碍？
-Parents,concerns-a5,"Our team includes Mandarin-speaking advisors. We can explain complex situations—academic, medical, legal—in your language. We also help your child improve their English for daily independence.",我们的团队包括讲中文的顾问。我们可以用您的语言解释复杂情况——学业、医疗、法律。我们也帮助孩子提高英语日常独立能力。
-Parents,concerns-q6,What makes Crestway Global different from other services?,Crestway Global 与其他服务有何不同？
-Parents,concerns-a6,We focus specifically on Chinese international students and their families. We understand the cultural expectations around family involvement and the specific challenges Chinese students face abroad. We're not a generic service—we're specialized.,我们专注于中国留学生及其家庭。我们理解中国家庭对家庭参与的期望，以及中国学生海外面临的具体挑战。我们不是通用服务——我们是专业的。
+Parents,concerns-1-summary,Will my child be safe in Canada?,我的孩子在加拿大会安全吗？
+Parents,concerns-1-p,"Canada is among the safest countries for international students. We add an extra layer: verified housing, known contacts in emergencies, and advisors who check in regularly. We treat your child's safety as if they were our own.",加拿大是留学生最安全的国家之一。我们增加额外保障：核实住房、紧急情况已知联系人、定期沟通的顾问。我们把您孩子的安全当作自己的孩子来对待。
+Parents,concerns-2-summary,How do I know what's really happening if I'm so far away?,这么远我怎么知道真实情况？
+Parents,concerns-2-p,"Our monthly reports cover academics, health, social life, and emotional wellbeing. We include specifics: grades, doctor visits, activities, mood. If something is wrong, we tell you immediately. No surprises.",我们的月度报告涵盖学业、健康、社交生活和情绪状态。我们包含具体细节：成绩、就医、活动、心情。如果有问题，我们立即告知。没有意外。
+Parents,concerns-3-summary,My child is very independent. Will they feel watched?,我的孩子很独立，会觉得被监视吗？
+Parents,concerns-3-p,"Our support is available, not imposed. Independent students use us as a resource when needed. We respect their autonomy while remaining available for guidance.",我们的支持是可用的，不是强加的。独立的学生在需要时把我们当作资源。我们尊重他们的自主，同时保持提供指导的可及性。
+Parents,concerns-4-summary,What if my child gets sick?,如果孩子生病了怎么办？
+Parents,concerns-4-p,"We help them register with a family doctor, understand their insurance, and navigate the healthcare system. For serious issues, we accompany them to appointments and keep you informed every step of the way.",我们帮助他们注册家庭医生、理解保险、 navigate 医疗系统。对于严重问题，我们陪同就医，每一步都让您知情。
+Parents,concerns-5-summary,How do you handle the language barrier?,如何处理语言障碍？
+Parents,concerns-5-p,"Our team includes Mandarin-speaking advisors. We can explain complex situations—academic, medical, legal—in your language. We also help your child improve their English for daily independence.",我们的团队包括讲中文的顾问。我们可以用您的语言解释复杂情况——学业、医疗、法律。我们也帮助孩子提高英语日常独立能力。
+Parents,concerns-6-summary,What makes Crestway Global different from other services?,Crestway Global 与其他服务有何不同？
+Parents,concerns-6-p,"We focus specifically on Chinese international students and their families. We understand the cultural expectations around family involvement and the specific challenges Chinese students face abroad. We're not a generic service—we're specialized.",我们专注于中国留学生及其家庭。我们理解中国家庭对家庭参与的期望，以及中国学生海外面临的具体挑战。我们不是通用服务——我们是专业的。
 Parents,cta-title,Start with a conversation,从一次对话开始
-Parents,cta-text,Tell us about your child and your concerns. We'll explain how we can help and whether we're the right fit for your family.,告诉我们关于您的孩子和您的顾虑。我们将解释如何帮助，以及我们是否适合您的家庭。
+Parents,cta-p,"Tell us about your child and your concerns. We'll explain how we can help and whether we're the right fit for your family.",告诉我们关于您的孩子和您的顾虑。我们将解释如何帮助，以及我们是否适合您的家庭。
 Parents,cta-btn,Schedule a consultation,预约咨询
+Parents,footer-description,Educational guardianship and support services for international students in Canada.,加拿大国际学生专业监护服务
+Universities,title,University Partnerships | Crestway Global,大学合作 | Crestway Global
+Universities,gate-h2,This page is for university and agent partners.,本页面仅限大学及代理合作伙伴访问。
+Universities,gate-p,Enter the access code provided by your Crestway Global contact.,请输入您的 Crestway Global 联系人提供的访问密码。
+Universities,gate-placeholder,Access code,访问密码
+Universities,gate-btn,Enter,进入
+Universities,gate-error,Incorrect code. Please try again or contact hello@crestwayglobal.com.,密码错误。请重试或联系 hello@crestwayglobal.com。
+Universities,gate-back,Back to Partnerships,返回合作伙伴页面
+Universities,hero-eyebrow,University Partnerships,大学合作
+Universities,hero-title,A student success platform that works alongside your institution.,与您的机构协同运作的学生成功平台。
+Universities,hero-lede,"Crestway Global partners with universities to strengthen international student retention, reduce non-academic escalations, and give families confidence that their child has on-the-ground support.","Crestway Global 与大学合作，加强国际学生留存率，减少非学术升级事件，并让家庭确信孩子拥有在地支持。"
+Universities,challenge-eyebrow,The Challenge,挑战
+Universities,challenge-title,International students face barriers that academics alone can't fix.,国际学生面临的障碍，光靠学术无法解决。
+Universities,challenge-li-1,"Adjusting to a new country and unfamiliar systems (banking, healthcare, transit, housing)",适应新国家和陌生系统（银行、医疗、交通、住房）
+Universities,challenge-li-2,Limited family support due to geographic distance and time zones,因地理距离和时差导致的家庭支持有限
+Universities,challenge-li-3,Academic pressure compounded by personal stress and isolation,个人压力和孤立感加重学业负担
+Universities,challenge-li-4,No structured off-campus guidance for the day-to-day stuff that goes wrong,校外缺乏结构化的日常问题指导
+Universities,challenge-li-5,"Housing problems, health scares, and homesickness that escalate when no one catches them early","住房问题、健康突发和思乡情绪，如果无人及早发现，就会不断升级"
+Universities,challenge-p,"These aren't edge cases. They're the norm. And when students struggle with these basics, retention drops and institutional risk goes up.",这些不是个别案例，而是普遍现象。当学生在这些基本问题上挣扎，留存率下降，机构风险上升。
+Universities,model-eyebrow,The Crestway Global Model,Crestway Global 模式
+Universities,model-title,"Four pillars of student success, delivered locally.",四大支柱，本地交付的学生成功方案。
+Universities,model-p,"Crestway Global acts as a trusted success partner. We give students structured guidance and practical support throughout their academic journey. We don't replace campus services. We fill the gaps around them.",Crestway Global 作为值得信赖的成功合作伙伴，为学生提供结构化指导和实际支持。我们不取代校园服务，而是填补校园服务的空白。
+Universities,model-1-h3,1. Student Success Management,1. 学业成功管理
+Universities,model-1-p,Guidance that helps students stay on track academically and personally. Regular check-ins. Early detection of problems. Intervention before a rough week becomes a failed semester.,帮助学生在学业和个人方面保持正轨的指导。定期沟通，早期发现问题，在一周的困难变成一学期的失败前介入。
+Universities,model-2-h3,2. Structured Student Support,2. 结构化学生支持
+Universities,model-2-p,"Help with housing, banking, healthcare, and local services. The things that take a new student 10x longer to figure out alone, we handle with them.",住房、银行、医疗和当地服务方面的帮助。新生独自摸索要花10倍时间的事，我们陪他们一起完成。
+Universities,model-3-h3,3. Family Communication,3. 家庭沟通
+Universities,model-3-p,"International families get peace of mind. Monthly updates, direct advisor access, and immediate notification when something needs attention. Parents stay informed without hovering.",国际家庭获得安心。每月更新、顾问直接联系渠道、需要关注时的即时通知。家长随时掌握情况，但不过度干预。
+Universities,model-4-h3,4. Personal Growth & Life Skills,4. 个人成长与生活技能
+Universities,model-4-p,"Independence, financial literacy, leadership. Students don't just finish their degree. They leave with the skills to do something with it.",独立性、财务素养、领导力。学生不只是拿到学位，他们带走的是能有所作为的能力。
+Universities,value-eyebrow,Value for University Partners,大学合作伙伴的价值
+Universities,value-title,Better outcomes. Lower risk. Stronger recruitment position.,更好的结果、更低的风险、更强的招生竞争力。
+Universities,value-1-h3,Improved Student Retention,提高学生留存率
+Universities,value-1-p,"Students who feel supported stay enrolled. It's that straightforward. Fewer mid-year withdrawals, fewer crisis transfers.",感到被支持的学生会继续就读。就这么简单。更少的中途退学，更少的危机转学。
+Universities,value-2-h3,Better International Student Experience,更好的国际学生体验
+Universities,value-2-p,Satisfaction goes up when students aren't white-knuckling through their first year alone. Happy students tell other students.,当学生不再独自艰难度过第一年，满意度自然上升。满意的学生会推荐给其他学生。
+Universities,value-3-h3,Reduced Institutional Risk,降低机构风险
+Universities,value-3-p,"We catch problems early. Housing disputes, health concerns, academic struggles. By the time it would have reached your office, we've already been working on it.","我们及早发现问题：住房纠纷、健康隐忧、学业困难。在问题传到您办公室之前，我们已经在处理了。"
+Universities,value-4-h3,Competitive Recruitment Advantage,招生竞争优势
+Universities,value-4-p,Universities that offer structured success support stand out to international families making six-figure decisions about where to send their children.,提供结构化成功支持的大学，在国际家庭做出六位数决定时脱颖而出。
+Universities,value-5-h3,Stronger Global Reputation,更强的全球声誉
+Universities,value-5-p,Positive student outcomes build trust with international families. Trust brings referrals. Referrals build your international program.,积极的学生成果赢得国际家庭的信任。信任带来推荐。推荐壮大您的国际项目。
+Universities,partnership-eyebrow,Partnership Model,合作模式
+Universities,partnership-title,We work alongside you. Not in place of you.,我们与您并肩工作，而非取代您。
+Universities,partnership-p,"Crestway Global supplements existing campus services. We don't replace your international student office, counselling centre, or housing services. We handle the off-campus, day-to-day support that falls outside your scope.",Crestway Global 补充现有校园服务。我们不取代您的国际学生办公室、心理咨询中心或住房服务。我们处理校外的日常支持。
+Universities,partnership-1-h3,International student success programs,国际学生成功项目
+Universities,partnership-1-p,Structured support from arrival through graduation.,从入学到毕业的结构化支持。
+Universities,partnership-2-h3,Parent engagement initiatives,家长参与计划
+Universities,partnership-2-p,Regular communication that builds family confidence in your institution.,建立家庭对您机构信心的定期沟通。
+Universities,partnership-3-h3,Student transition and integration support,学生过渡与融入支持
+Universities,partnership-3-p,"First-week orientation, housing verification, city navigation.",首周导览、住房验证、城市指引。
+Universities,partnership-4-h3,Success mentorship and life-skills programming,成功辅导与生活技能项目
+Universities,partnership-4-p,"Financial literacy, independence building, and peer community.",财务素养、独立能力培养和同伴社区。
+Universities,cta-title,Ready to talk about what this looks like for your institution?,准备好讨论这对您的机构意味着什么了吗？
+Universities,cta-p,We'd like to walk you through our model and discuss how Crestway Global can support your international students.,我们希望向您介绍我们的模式，讨论 Crestway Global 如何支持您的国际学生。
+Universities,cta-primary,Contact our partnerships team,联系我们的合作团队
+Universities,cta-ghost,Back to Partnerships,返回合作伙伴页面
+Universities,footer-description,Educational guardianship and support services for international students in Canada.,加拿大国际学生成功支持。
