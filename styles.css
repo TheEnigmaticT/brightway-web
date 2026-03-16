@@ -159,7 +159,7 @@ img {
 }
 
 .hero.has-hero-image {
-  background-image: url("/images/hero-bg.jpg");
+  background-image: url("/images/hero-student-parent.png");
   background-size: cover;
   background-position: center right;
   color: #fff;
