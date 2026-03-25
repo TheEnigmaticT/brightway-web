@@ -1,18 +1,18 @@
 :root {
   color-scheme: light;
-  --ink: #1d1c1a;
-  --ink-soft: #3d3a35;
-  --forest: #0b6f52;
-  --forest-dark: #064437;
-  --forest-bright: #0d8a64;
-  --ocean: #1e6fd9;
-  --ocean-dark: #1557b0;
-  --clay: #b42625;
-  --sand: #f2e8d8;
-  --cream: #f8f4ec;
-  --mist: #edf1ec;
-  --plum: #473390;
-  --border: rgba(29, 28, 26, 0.12);
+  --ink: #000000;
+  --ink-soft: #7f6f62;
+  --forest: #29738e;
+  --forest-dark: #1d5a70;
+  --forest-bright: #5f96aa;
+  --ocean: #29738e;
+  --ocean-dark: #1d5a70;
+  --clay: #7f6f62;
+  --sand: #f0ede8;
+  --cream: #faf7f2;
+  --mist: #eef2f4;
+  --plum: #29738e;
+  --border: rgba(0, 0, 0, 0.10);
   --radius-lg: 28px;
   --radius-md: 18px;
   --radius-sm: 10px;
@@ -1529,6 +1529,10 @@ img {
   .ambassador-card img {
     height: 240px;
   }
+
+  .ambassador-card::after {
+    height: 240px;
+  }
 }
 
 /* Ambassador Program Page */
@@ -1691,6 +1695,10 @@ img {
 
   .ambassador-profile-image img,
   .ambassador-profile-image.ambassador-placeholder {
+    height: 300px;
+  }
+
+  .ambassador-profile-image::after {
     height: 300px;
   }
 }
@@ -1877,11 +1885,50 @@ img {
   font-size: 0.95rem;
 }
 
-/* Pencil Sketch Effect for Ambassador Images */
+/* Blue Wash Effect for Ambassador Images */
+.ambassador-profile-image,
+.ambassador-card {
+  position: relative;
+}
+
+.ambassador-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 280px;
+  background: #29738e;
+  mix-blend-mode: color;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  z-index: 1;
+}
+
+.ambassador-profile-image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 380px;
+  background: #29738e;
+  mix-blend-mode: color;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  z-index: 1;
+  border-radius: var(--radius-lg);
+}
+
 .ambassador-profile-image img,
 .ambassador-card img {
-  filter: grayscale(100%) contrast(120%) brightness(1.1);
+  filter: grayscale(100%) contrast(110%) brightness(0.95);
   transition: filter 0.4s ease;
+}
+
+.ambassador-profile-image:hover::after,
+.ambassador-card:hover::after {
+  opacity: 0;
 }
 
 .ambassador-profile-image:hover img,
