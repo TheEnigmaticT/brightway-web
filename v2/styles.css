@@ -89,8 +89,18 @@ body {
   background: #fff;
 }
 
-.v2-about-inner {
-  max-inline-size: 680px;
+.v2-about-grid {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.v2-about-image img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+  max-height: 400px;
 }
 
 .v2-about-text h2 {
@@ -287,6 +297,11 @@ body {
 
   .v2-hero-image img {
     max-height: 360px;
+  }
+
+  .v2-about-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
   }
 
   .v2-services-grid {
