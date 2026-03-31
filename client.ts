@@ -123,6 +123,39 @@ if (gate && gateForm && gateInput && gatedContent) {
   });
 }
 
+// Seamless infinite logo scroll
+const partnersTrack = document.querySelector<HTMLElement>(".partners-track");
+const partnersScroll = document.querySelector<HTMLElement>(".partners-scroll");
+
+if (partnersTrack && partnersScroll) {
+  // Clone the original logos so we always have enough to fill the viewport
+  const logos = Array.from(partnersTrack.children) as HTMLElement[];
+  logos.forEach((logo) => partnersTrack.appendChild(logo.cloneNode(true)));
+
+  let offset = 0;
+  let paused = false;
+  const speed = 0.5; // px per frame
+
+  partnersScroll.addEventListener("mouseenter", () => (paused = true));
+  partnersScroll.addEventListener("mouseleave", () => (paused = false));
+
+  const tick = () => {
+    if (!paused) {
+      offset += speed;
+      const first = partnersTrack.firstElementChild as HTMLElement;
+      // When the first logo has fully scrolled out (its width + gap), recycle it to the end
+      if (first && offset >= first.offsetWidth + 80) {
+        offset -= first.offsetWidth + 80;
+        partnersTrack.appendChild(first);
+      }
+      partnersTrack.style.transform = `translateX(-${offset}px)`;
+    }
+    requestAnimationFrame(tick);
+  };
+
+  requestAnimationFrame(tick);
+}
+
 const revealElements = document.querySelectorAll<HTMLElement>("[data-reveal]");
 if ("IntersectionObserver" in window) {
   const observer = new IntersectionObserver(

@@ -352,7 +352,6 @@ img {
 .partners-track {
   display: flex;
   gap: 80px;
-  animation: scroll 40s linear infinite;
   width: max-content;
   padding: 0 40px;
 }
@@ -374,11 +373,6 @@ img {
 
 .partners-scroll:hover .partners-track {
   animation-play-state: paused;
-}
-
-@keyframes scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
 }
 
 .section-head h2 {

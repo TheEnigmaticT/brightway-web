@@ -104,6 +104,30 @@ if (gate && gateForm && gateInput && gatedContent) {
     }
   });
 }
+var partnersTrack = document.querySelector(".partners-track");
+var partnersScroll = document.querySelector(".partners-scroll");
+if (partnersTrack && partnersScroll) {
+  const logos = Array.from(partnersTrack.children);
+  logos.forEach((logo) => partnersTrack.appendChild(logo.cloneNode(true)));
+  let offset = 0;
+  let paused = false;
+  const speed = 0.5;
+  partnersScroll.addEventListener("mouseenter", () => paused = true);
+  partnersScroll.addEventListener("mouseleave", () => paused = false);
+  const tick = () => {
+    if (!paused) {
+      offset += speed;
+      const first = partnersTrack.firstElementChild;
+      if (first && offset >= first.offsetWidth + 80) {
+        offset -= first.offsetWidth + 80;
+        partnersTrack.appendChild(first);
+      }
+      partnersTrack.style.transform = `translateX(-${offset}px)`;
+    }
+    requestAnimationFrame(tick);
+  };
+  requestAnimationFrame(tick);
+}
 var revealElements = document.querySelectorAll("[data-reveal]");
 if ("IntersectionObserver" in window) {
   const observer = new IntersectionObserver((entries) => {
