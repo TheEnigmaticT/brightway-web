@@ -857,3 +857,40 @@ h1, h2, h3, h4 { color: var(--ink); }
   flex-basis: 6rem;
   flex-shrink: 0;
 }
+
+/* === Communication Flow (parents page) === */
+
+.flow-steps { --space: var(--s1); justify-content: center; }
+
+.flow-step {
+  flex-basis: 14rem;
+  text-align: center;
+}
+
+.flow-number {
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
+  color: var(--forest);
+  opacity: 0.5;
+}
+
+.flow-arrow {
+  font-size: 1.5rem;
+  color: var(--ink-soft);
+  opacity: 0.5;
+}
+
+/* === Reassurance List === */
+
+.reassurance-item {
+  display: flex;
+  gap: var(--s0);
+  align-items: flex-start;
+}
+
+.reassurance-check {
+  color: var(--forest);
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  margin-block-start: 0.2em;
+}
