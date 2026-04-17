@@ -894,3 +894,43 @@ h1, h2, h3, h4 { color: var(--ink); }
   flex-shrink: 0;
   margin-block-start: 0.2em;
 }
+
+/* === Ambassador Profiles === */
+
+.ambassador-profile { --space: var(--s2); }
+.ambassador-profile + .ambassador-profile { margin-block-start: var(--s4); }
+.ambassador-photo { flex-basis: 16rem; }
+
+.ambassador-meta {
+  font-size: 0.9rem;
+  color: var(--forest);
+}
+
+.ambassador-origin {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.ambassador-advice {
+  font-family: "Fraunces", serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--ink);
+  border-inline-start: 3px solid var(--forest);
+  padding-inline-start: var(--s0);
+}
+
+.ambassador-placeholder {
+  flex-basis: 16rem;
+  flex-shrink: 0;
+  aspect-ratio: 3/4;
+  background: var(--sand);
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Fraunces", serif;
+  font-size: 4rem;
+  color: var(--forest);
+  opacity: 0.3;
+}
