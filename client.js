@@ -38,7 +38,7 @@ if (gate && gateForm && gateInput && gatedContent) {
 }
 var partnersTrack = document.querySelector(".partners-track");
 var partnersScroll = document.querySelector(".partners-scroll");
-if (partnersTrack && partnersScroll) {
+if (partnersTrack && partnersScroll && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
   const logos = Array.from(partnersTrack.children);
   logos.forEach((logo) => partnersTrack.appendChild(logo.cloneNode(true)));
   let offset = 0;
