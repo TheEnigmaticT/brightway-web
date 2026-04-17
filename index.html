@@ -12,7 +12,7 @@
 <body>
   <header class="site-header" data-header>
     <div class="wrap header-inner">
-      <a class="brand" href="#top">
+      <a class="brand" href="/">
         <span class="brand-mark">Crestway Global</span>
         <span class="brand-sub">Comprehensive Student Success</span>
       </a>
@@ -34,34 +34,22 @@
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero has-hero-image" aria-labelledby="hero-title">
-      <div class="wrap hero-stack">
-        <div class="hero-intro" data-reveal>
-          <h1 id="hero-title">Safer, supported learning in Canada.</h1>
-          <p class="hero-lede">On-the-ground guardianship for international students. Local advisors, proactive care, and regular parent updates — so your family has confidence from anywhere in the world.</p>
-          <div class="hero-actions">
-            <a class="btn primary" href="/book/">Book a Consultation</a>
-          </div>
+  <main>
+    <!-- 1. Hero -->
+    <section class="hero-home" aria-labelledby="hero-title">
+      <div class="wrap with-sidebar">
+        <div class="stack" data-reveal>
+          <h1 id="hero-title">Your child's safety and success in Canada — managed by people who care.</h1>
+          <p class="hero-lede">A premium, dedicated support system for international families, combining institutional expertise with culturally informed care.</p>
+          <div><a class="btn primary" href="/book/">Book a Consultation</a></div>
         </div>
-        <div class="hero-rail" data-reveal>
-          <div>
-            <p class="rail-title">24/7 emergency line</p>
-            <p>Answered by someone who knows your student's name.</p>
-          </div>
-          <div>
-            <p class="rail-title">Monthly parent updates</p>
-            <p>Academics, health, and how they're adjusting.</p>
-          </div>
-          <div>
-            <p class="rail-title">Week 1 settlement</p>
-            <p>Airport pickup, housing checks, city orientation.</p>
-          </div>
+        <div class="hero-image frame" data-reveal>
+          <img src="/images/hero-student-parent.png" alt="International students arriving in Canada with confidence." />
         </div>
       </div>
     </section>
 
-    <!-- Partner Schools Banner -->
+    <!-- 2. Partner Schools Banner -->
     <section class="section partners-banner" aria-labelledby="partners-banner-title">
       <div class="wrap">
         <p class="eyebrow partners-eyebrow">Trusted Partner Schools</p>
@@ -78,348 +66,180 @@
       </div>
     </section>
 
-    <section id="difference" class="section difference" aria-labelledby="difference-title">
-      <div class="wrap">
-        <div class="section-head" data-reveal>
-          <p class="eyebrow">Our Difference</p>
-          <h2 id="difference-title">A trusted human between your family and the unknown.</h2>
-          <p>Crestway Global is a professional support service providing structured, culturally-informed care. Our team maintains regular contact with students, enabling parents to remain informed without managing day-to-day concerns.</p>
+    <!-- 3. About -->
+    <section class="section" aria-labelledby="about-title">
+      <div class="wrap with-sidebar">
+        <div class="frame" data-reveal style="--ratio: 4/3">
+          <img src="/images/advisor-student.jpg" alt="A Crestway Global advisor working one-on-one with a student." />
         </div>
-        <div class="difference-grid" data-reveal>
-          <article class="difference-card">
-            <img src="/images/difference-context.png" alt="A Crestway Global advisor meeting a student in a campus cafe." />
-            <div class="difference-overlay" aria-hidden="true"></div>
-            <div class="difference-content">
-              <h3>Experienced advisors, local expertise</h3>
-              <p>Our team conducts in-person housing assessments, reviews lease documentation, and maintains current knowledge of healthcare systems and insurance protocols.</p>
-            </div>
-          </article>
-          <article class="difference-card">
-            <img src="/images/difference-proactive.png" alt="A student and advisor reviewing a weekly plan together." />
-            <div class="difference-overlay" aria-hidden="true"></div>
-            <div class="difference-content">
-              <h3>Proactive communication</h3>
-            <p>Scheduled check-ins enable early identification of concerns. Advisors contact families directly when situations require attention.</p>
-            </div>
-          </article>
-          <article class="difference-card">
-            <img src="/images/difference-support.png" alt="International students walking together in a city neighborhood." />
-            <div class="difference-overlay" aria-hidden="true"></div>
-            <div class="difference-content">
-              <h3>Support without surveillance</h3>
-              <p>Students keep independence, but don't have to solve everything from scratch when life gets complicated.</p>
-            </div>
-          </article>
+        <div class="stack" data-reveal>
+          <p class="eyebrow">Who We Are</p>
+          <h2 id="about-title">A trusted local team supporting international students and their families.</h2>
+          <p>Crestway Global provides structured, on-the-ground support so your child is guided academically, emotionally, and practically — while you remain informed and confident from anywhere in the world.</p>
+          <div><a class="btn ghost" href="/about/">More About Us</a></div>
         </div>
       </div>
     </section>
 
-    <section class="section keyfacts" aria-labelledby="facts-title">
+    <!-- 4. Services — asymmetric pairs -->
+    <section class="section bg-sand" aria-labelledby="services-title">
       <div class="wrap">
-        <div class="section-head" data-reveal>
-          <p class="eyebrow">Key Facts</p>
-          <h2 id="facts-title">Clarity for families. Confidence for students.</h2>
+        <div class="section-head stack" data-reveal>
+          <p class="eyebrow">Our Services</p>
+          <h2 id="services-title">Six pillars of student success.</h2>
+          <p>From arrival logistics to academic monitoring, we guide students through every stage of their Canadian experience.</p>
         </div>
-        <div class="facts-row" data-reveal>
-          <div class="fact">
-            <span class="fact-number">24/7</span>
-            <p>Emergency support available around the clock.</p>
+        <div class="services-grid" data-reveal>
+          <div class="services-row">
+            <article class="service-card service-card--image" style="flex: 2">
+              <img src="/images/city-toronto.png" alt="Toronto skyline — Arrival & Settlement" />
+              <div class="service-card__overlay"></div>
+              <div class="service-card__content">
+                <span class="service-tag">01</span>
+                <h3>Arrival &amp; Settlement</h3>
+                <p>Students arrive prepared and housed safely.</p>
+              </div>
+            </article>
+            <article class="service-card service-card--solid" style="flex: 1">
+              <div class="service-card__content">
+                <span class="service-tag">02</span>
+                <h3>Health &amp; Wellness</h3>
+                <p>Physical and mental wellbeing maintained year-round.</p>
+              </div>
+            </article>
           </div>
-          <div class="fact">
-            <span class="fact-number">1</span>
-            <p>Support team in Toronto: mentors, ambassadors, advisors, healthcare professionals.</p>
+          <div class="services-row">
+            <article class="service-card service-card--solid" style="flex: 1">
+              <div class="service-card__content">
+                <span class="service-tag">03</span>
+                <h3>Academic Monitoring</h3>
+                <p>Progress tracking and intervention when needed.</p>
+              </div>
+            </article>
+            <article class="service-card service-card--image" style="flex: 2">
+              <img src="/images/academics-background.png" alt="Academic environment — Cultural Adaptation" />
+              <div class="service-card__overlay"></div>
+              <div class="service-card__content">
+                <span class="service-tag">04</span>
+                <h3>Cultural Adaptation</h3>
+                <p>Students build community and confidence in their new environment.</p>
+              </div>
+            </article>
           </div>
-          <div class="fact">
-            <span class="fact-number">Monthly</span>
-            <p>Parent updates with actual, specific details.</p>
+          <div class="services-row">
+            <article class="service-card service-card--image" style="flex: 2">
+              <img src="/images/parents-evening-call.png" alt="Parent on video call — Family Communication" />
+              <div class="service-card__overlay"></div>
+              <div class="service-card__content">
+                <span class="service-tag">05</span>
+                <h3>Family Communication</h3>
+                <p>Parents remain informed and connected across distance.</p>
+              </div>
+            </article>
+            <article class="service-card service-card--solid" style="flex: 1">
+              <div class="service-card__content">
+                <span class="service-tag">06</span>
+                <h3>Safety &amp; Protection</h3>
+                <p>A trusted safety network, whenever students need it.</p>
+              </div>
+            </article>
           </div>
-          <div class="fact">
-            <span class="fact-number">Week 1</span>
-            <p>Arrival pickup, housing checks, and city orientation.</p>
-          </div>
+        </div>
+        <div style="text-align: center; margin-block-start: var(--s2);" data-reveal>
+          <a class="btn ghost" href="/services/">View All Services</a>
         </div>
       </div>
     </section>
 
-    <section id="parents" class="section parents with-image" aria-labelledby="parents-title">
-      <div class="wrap parents-grid">
-        <div class="section-head" data-reveal>
-          <p class="eyebrow">For Parents</p>
-          <h2 id="parents-title">Distance remains constant. Peace of mind is possible.</h2>
-          <p>Families choose Crestway Global because they want to know their child is supported, not just in emergencies, but every day.</p>
-        </div>
-        <div class="parents-toggle" data-reveal>
-          <div class="toggle-tabs" role="tablist" aria-label="Before and after Crestway Global">
-            <button class="tab-btn is-active" data-parents-toggle="before" role="tab" aria-selected="true">Before Crestway Global</button>
-            <button class="tab-btn" data-parents-toggle="after" role="tab" aria-selected="false">After Crestway Global</button>
-          </div>
-          <div class="toggle-panel is-active" data-parents-panel="before" role="tabpanel">
-            <ul class="list-before">
-              <li>You call your daughter. She sounds tired. You can't tell if it's finals stress or something worse.</li>
-              <li>Your son says his roommate moved out. You don't know if he can afford rent alone.</li>
-              <li>The school sends a notice about a policy or requirement. You find out a month late.</li>
-            </ul>
-          </div>
-          <div class="toggle-panel" data-parents-panel="after" role="tabpanel" aria-hidden="true">
-            <ul class="list-after">
-              <li>Your student's advisor calls you first when something's off. Before it becomes a crisis.</li>
-              <li>When housing falls through, someone's already scouting new options and checking lease terms.</li>
-              <li>You get monthly updates with specifics: housing, engagement, and next steps.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="students" class="section students" aria-labelledby="students-title">
+    <!-- 5. Testimonials — featured quote -->
+    <section class="section" aria-labelledby="testimonials-title">
       <div class="wrap">
-        <div class="section-head" data-reveal>
-          <p class="eyebrow">For Students</p>
-          <h2 id="students-title">You're still running your own life. But you're not figuring everything out from scratch.</h2>
-          <p>Crestway Global is for students who want to actually enjoy this chapter, not just get through it.</p>
+        <div class="section-head stack" data-reveal>
+          <p class="eyebrow">Student Voices</p>
+          <h2 id="testimonials-title">Real students who've been where you're going.</h2>
         </div>
-        <div class="support-list" data-reveal>
-          <div>
-            <p class="support-number">01</p>
-            <p>A local number to call when you're lost on transit or your debit card got declined.</p>
-          </div>
-          <div>
-            <p class="support-number">02</p>
-            <p>Someone who's seen a hundred students bomb their first midterm and knows what actually helps.</p>
-          </div>
-          <div>
-            <p class="support-number">03</p>
-            <p>Introductions to other international students who get what you're going through.</p>
-          </div>
-          <div>
-            <p class="support-number">04</p>
-            <p>Help with the unsexy stuff: bank accounts, doctors, and rental agreements.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="ambassadors" class="section ambassadors" aria-labelledby="ambassadors-title">
-      <div class="wrap">
-        <div class="section-head" data-reveal>
-          <p class="eyebrow">Student Ambassadors</p>
-          <h2 id="ambassadors-title">Real students who've been where you're going.</h2>
-          <p>Our ambassadors are current international students at Canadian universities. They represent Crestway Global on campus, host study groups, and help new students navigate everything from transit to homesickness.</p>
-        </div>
-        <div class="ambassador-grid" data-reveal>
-          <article class="ambassador-card">
-            <img src="/images/ambassador-anna.jpg" alt="Anna, Student Ambassador at University of Waterloo" />
-            <div class="ambassador-info">
-              <h3>Anna</h3>
-              <p class="ambassador-school">University of Waterloo</p>
-              <p class="ambassador-program">Computer Science, 3rd Year</p>
-              <p class="ambassador-quote">"Be open to making friends. You're not the only one feeling alone."</p>
+        <div class="testimonial" data-reveal data-testimonial>
+          <div class="testimonial__slides">
+            <div class="testimonial__slide is-active" data-slide="0">
+              <div class="testimonial__photo frame" style="--ratio: 3/4">
+                <img src="/images/ambassador-anna.jpg" alt="Anna, Student Ambassador" />
+              </div>
+              <div class="testimonial__text stack">
+                <span class="testimonial__mark">&ldquo;</span>
+                <blockquote>Be open to making friends. You're not the only one feeling alone, and connecting with others makes a big difference.</blockquote>
+                <div>
+                  <p class="testimonial__name">Anna</p>
+                  <p class="testimonial__school">University of Waterloo</p>
+                </div>
+              </div>
             </div>
-          </article>
-          <article class="ambassador-card">
-            <img src="/images/ambassador-ridhima.jpg" alt="Ridhima, Student Ambassador at York University" />
-            <div class="ambassador-info">
-              <h3>Ridhima</h3>
-              <p class="ambassador-school">York University</p>
-              <p class="ambassador-program">Commerce (Finance), 3rd Year</p>
-              <p class="ambassador-quote">"Take small steps every day to step outside your comfort zone."</p>
+            <div class="testimonial__slide" data-slide="1">
+              <div class="testimonial__photo frame" style="--ratio: 3/4">
+                <img src="/images/ambassador-ridhima.jpg" alt="Ridhima, Student Ambassador" />
+              </div>
+              <div class="testimonial__text stack">
+                <span class="testimonial__mark">&ldquo;</span>
+                <blockquote>Take small steps every day to step outside your comfort zone — whether it's joining a club, attending a campus event, or introducing yourself to someone new.</blockquote>
+                <div>
+                  <p class="testimonial__name">Ridhima</p>
+                  <p class="testimonial__school">York University</p>
+                </div>
+              </div>
             </div>
-          </article>
-          <article class="ambassador-card">
-            <img src="/images/ambassador-tien.jpg" alt="Tien, Student Ambassador at York University" />
-            <div class="ambassador-info">
-              <h3>Tien</h3>
-              <p class="ambassador-school">York University</p>
-              <p class="ambassador-program">Statistics, 3rd Year</p>
-              <p class="ambassador-quote">"Don't be afraid to ask for help. Support won't come automatically."</p>
+            <div class="testimonial__slide" data-slide="2">
+              <div class="testimonial__photo frame" style="--ratio: 3/4">
+                <img src="/images/ambassador-tien.jpg" alt="Tien, Student Ambassador" />
+              </div>
+              <div class="testimonial__text stack">
+                <span class="testimonial__mark">&ldquo;</span>
+                <blockquote>Don't be afraid to ask for help or opportunities. Support won't come to you automatically — you'll only receive it when you reach out.</blockquote>
+                <div>
+                  <p class="testimonial__name">Tien</p>
+                  <p class="testimonial__school">York University</p>
+                </div>
+              </div>
             </div>
-          </article>
+          </div>
+          <div class="testimonial__dots" role="tablist" aria-label="Testimonial navigation">
+            <button class="testimonial__dot is-active" data-dot="0" role="tab" aria-selected="true" aria-label="Testimonial 1"></button>
+            <button class="testimonial__dot" data-dot="1" role="tab" aria-selected="false" aria-label="Testimonial 2"></button>
+            <button class="testimonial__dot" data-dot="2" role="tab" aria-selected="false" aria-label="Testimonial 3"></button>
+          </div>
         </div>
-        <div class="ambassador-cta" data-reveal>
+        <div style="text-align: center; margin-block-start: var(--s2);" data-reveal>
           <a class="btn ghost" href="/ambassadors/">Meet All Ambassadors</a>
         </div>
       </div>
     </section>
 
-    <section id="safety" class="section safety with-image" aria-labelledby="safety-title">
-      <div class="wrap" data-reveal>
-        <div class="section-head">
-          <p class="eyebrow">Safety & Wellbeing</p>
-          <h2 id="safety-title">Safety isn't a feature. It's the starting point.</h2>
-          <p>Every guardianship service says "your child is safe." We'd rather show you what that actually looks like.</p>
-        </div>
-        <div class="safety-tabs">
-          <div class="toggle-tabs" role="tablist" aria-label="Safety information for students and families">
-            <button class="tab-btn is-active" data-safety-toggle="families" role="tab" aria-selected="true">For Families</button>
-            <button class="tab-btn" data-safety-toggle="students" role="tab" aria-selected="false">For Students</button>
-          </div>
-          <div class="toggle-panel is-active" data-safety-panel="families" role="tabpanel">
-            <h3>Peace of Mind for Families</h3>
-            <p>Knowing your child has a trusted safety network nearby changes everything. You stop wondering and start sleeping.</p>
-            <p>Through our partnership with Community Patrol, Crestway Global gives students immediate access to help when they need it. That means you and your child can focus on what matters: grades, growth, and actually enjoying the experience.</p>
-            <ul>
-              <li>We visit housing before anything gets signed. Smoke detectors, landlord background checks, neighborhood verification.</li>
-              <li>24/7 emergency line answered by someone who knows your student's name. Not a call center.</li>
-              <li>Airport pickup, first-week city orientation, and a clear plan for when something goes wrong.</li>
-              <li><strong>Crestway Assist:</strong> a 24/7 safety button inside the app. One tap connects your child to someone who already knows their situation.</li>
-            </ul>
-          </div>
-          <div class="toggle-panel" data-safety-panel="students" role="tabpanel" aria-hidden="true">
-            <h3>Personal Safety & Assistance</h3>
-            <p>New country. Unfamiliar situations. That's normal. What shouldn't be normal is having no one to call.</p>
-            <p>Through our partnership with Community Patrol, you can access priority assistance through the Crestway app. If you need guidance or someone to step in, help is one notification away.</p>
-            <ul>
-              <li>We check your housing before you move in. Fire safety, landlord verification, neighborhood walkthrough.</li>
-              <li>24/7 line answered by someone who knows your name and your situation.</li>
-              <li>First-week city orientation so you know where the clinic is, how transit works, and what to do if something goes sideways.</li>
-              <li><strong>Crestway Assist:</strong> a safety button in the app. One tap. Someone who knows you responds.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="health" class="section health" aria-labelledby="health-title">
+    <!-- 6. Cities -->
+    <section class="section bg-sand" aria-labelledby="cities-title">
       <div class="wrap">
-        <div class="section-head" data-reveal>
-          <p class="eyebrow">Health & Wellness</p>
-          <h2 id="health-title">Private healthcare and wellness care through tier-one partners.</h2>
-          <p>University health centres handle basics. We go further. Crestway Global students get access to private healthcare and mental wellness providers who actually specialize in international student needs.</p>
-        </div>
-        <div class="health-partners" data-reveal>
-          <div class="health-partner">
-            <div class="partner-logo-placeholder" aria-label="Cleveland Clinic Canada logo">
-              <span>Cleveland Clinic Canada</span>
-            </div>
-            <h3>Cleveland Clinic Canada</h3>
-            <p>Direct access to a private clinic. In-house nurse visits so students get care without leaving home. Priority appointments with physicians who understand international insurance and immigration medical requirements.</p>
-          </div>
-          <div class="health-partner">
-            <div class="partner-logo-placeholder" aria-label="Homewood Health logo">
-              <span>Homewood Health</span>
-            </div>
-            <h3>Homewood Health</h3>
-            <p>Confidential mental wellness support focused on the things that actually trip students up: study habits, time management, exam stress, and life skills. Not crisis therapy. Practical help for staying on track.</p>
-          </div>
-          <div class="health-partner">
-            <div class="partner-logo-placeholder" aria-label="Insurance navigation">
-              <span>Insurance Nav</span>
-            </div>
-            <h3>Insurance Navigation</h3>
-            <p>Canadian healthcare is confusing even for Canadians. We help students register with a family doctor, understand what their insurance covers, and avoid surprise bills.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="academics" class="section academics with-image" aria-labelledby="academics-title">
-      <div class="wrap split" data-reveal>
-        <div class="oversize-word">Outcomes</div>
-        <div>
-          <p class="eyebrow">Outcomes & Integration</p>
-          <h2 id="academics-title">Make the return on a Canadian degree show up sooner.</h2>
-          <p>International families invest in opportunity. We help students convert that investment into relationships, clarity, and forward motion.</p>
-          <ul>
-            <li>Introductions to alumni and professional networks that open doors early.</li>
-            <li>Guidance on government offices, school systems, and unfamiliar paperwork.</li>
-            <li>A local person to explain expectations, options, and cultural norms.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="admissions" class="section admissions" aria-labelledby="admissions-title">
-      <div class="wrap admissions-grid">
-        <div class="section-head" data-reveal>
-          <p class="eyebrow">Admissions</p>
-          <h2 id="admissions-title">We accept fewer students than we turn away.</h2>
-          <p>Personalized support requires a low ratio of students to staff. If we accepted everyone, we'd become what we're not: a checkbox guardianship service that loses track of individuals.</p>
-        </div>
-        <div class="admissions-list" data-reveal>
-          <div>
-            <h3>What we're looking for</h3>
-            <ul>
-              <li>Students who want to grow, not just survive.</li>
-              <li>Consistent effort (your transcript doesn't need to be perfect).</li>
-              <li>Willingness to engage with a new community.</li>
-              <li>Parents who want to stay involved without hovering.</li>
-            </ul>
-          </div>
-          <div>
-            <h3>What we're not looking for</h3>
-            <ul>
-              <li>Students who need 24/7 supervision (we're support, not surveillance).</li>
-              <li>Families expecting us to replace parenting entirely.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="faq" class="section faq" aria-labelledby="faq-title">
-      <div class="wrap">
-        <div class="section-head" data-reveal>
-          <p class="eyebrow">FAQ</p>
-          <h2 id="faq-title">The questions parents actually ask.</h2>
-        </div>
-        <div class="faq-grid" data-reveal>
-          <details open>
-            <summary>What happens if my child has an emergency at 2am?</summary>
-            <p>Students contact our emergency line, answered by an assigned advisor familiar with their situation. We coordinate hospital visits, housing access issues, travel complications, and other urgent matters. Families receive notification once the situation is addressed.</p>
-          </details>
-          <details>
-            <summary>How is this different from the guardianship my kid's school requires?</summary>
-            <p>Most school-required guardianship services are paperwork. We're involved week to week: sharing context, guiding decisions, and helping families navigate local systems.</p>
-          </details>
-          <details>
-            <summary>My kid wants independence. Won't this feel like babysitting?</summary>
-            <p>Our students aren't being watched. They're being supported. When they need help, they don't have to figure it out alone.</p>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <section class="section trust" aria-labelledby="trust-title">
-      <div class="wrap trust-grid" data-reveal>
-        <div>
-          <p class="eyebrow">Why Families Choose Crestway Global</p>
-          <h2 id="trust-title">Emotional trust, backed by rational reassurance.</h2>
-        </div>
-        <div>
-          <p>Families choose Crestway Global for one simple reason: they want to know their child is supported. Not just in emergencies, but every day.</p>
-          <p>We provide trusted, on-the-ground support that safeguards students' safety, wellbeing, and growth, while giving parents clarity and peace of mind from anywhere in the world.</p>
-          <p>Because confidence abroad comes from knowing someone you trust is always there.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section cities" aria-labelledby="cities-title">
-      <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head stack" data-reveal>
           <p class="eyebrow">Explore Our Cities</p>
           <h2 id="cities-title">Local support in the places students actually live.</h2>
         </div>
         <div class="city-track" data-reveal>
           <article class="city-card">
-            <img src="/images/city-toronto.png" alt="Aerial view of Toronto skyline near the waterfront." />
-            <div class="city-overlay" aria-hidden="true"></div>
-            <div class="city-content">
+            <img src="/images/city-toronto.png" alt="Aerial view of Toronto skyline." />
+            <div class="city-card__overlay"></div>
+            <div class="city-card__content">
               <h3>Toronto</h3>
               <p>Our founding team. Canada's largest post-secondary ecosystem with deep on-the-ground support.</p>
             </div>
           </article>
           <article class="city-card">
-            <img src="/images/city-vancouver.png" alt="Aerial view of Vancouver with mountains and harbor." />
-            <div class="city-overlay" aria-hidden="true"></div>
-            <div class="city-content">
+            <img src="/images/city-vancouver.png" alt="Aerial view of Vancouver." />
+            <div class="city-card__overlay"></div>
+            <div class="city-card__content">
               <h3>Vancouver <span class="coming-soon">Coming Soon</span></h3>
               <p>Coastal campuses and global connections. Expansion planned for 2026.</p>
             </div>
           </article>
           <article class="city-card">
-            <img src="/images/city-montreal.png" alt="Aerial view of Montreal with historic buildings and skyline." />
-            <div class="city-overlay" aria-hidden="true"></div>
-            <div class="city-content">
+            <img src="/images/city-montreal.png" alt="Aerial view of Montreal." />
+            <div class="city-card__overlay"></div>
+            <div class="city-card__content">
               <h3>Montreal <span class="coming-soon">Coming Soon</span></h3>
               <p>A bilingual student city. Expansion planned for 2026.</p>
             </div>
@@ -428,25 +248,12 @@
       </div>
     </section>
 
-    <section id="apply" class="section apply" aria-labelledby="apply-title">
-      <div class="wrap apply-grid" data-reveal>
-        <div>
-          <h2 id="apply-title">Ready to learn more?</h2>
-          <p>Share a few details so we can personalize your consultation. We review every inquiry to ensure the best possible fit.</p>
-        </div>
-        <div class="apply-actions">
-          <a class="btn primary" href="/book/">Book a Consultation</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section next-step" aria-labelledby="next-title">
+    <!-- 7. Final CTA -->
+    <section class="final-cta" aria-labelledby="cta-title">
       <div class="wrap" data-reveal>
-        <h2 id="next-title">A trusted support system - for students abroad, and families at home.</h2>
-        <div class="next-actions">
-          <a class="btn primary" href="/book/">Book a Consultation</a>
-          <a class="btn ghost" href="#faq">Read the FAQ</a>
-        </div>
+        <h2 id="cta-title">Ready to ensure your child's success in Canada?</h2>
+        <p>Whether you're planning ahead or your student is already enrolled, our team is here to help your family every step of the way.</p>
+        <a class="btn primary" href="/book/">Book a Consultation</a>
       </div>
     </section>
   </main>
