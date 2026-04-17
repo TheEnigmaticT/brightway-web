@@ -75,20 +75,21 @@ ul, ol { padding-inline-start: 1.2em; }
    -------------------------------------------------------------------------- */
 
 h1, h2, h3 {
-  font-family: "Fraunces", "Times New Roman", serif;
+  font-family: "Space Grotesk", "Trebuchet MS", sans-serif;
   line-height: 1.15;
   text-wrap: balance;
 }
 
 h1 {
   font-size: clamp(2.4rem, 1rem + 3.5vw, 3.6rem);
-  font-weight: 500;
-  letter-spacing: -0.01em;
+  font-weight: 600;
+  letter-spacing: -0.02em;
 }
 
 h2 {
   font-size: clamp(1.8rem, 1rem + 2.5vw, 2.6rem);
   font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 h3 {
@@ -589,6 +590,7 @@ h1, h2, h3, h4 { color: var(--ink); }
 }
 
 .partners-eyebrow {
+  display: block;
   text-align: center;
   margin-block-end: var(--s1);
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -596,6 +598,10 @@ h1, h2, h3, h4 { color: var(--ink); }
   letter-spacing: 0.35em;
   text-transform: uppercase;
   color: var(--ink-soft);
+  padding-inline: var(--s2);
+}
+
+.partners-eyebrow::before { display: none;
 }
 
 .partners-scroll {
@@ -724,7 +730,7 @@ h1, h2, h3, h4 { color: var(--ink); }
 }
 
 .testimonial__mark {
-  font-family: "Fraunces", serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 4rem;
   line-height: 0.8;
   color: var(--forest);
@@ -840,13 +846,20 @@ h1, h2, h3, h4 { color: var(--ink); }
   border-block-start: 1px solid var(--border);
 }
 
-.pillar-label {
+.pillar > .pillar-label {
   flex-basis: 14rem;
+  flex-grow: 0;
+}
+
+.pillar > .stack {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-inline-size: 55%;
 }
 
 .pillar-number {
   display: block;
-  font-family: "Fraunces", serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 2rem;
   color: var(--forest);
   opacity: 0.4;
@@ -859,16 +872,32 @@ h1, h2, h3, h4 { color: var(--ink); }
 .founder .frame { flex-basis: 18rem; }
 .founder-title { font-size: 0.9rem; color: var(--forest); }
 
+.founder-photo-swap { position: relative; }
+.founder-photo-hover {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.founder-photo-swap:hover .founder-photo-hover { opacity: 1; }
+
 /* === Key Facts === */
 
 .fact { align-items: baseline; --space: var(--s1); }
 
-.fact-number {
-  font-family: "Fraunces", serif;
+.fact > .fact-number {
+  font-family: "Space Grotesk", sans-serif;
   font-size: 2rem;
   color: var(--forest-dark);
   flex-basis: 6rem;
+  flex-grow: 0;
   flex-shrink: 0;
+}
+
+.fact > p {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-inline-size: 60%;
 }
 
 /* === Communication Flow (parents page) === */
@@ -881,7 +910,7 @@ h1, h2, h3, h4 { color: var(--ink); }
 }
 
 .flow-number {
-  font-family: "Fraunces", serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 1.5rem;
   color: var(--forest);
   opacity: 0.5;
@@ -942,7 +971,7 @@ h1, h2, h3, h4 { color: var(--ink); }
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Fraunces", serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 4rem;
   color: var(--forest);
   opacity: 0.3;
@@ -953,10 +982,23 @@ h1, h2, h3, h4 { color: var(--ink); }
 .gap-item { align-items: baseline; --space: var(--s0); }
 
 .gap-number {
-  font-family: "Fraunces", serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 1.5rem;
   color: var(--forest);
   opacity: 0.5;
   flex-basis: 3rem;
   flex-shrink: 0;
+}
+
+/* === Governance Cards === */
+
+.gov-card {
+  background: #fff;
+  padding: var(--s2);
+  border-radius: var(--radius-md);
+  border-inline-start: 3px solid var(--forest);
+}
+
+.section.bg-sand .gov-card {
+  background: var(--cream);
 }
