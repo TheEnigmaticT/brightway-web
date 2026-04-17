@@ -819,3 +819,23 @@ h1, h2, h3, h4 { color: var(--ink); }
 @media (max-width: 40rem) {
   .city-track { flex-direction: column; }
 }
+
+/* === Pillar Layout (services page) === */
+
+.pillar {
+  padding-block: var(--s2);
+  border-block-start: 1px solid var(--border);
+}
+
+.pillar-label {
+  flex-basis: 14rem;
+}
+
+.pillar-number {
+  display: block;
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  color: var(--forest);
+  opacity: 0.4;
+  margin-block-end: var(--s-1);
+}
