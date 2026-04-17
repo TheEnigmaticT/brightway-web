@@ -839,3 +839,9 @@ h1, h2, h3, h4 { color: var(--ink); }
   opacity: 0.4;
   margin-block-end: var(--s-1);
 }
+
+/* === Founder cards === */
+
+.founder { --space: var(--s2); }
+.founder .frame { flex-basis: 18rem; }
+.founder-title { font-size: 0.9rem; color: var(--forest); }
