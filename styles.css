@@ -293,8 +293,19 @@ h1, h2, h3, h4 { color: var(--ink); }
 
 .brand {
   display: flex;
+  align-items: center;
+  gap: var(--s-1);
+}
+
+.brand > div {
+  display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 2px;
+}
+
+.brand-logo {
+  block-size: 2.2rem;
+  inline-size: auto;
 }
 
 .brand-mark {
