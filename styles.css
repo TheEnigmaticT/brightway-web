@@ -934,3 +934,16 @@ h1, h2, h3, h4 { color: var(--ink); }
   color: var(--forest);
   opacity: 0.3;
 }
+
+/* === Gap List (problem page) === */
+
+.gap-item { align-items: baseline; --space: var(--s0); }
+
+.gap-number {
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
+  color: var(--forest);
+  opacity: 0.5;
+  flex-basis: 3rem;
+  flex-shrink: 0;
+}
