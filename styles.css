@@ -1002,3 +1002,42 @@ h1, h2, h3, h4 { color: var(--ink); }
 .section.bg-sand .gov-card {
   background: var(--cream);
 }
+
+/* === Access Gate === */
+.gate-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--s2);
+}
+
+.gate-dialog {
+  max-inline-size: 28rem;
+  text-align: center;
+}
+
+.gate-dialog h2 { margin-block-end: var(--s0); }
+.gate-dialog p { margin-block-end: var(--s1); }
+
+.gate-dialog form {
+  display: flex;
+  gap: var(--s-1);
+  justify-content: center;
+  margin-block-end: var(--s0);
+}
+
+.gate-dialog input {
+  padding: var(--s-1) var(--s0);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.gate-error { color: #c44; font-size: 0.85rem; }
+.gate-back { font-size: 0.85rem; }
+.gate-back a { color: var(--forest); }
