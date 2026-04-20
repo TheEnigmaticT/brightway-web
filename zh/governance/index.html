@@ -1,31 +1,34 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-Hans">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>治理与保障 | Crestway Global</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500,600&family=Space+Grotesk:wght@300,400,500,600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400,500,600&family=Space+Grotesk:wght@300,400,500,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
   <header class="site-header" data-header>
     <div class="wrap header-inner">
       <a class="brand" href="/zh/">
-        <span class="brand-mark">Crestway Global</span>
-        <span class="brand-sub">国际学生成功支持</span>
+        <img class="brand-logo" src="/images/crestway-logo-dark-transparent.svg" alt="" />
+        <div>
+          <span class="brand-mark">Crestway Global</span>
+          <span class="brand-sub">全方位学生成功支持</span>
+        </div>
       </a>
       <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="primary-nav">
         菜单
       </button>
       <nav id="primary-nav" class="nav" data-nav>
         <a href="/zh/about/" data-nav-link>关于我们</a>
-        <a href="/zh/services/" data-nav-link>服务内容</a>
-        <a href="/zh/governance/" data-nav-link class="is-active">治理与保障</a>
+        <a href="/zh/services/" data-nav-link>服务</a>
+        <a href="/zh/governance/" data-nav-link class="is-active">治理</a>
         <a href="/zh/difference/" data-nav-link>独特优势</a>
         <a href="/zh/partnerships/" data-nav-link>合作伙伴</a>
-        <div class="lang-toggle" role="group" aria-label="语言">
+        <div class="lang-toggle" role="group" aria-label="Language">
           <a class="lang-btn" href="/governance/">EN</a>
           <a class="lang-btn is-active" href="/zh/governance/">中文</a>
         </div>
@@ -35,22 +38,24 @@
   </header>
 
   <main>
-    <section class="page-hero has-bg bg-library" aria-labelledby="page-hero-title">
-      <div class="wrap">
-        <p class="eyebrow">治理与保障</p>
-        <h1 id="page-hero-title">每个流程都内嵌问责机制</h1>
-        <p class="page-hero-lede">专业标准、规范程序、透明监督，服务家庭与合作机构</p>
+    <section class="page-hero" aria-labelledby="page-hero-title">
+      <div class="wrap stack">
+        <h1 id="page-hero-title">每个流程都内嵌问责机制。</h1>
+        <p class="page-hero-lede">专业标准、规范程序、透明监督，服务家庭与合作机构。</p>
       </div>
     </section>
 
-    <section class="section governance-section" aria-labelledby="safeguarding-title">
+    <section class="section bg-sand" aria-labelledby="safeguarding-title">
       <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head stack" data-reveal>
           <p class="eyebrow">学生保护</p>
           <h2 id="safeguarding-title">学生保护协议</h2>
         </div>
-        <div class="governance-grid" data-reveal>
-          <div class="governance-card">
+        <div class="frame" style="--ratio: 21/9; margin-block-end: var(--s2);" data-reveal>
+          <img src="/images/students-library.jpg" alt="学生在大学图书馆一起学习" />
+        </div>
+        <div class="grid" data-reveal>
+          <div class="col-4 gov-card stack">
             <h3>审查合格的专业人员</h3>
             <ul>
               <li>背景调查和弱势群体筛查，符合当地法规。</li>
@@ -58,7 +63,7 @@
               <li>持续的绩效评估和合规审计</li>
             </ul>
           </div>
-          <div class="governance-card">
+          <div class="col-4 gov-card stack">
             <h3>运营合规</h3>
             <ul>
               <li>所有互动集中记录在安全、可审计的文档系统中。</li>
@@ -66,7 +71,7 @@
               <li>根据紧急程度和风险协议优先处理和回应咨询。</li>
             </ul>
           </div>
-          <div class="governance-card">
+          <div class="col-4 gov-card stack">
             <h3>危机管理协议</h3>
             <ul>
               <li>建立了即时通知家庭和机构的明确路径。</li>
@@ -80,12 +85,15 @@
 
     <section class="section" aria-labelledby="privacy-title">
       <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head stack" data-reveal>
           <p class="eyebrow">隐私与数据</p>
           <h2 id="privacy-title">信息处理与家庭权利</h2>
         </div>
-        <div class="governance-grid" data-reveal>
-          <div class="governance-card">
+        <div class="frame" style="--ratio: 21/9; margin-block-end: var(--s2);" data-reveal>
+          <img src="/images/advisor-meeting.jpg" alt="顾问与学生一对一会面" />
+        </div>
+        <div class="grid" data-reveal>
+          <div class="col-4 gov-card stack">
             <h3>数据安全与保护</h3>
             <ul>
               <li>限制访问，信息仅限授权人员查阅。</li>
@@ -93,7 +101,7 @@
               <li>所有学生与家庭信息加密存储</li>
             </ul>
           </div>
-          <div class="governance-card">
+          <div class="col-4 gov-card stack">
             <h3>家庭报告与沟通</h3>
             <ul>
               <li>定期提供学生福利和里程碑进展更新。</li>
@@ -101,7 +109,7 @@
               <li>直接联系顾问咨询问题</li>
             </ul>
           </div>
-          <div class="governance-card">
+          <div class="col-4 gov-card stack">
             <h3>第三方共享</h3>
             <ul>
               <li>仅在必要时与大学共享信息</li>
@@ -113,14 +121,14 @@
       </div>
     </section>
 
-    <section class="section sand" aria-labelledby="insurance-title">
+    <section class="section bg-sand" aria-labelledby="insurance-title">
       <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head stack" data-reveal>
           <p class="eyebrow">保险与责任</p>
           <h2 id="insurance-title">覆盖范围与专业问责</h2>
         </div>
-        <div class="governance-grid" data-reveal>
-          <div class="governance-card">
+        <div class="grid" data-reveal>
+          <div class="col-4 gov-card stack">
             <h3>职业责任</h3>
             <ul>
               <li>全面的错误与遗漏保险</li>
@@ -128,7 +136,7 @@
               <li>明确的服务范围限制文档</li>
             </ul>
           </div>
-          <div class="governance-card">
+          <div class="col-4 gov-card stack">
             <h3>文档标准</h3>
             <ul>
               <li>所有事件均记录在案，详细可查</li>
@@ -136,7 +144,7 @@
               <li>向家庭和机构提供透明报告</li>
             </ul>
           </div>
-          <div class="governance-card">
+          <div class="col-4 gov-card stack">
             <h3>学生保险</h3>
             <ul>
               <li>学生须维持健康保险</li>
@@ -150,47 +158,39 @@
 
     <section class="section" aria-labelledby="compliance-title">
       <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head stack" data-reveal>
           <p class="eyebrow">监管合规</p>
           <h2 id="compliance-title">在加拿大法律框架内运营</h2>
         </div>
-        <div class="compliance-grid" data-reveal>
-          <div class="compliance-card">
-            <div>
-              <h4>安大略省商业注册</h4>
-              <p>正规注册公司，遵守安大略省商业法规运营</p>
-            </div>
+        <div class="grid" data-reveal>
+          <div class="col-3 gov-card stack">
+            <h4>安大略省商业注册</h4>
+            <p>正规注册公司，遵守安大略省商业法规运营。</p>
           </div>
-          <div class="compliance-card">
-            <div>
-              <h4>移民支持</h4>
-              <p>提供清晰的行政指导和状态提醒，但我们不提供法律或移民建议。对于复杂的签证许可事务，我们与持牌专业人士和法律顾问建立了转介渠道。</p>
-            </div>
+          <div class="col-3 gov-card stack">
+            <h4>移民支持</h4>
+            <p>提供清晰的行政指导和状态提醒，但我们不提供法律或移民建议。对于复杂的签证许可事务，我们与持牌专业人士和法律顾问建立了转介渠道。</p>
           </div>
-          <div class="compliance-card">
-            <div>
-              <h4>住房标准</h4>
-              <p>住房验证按照安大略省住宅租赁法和市政法规进行</p>
-            </div>
+          <div class="col-3 gov-card stack">
+            <h4>住房标准</h4>
+            <p>住房验证按照安大略省住宅租赁法和市政法规进行。</p>
           </div>
-          <div class="compliance-card">
-            <div>
-              <h4>医疗协调</h4>
-              <p>所有健康相关指导在安大略省医疗系统协议和隐私要求内运作</p>
-            </div>
+          <div class="col-3 gov-card stack">
+            <h4>医疗协调</h4>
+            <p>所有健康相关指导在安大略省医疗系统协议和隐私要求内运作。</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section" aria-labelledby="reporting-title">
+    <section class="section bg-sand" aria-labelledby="reporting-title">
       <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head stack" data-reveal>
           <p class="eyebrow">报告与透明</p>
           <h2 id="reporting-title">我们如何维持问责</h2>
         </div>
-        <div class="governance-grid" data-reveal>
-          <div class="governance-card">
+        <div class="grid" data-reveal>
+          <div class="col-4 gov-card stack">
             <h3>事件记录</h3>
             <ul>
               <li>所有重大事件在结构化报告框架下记录</li>
@@ -198,7 +198,7 @@
               <li>用于流程和运营改进的根本原因分析</li>
             </ul>
           </div>
-          <div class="governance-card">
+          <div class="col-4 gov-card stack">
             <h3>家庭反馈</h3>
             <ul>
               <li>定期调查以评估和改善服务质量。</li>
@@ -206,7 +206,7 @@
               <li>定期评估以确保持续的专业护理标准。</li>
             </ul>
           </div>
-          <div class="governance-card">
+          <div class="col-4 gov-card stack">
             <h3>大学合作</h3>
             <ul>
               <li>与机构协作并定期监督，确保学生福祉。</li>
@@ -220,29 +220,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <div>
-        <p class="brand-mark">Crestway Global</p>
-        <p>加拿大国际学生专业监护服务</p>
+    <div class="wrap">
+      <div class="footer-top">
+        <div>
+          <p class="brand-mark">Crestway Global</p>
+          <p>为加拿大国际学生提供教育监护和支持服务。</p>
+        </div>
+        <div class="footer-links">
+          <a href="/zh/about/">关于我们</a>
+          <a href="/zh/services/">服务</a>
+          <a href="/zh/governance/">治理</a>
+          <a href="/zh/difference/">独特优势</a>
+          <a href="/zh/partnerships/">合作伙伴</a>
+          <a href="/zh/ambassadors/">学生大使</a>
+          <a href="/zh/book/">预约咨询</a>
+        </div>
       </div>
-      <div>
-        <p class="footer-title">联系</p>
-        <p><a href="mailto:hello@crestwayglobal.com">hello@crestwayglobal.com</a></p>
-        <p>110 Sheppard Ave E, Suite 110</p><p>North York, ON M2N 6K1</p>
-      </div>
-      <div>
-        <p class="footer-title">了解更多</p>
-        <a href="/zh/about/">关于我们</a>
-        <a href="/zh/services/">服务内容</a>
-        <a href="/zh/governance/">治理与保障</a>
-        <a href="/zh/difference/">独特优势</a>
-        <a href="/zh/partnerships/">合作伙伴</a>
-        <a href="/zh/ambassadors/">学生大使</a>
-        <a href="/zh/book/">预约咨询</a>
-        <p class="footer-title" style="margin-top:1rem">Follow Us</p>
-        <a href="https://www.instagram.com/crestway_global" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://www.facebook.com/share/1GAZFDcU7j/" target="_blank" rel="noopener">Facebook</a>
-        <a href="https://xhslink.com/m/98GgNHDDpUi" target="_blank" rel="noopener">RedNote (小红书)</a>
+      <div class="footer-bottom">
+        <p>110 Sheppard Ave E, Suite 110, North York, ON M2N 6K1 · <a href="mailto:hello@crestwayglobal.com">hello@crestwayglobal.com</a></p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/crestway_global" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.facebook.com/share/1GAZFDcU7j/" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://xhslink.com/m/98GgNHDDpUi" target="_blank" rel="noopener">RedNote (小红书)</a>
+        </div>
       </div>
     </div>
   </footer>

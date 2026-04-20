@@ -1,31 +1,34 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-Hans">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>问题所在 | Crestway Global</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500,600&family=Space+Grotesk:wght@300,400,500,600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400,500,600&family=Space+Grotesk:wght@300,400,500,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
   <header class="site-header" data-header>
     <div class="wrap header-inner">
       <a class="brand" href="/zh/">
-        <span class="brand-mark">Crestway Global</span>
-        <span class="brand-sub">国际学生成功支持</span>
+        <img class="brand-logo" src="/images/crestway-logo-dark-transparent.svg" alt="" />
+        <div>
+          <span class="brand-mark">Crestway Global</span>
+          <span class="brand-sub">全方位学生成功支持</span>
+        </div>
       </a>
       <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="primary-nav">
         菜单
       </button>
       <nav id="primary-nav" class="nav" data-nav>
         <a href="/zh/about/" data-nav-link>关于我们</a>
-        <a href="/zh/services/" data-nav-link>服务内容</a>
-        <a href="/zh/governance/" data-nav-link>治理与保障</a>
+        <a href="/zh/services/" data-nav-link>服务</a>
+        <a href="/zh/governance/" data-nav-link>治理</a>
         <a href="/zh/difference/" data-nav-link>独特优势</a>
         <a href="/zh/partnerships/" data-nav-link>合作伙伴</a>
-        <div class="lang-toggle" role="group" aria-label="语言">
+        <div class="lang-toggle" role="group" aria-label="Language">
           <a class="lang-btn" href="/problem/">EN</a>
           <a class="lang-btn is-active" href="/zh/problem/">中文</a>
         </div>
@@ -35,9 +38,8 @@
   </header>
 
   <main>
-    <section class="page-hero has-bg bg-advisor" aria-labelledby="page-hero-title">
-      <div class="wrap">
-        <p class="eyebrow">国际教育的现实</p>
+    <section class="page-hero" aria-labelledby="page-hero-title">
+      <div class="wrap stack">
         <h1 id="page-hero-title">国际教育的现实</h1>
         <p class="page-hero-lede">每年，无数学生怀揣远大抱负抵达海外，却缺乏本地支持体系。</p>
       </div>
@@ -45,7 +47,7 @@
 
     <section class="section" aria-labelledby="reality-title">
       <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head stack" data-reveal>
           <p class="eyebrow">挑战</p>
           <h2 id="reality-title">大学提供世界一流的大规模教育，但其资源面向高容量支持设计。</h2>
           <p>学生往往需要自行应对复杂体系、排队等候，且只有在问题出现后才能寻求帮助。</p>
@@ -53,30 +55,30 @@
       </div>
     </section>
 
-    <section class="section sand" aria-labelledby="gap-title">
+    <section class="section bg-sand" aria-labelledby="gap-title">
       <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head stack" data-reveal>
           <p class="eyebrow">弥补缺口</p>
           <h2 id="gap-title">Crestway Global 的使命是弥补这一缺口。</h2>
         </div>
-        <div class="gap-list" data-reveal>
-          <div class="gap-item">
+        <div class="stack-lg" data-reveal>
+          <div class="with-sidebar gap-item">
             <span class="gap-number">01</span>
             <p>家庭期望安全、问责，以及一位真正了解自己孩子的联系人。</p>
           </div>
-          <div class="gap-item">
+          <div class="with-sidebar gap-item">
             <span class="gap-number">02</span>
             <p>我们充当加速支持层，识别风险并尽早干预。我们不会等到学生陷入困境才行动。</p>
           </div>
-          <div class="gap-item">
+          <div class="with-sidebar gap-item">
             <span class="gap-number">03</span>
             <p>我们为学生的学业旅程提供个性化的一对一支持，管理日常事务并守护其心理健康。</p>
           </div>
-          <div class="gap-item">
+          <div class="with-sidebar gap-item">
             <span class="gap-number">04</span>
             <p>通过在学生、大学和家庭之间保持主动、持续且专业的沟通，我们确保学生的成人过渡得到专业管理。</p>
           </div>
-          <div class="gap-item">
+          <div class="with-sidebar gap-item">
             <span class="gap-number">05</span>
             <p>对于国际家庭而言，这是将潜在风险转化为安全成功之路的关键基础设施。</p>
           </div>
@@ -86,29 +88,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <div>
-        <p class="brand-mark">Crestway Global</p>
-        <p>加拿大国际学生专业监护服务</p>
+    <div class="wrap">
+      <div class="footer-top">
+        <div>
+          <p class="brand-mark">Crestway Global</p>
+          <p>为加拿大国际学生提供教育监护和支持服务。</p>
+        </div>
+        <div class="footer-links">
+          <a href="/zh/about/">关于我们</a>
+          <a href="/zh/services/">服务</a>
+          <a href="/zh/governance/">治理</a>
+          <a href="/zh/difference/">独特优势</a>
+          <a href="/zh/partnerships/">合作伙伴</a>
+          <a href="/zh/ambassadors/">学生大使</a>
+          <a href="/zh/book/">预约咨询</a>
+        </div>
       </div>
-      <div>
-        <p class="footer-title">联系</p>
-        <p><a href="mailto:hello@crestwayglobal.com">hello@crestwayglobal.com</a></p>
-        <p>110 Sheppard Ave E, Suite 110</p><p>North York, ON M2N 6K1</p>
-      </div>
-      <div>
-        <p class="footer-title">了解更多</p>
-        <a href="/zh/about/">关于我们</a>
-        <a href="/zh/services/">服务内容</a>
-        <a href="/zh/governance/">治理与保障</a>
-        <a href="/zh/difference/">独特优势</a>
-        <a href="/zh/partnerships/">合作伙伴</a>
-        <a href="/zh/ambassadors/">学生大使</a>
-        <a href="/zh/book/">预约咨询</a>
-        <p class="footer-title" style="margin-top:1rem">Follow Us</p>
-        <a href="https://www.instagram.com/crestway_global" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://www.facebook.com/share/1GAZFDcU7j/" target="_blank" rel="noopener">Facebook</a>
-        <a href="https://xhslink.com/m/98GgNHDDpUi" target="_blank" rel="noopener">RedNote (小红书)</a>
+      <div class="footer-bottom">
+        <p>110 Sheppard Ave E, Suite 110, North York, ON M2N 6K1 · <a href="mailto:hello@crestwayglobal.com">hello@crestwayglobal.com</a></p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/crestway_global" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.facebook.com/share/1GAZFDcU7j/" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://xhslink.com/m/98GgNHDDpUi" target="_blank" rel="noopener">RedNote (小红书)</a>
+        </div>
       </div>
     </div>
   </footer>

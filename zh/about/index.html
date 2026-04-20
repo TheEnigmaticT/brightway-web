@@ -1,31 +1,34 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-Hans">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>关于我们 | Crestway Global</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500,600&family=Space+Grotesk:wght@300,400,500,600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400,500,600&family=Space+Grotesk:wght@300,400,500,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
   <header class="site-header" data-header>
     <div class="wrap header-inner">
       <a class="brand" href="/zh/">
-        <span class="brand-mark">Crestway Global</span>
-        <span class="brand-sub">国际学生成功支持</span>
+        <img class="brand-logo" src="/images/crestway-logo-dark-transparent.svg" alt="" />
+        <div>
+          <span class="brand-mark">Crestway Global</span>
+          <span class="brand-sub">全方位学生成功支持</span>
+        </div>
       </a>
       <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="primary-nav">
         菜单
       </button>
       <nav id="primary-nav" class="nav" data-nav>
         <a href="/zh/about/" data-nav-link class="is-active">关于我们</a>
-        <a href="/zh/services/" data-nav-link>服务内容</a>
-        <a href="/zh/governance/" data-nav-link>治理与保障</a>
+        <a href="/zh/services/" data-nav-link>服务</a>
+        <a href="/zh/governance/" data-nav-link>治理</a>
         <a href="/zh/difference/" data-nav-link>独特优势</a>
         <a href="/zh/partnerships/" data-nav-link>合作伙伴</a>
-        <div class="lang-toggle" role="group" aria-label="语言">
+        <div class="lang-toggle" role="group" aria-label="Language">
           <a class="lang-btn" href="/about/">EN</a>
           <a class="lang-btn is-active" href="/zh/about/">中文</a>
         </div>
@@ -35,102 +38,95 @@
   </header>
 
   <main>
-    <section class="page-hero has-bg bg-library" aria-labelledby="page-hero-title">
-      <div class="wrap">
-        <p class="eyebrow">关于我们</p>
+    <section class="page-hero" aria-labelledby="page-hero-title">
+      <div class="wrap stack">
         <h1 id="page-hero-title">异地求学学子的信赖之选。</h1>
         <p class="page-hero-lede">为国际家庭量身打造的高端专属支持系统，融合专业机构经验与文化理解与关怀。</p>
       </div>
     </section>
 
     <section class="section" aria-labelledby="mission-title">
-      <div class="wrap">
-        <div class="section-head" data-reveal>
-          <p class="eyebrow">我们的使命</p>
-          <h2 id="mission-title">让海外求学之路更安全、更受支持、更充满信心——为您的孩子，也为您。</h2>
-          <p>将孩子送往海外，是家庭面临的重大抉择之一。Crestway Global的存在，让您无需担忧孩子是否安全、是否获得支持、是否健康成长。</p>
-          <p>Crestway Global提供系统化的实地支持，让孩子在学业、情感与实践层面获得指导，同时您可从世界任何角落获取信息、安心与信心。对于相信安全、福祉与学业成功密不可分的家庭，Crestway Global确保学生不仅顺利入学，更能实现全面发展。</p>
-        </div>
+      <div class="wrap stack" data-reveal>
+        <p class="eyebrow">我们的使命</p>
+        <h2 id="mission-title">让海外求学之路更安全、更受支持、更充满信心——为您的孩子，也为您。</h2>
+        <p>将孩子送往海外，是家庭面临的重大抉择之一。Crestway Global的存在，让您无需担忧孩子是否安全、是否获得支持、是否健康成长。</p>
+        <p>Crestway Global提供系统化的实地支持，让孩子在学业、情感与实践层面获得指导，同时您可从世界任何角落获取信息、安心与信心。对于相信安全、福祉与学业成功密不可分的家庭，Crestway Global确保学生不仅顺利入学，更能实现全面发展。</p>
       </div>
     </section>
 
-    <section class="section founders" aria-labelledby="founders-title">
+    <section class="section bg-sand" aria-labelledby="founders-title">
       <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head stack" data-reveal>
           <p class="eyebrow">领导层</p>
           <h2 id="founders-title">公共安全与机构发展的专业融合</h2>
           <p>Crestway Global的创始人拥有互补的专业背景：数十年执法及社区安全经验，以及房地产开发与学生住宿运营经验。</p>
         </div>
-
-        <div class="founders-grid" data-reveal>
-          <!-- Dave Murray -->
-          <article class="founder-card">
-            <div class="founder-image-wrap">
-              <img src="/images/dave-murray.jpg" alt="Dave Murray与多伦多警队摩托车" class="founder-image" />
-              <span class="founder-image-caption">Dave在多伦多警队任职期间</span>
+        <div class="stack-lg">
+          <article class="grid founder" data-reveal style="align-items: start;">
+            <div class="col-4 frame" style="--ratio: 4/3">
+              <img src="/images/dave-murray.jpg" alt="Dave Murray与多伦多警队摩托车" />
             </div>
-            <div class="founder-content">
-              <h3>Dave Murray</h3>
-              <p class="founder-title">联合创始人 & 运营总监</p>
+            <div class="col-8 stack">
+              <div>
+                <h3>Dave Murray</h3>
+                <p class="founder-title">联合创始人 &amp; 运营总监</p>
+              </div>
               <p>Dave Murray在多伦多警队任职31年，最终以警督军衔退休。职业生涯涵盖7年刑事调查员经历，积累了安全评估、风险管理及社区保护协议的专业经验。</p>
               <p>这段背景直接塑造了Crestway Global的安全保障体系。Dave建立了我们的住宿核实流程、应急响应机制及员工培训计划。他对多伦多支持网络——包括医疗、执法和社会服务——的机构认知，使Crestway Global能够高效应对复杂情况。</p>
               <p>Dave以书面化流程、问责制与预防性关怀为核心，领导运营工作。他的方法确保Crestway Global的支持既个性化又专业化。</p>
             </div>
           </article>
 
-          <!-- Doug Hochglaube -->
-          <article class="founder-card">
-            <div class="founder-image-wrap">
-              <img src="/images/doug-hochglaube.png" alt="Doug Hochglaube" class="founder-image" />
-            </div>
-            <div class="founder-content">
-              <h3>Doug Hochglaube</h3>
-              <p class="founder-title">联合创始人 & 战略总监</p>
+          <article class="grid founder" data-reveal style="align-items: start;">
+            <div class="col-8 stack">
+              <div>
+                <h3>Doug Hochglaube</h3>
+                <p class="founder-title">联合创始人 &amp; 战略总监</p>
+              </div>
               <p>Doug Hochglaube是房地产开发商，拥有近二十年在安大略省学生住宿及社区导向项目经验。其工作涉及为数千名学生开发和管理住宿，直接洞察机构支持与学生需求之间的差距。</p>
               <p>这段运营经验塑造了Crestway Global的结构化方法。Doug制定了我们与大学的合作框架、住宿评估流程及可扩展性规划。他在监管合规、保险及风险管理方面的经验，也影响了我们的治理标准。</p>
               <p>Doug负责Crestway Global的机构关系与战略发展，确保我们的成长维持服务品质与职业标准。他的重点是构建可持续系统，实现大规模一致且负责任的支持。</p>
+            </div>
+            <div class="col-4 frame" style="--ratio: 4/3">
+              <img src="/images/doug-hochglaube.png" alt="Doug Hochglaube" />
             </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section team" aria-labelledby="team-title">
-      <div class="wrap">
-        <div class="section-head" data-reveal>
-          <p class="eyebrow">我们的团队</p>
-          <h2 id="team-title">多伦多本地专业团队</h2>
-          <p>我们在多伦多的创始团队与大学、住房网络和服务国际学生的医疗机构有深厚的联系。</p>
-        </div>
-        <div class="team-grid" data-reveal>
-          <div class="team-city">
-            <h3>多伦多</h3>
-            <p>我们的创始团队。加拿大最大的学生城市，在大多伦多地区校园生态系统中有深厚的联系。我们熟悉国际学生关心的每条交通路线、诊所和租房区域。</p>
-          </div>
+    <section class="section" aria-labelledby="team-title">
+      <div class="wrap stack" data-reveal>
+        <p class="eyebrow">我们的团队</p>
+        <h2 id="team-title">多伦多本地专业团队</h2>
+        <p>我们在多伦多的创始团队与大学、住房网络和服务国际学生的医疗机构有深厚的联系。</p>
+        <div class="stack">
+          <h3>多伦多</h3>
+          <p>我们的创始团队。加拿大最大的学生城市，在大多伦多地区校园生态系统中有深厚的联系。我们熟悉国际学生关心的每条交通路线、诊所和租房区域。</p>
         </div>
       </div>
     </section>
 
-    <section class="section values" aria-labelledby="values-title">
+    <section class="section bg-sand" aria-labelledby="values-title">
       <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head stack" data-reveal>
           <p class="eyebrow">指导原则</p>
           <h2 id="values-title">支持而非监视。安全而非恐惧。</h2>
         </div>
-        <div class="partner-benefits" data-reveal>
-          <div>
+        <div class="grid" data-reveal>
+          <div class="col-3 stack">
             <h3>主动关怀</h3>
             <p>我们不等危机发生。定期沟通和本地存在意味着我们在问题变成紧急情况之前就能发现。</p>
           </div>
-          <div>
+          <div class="col-3 stack">
             <h3>文化理解</h3>
             <p>我们的团队会说普通话，理解中国学生的文化背景。我们连接两个世界。</p>
           </div>
-          <div>
+          <div class="col-3 stack">
             <h3>真诚连接</h3>
             <p>学生不是案例编号。我们知道他们的名字、目标，以及什么让他们的父母夜不能寐。</p>
           </div>
-          <div>
+          <div class="col-3 stack">
             <h3>透明沟通</h3>
             <p>家长收到定期、具体的更新。没有模糊的安慰——而是关于孩子情况的真实信息。</p>
           </div>
@@ -138,44 +134,46 @@
       </div>
     </section>
 
-    <section class="section apply" aria-labelledby="about-cta-title">
-      <div class="wrap apply-grid" data-reveal>
-        <div>
-          <h2 id="about-cta-title">想了解更多？</h2>
-          <p>开始申请或预约通话，了解 Crestway Global 是否适合您的家庭。</p>
-        </div>
-        <div class="apply-actions">
-          <a class="btn primary" href="/zh/book/">开始申请</a>
-          <a class="btn ghost" href="#">预约通话</a>
+    <section class="section" aria-labelledby="about-cta-title">
+      <div class="wrap">
+        <div class="grid" data-reveal style="align-items: center;">
+          <div class="col-8">
+            <h2 id="about-cta-title">想了解更多？</h2>
+            <p>开始申请或预约通话，了解 Crestway Global 是否适合您的家庭。</p>
+          </div>
+          <div class="col-4 cta-actions">
+            <a class="btn primary" href="/zh/book/">开始申请</a>
+            <a class="btn ghost" href="/zh/book/">预约通话</a>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <div>
-        <p class="brand-mark">Crestway Global</p>
-        <p>加拿大国际学生专业监护服务</p>
+    <div class="wrap">
+      <div class="footer-top">
+        <div>
+          <p class="brand-mark">Crestway Global</p>
+          <p>为加拿大国际学生提供教育监护和支持服务。</p>
+        </div>
+        <div class="footer-links">
+          <a href="/zh/about/">关于我们</a>
+          <a href="/zh/services/">服务</a>
+          <a href="/zh/governance/">治理</a>
+          <a href="/zh/difference/">独特优势</a>
+          <a href="/zh/partnerships/">合作伙伴</a>
+          <a href="/zh/ambassadors/">学生大使</a>
+          <a href="/zh/book/">预约咨询</a>
+        </div>
       </div>
-      <div>
-        <p class="footer-title">联系</p>
-        <p><a href="mailto:hello@crestwayglobal.com">hello@crestwayglobal.com</a></p>
-        <p>110 Sheppard Ave E, Suite 110</p><p>North York, ON M2N 6K1</p>
-      </div>
-      <div>
-        <p class="footer-title">了解更多</p>
-        <a href="/zh/about/">关于我们</a>
-        <a href="/zh/services/">服务内容</a>
-        <a href="/zh/governance/">治理与保障</a>
-        <a href="/zh/difference/">独特优势</a>
-        <a href="/zh/partnerships/">合作伙伴</a>
-        <a href="/zh/ambassadors/">学生大使</a>
-        <a href="/zh/book/">预约咨询</a>
-        <p class="footer-title" style="margin-top:1rem">Follow Us</p>
-        <a href="https://www.instagram.com/crestway_global" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://www.facebook.com/share/1GAZFDcU7j/" target="_blank" rel="noopener">Facebook</a>
-        <a href="https://xhslink.com/m/98GgNHDDpUi" target="_blank" rel="noopener">RedNote (小红书)</a>
+      <div class="footer-bottom">
+        <p>110 Sheppard Ave E, Suite 110, North York, ON M2N 6K1 · <a href="mailto:hello@crestwayglobal.com">hello@crestwayglobal.com</a></p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/crestway_global" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.facebook.com/share/1GAZFDcU7j/" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://xhslink.com/m/98GgNHDDpUi" target="_blank" rel="noopener">RedNote (小红书)</a>
+        </div>
       </div>
     </div>
   </footer>

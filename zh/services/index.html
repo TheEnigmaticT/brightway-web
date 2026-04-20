@@ -1,31 +1,34 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-Hans">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>服务内容 | Crestway Global</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500,600&family+Space+Grotesk:wght@300,400,500,600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400,500,600&family=Space+Grotesk:wght@300,400,500,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
   <header class="site-header" data-header>
     <div class="wrap header-inner">
       <a class="brand" href="/zh/">
-        <span class="brand-mark">Crestway Global</span>
-        <span class="brand-sub">国际学生成功支持</span>
+        <img class="brand-logo" src="/images/crestway-logo-dark-transparent.svg" alt="" />
+        <div>
+          <span class="brand-mark">Crestway Global</span>
+          <span class="brand-sub">全方位学生成功支持</span>
+        </div>
       </a>
       <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="primary-nav">
         菜单
       </button>
       <nav id="primary-nav" class="nav" data-nav>
         <a href="/zh/about/" data-nav-link>关于我们</a>
-        <a href="/zh/services/" data-nav-link class="is-active">服务内容</a>
-        <a href="/zh/governance/" data-nav-link>治理与保障</a>
+        <a href="/zh/services/" data-nav-link class="is-active">服务</a>
+        <a href="/zh/governance/" data-nav-link>治理</a>
         <a href="/zh/difference/" data-nav-link>独特优势</a>
         <a href="/zh/partnerships/" data-nav-link>合作伙伴</a>
-        <div class="lang-toggle" role="group" aria-label="语言">
+        <div class="lang-toggle" role="group" aria-label="Language">
           <a class="lang-btn" href="/services/">EN</a>
           <a class="lang-btn is-active" href="/zh/services/">中文</a>
         </div>
@@ -35,26 +38,34 @@
   </header>
 
   <main>
-    <section class="page-hero has-bg bg-library" aria-labelledby="page-hero-title">
-      <div class="wrap">
-        <p class="eyebrow">服务内容</p>
+    <section class="page-hero" aria-labelledby="page-hero-title">
+      <div class="wrap stack">
         <h1 id="page-hero-title">学生成功的六大支柱。</h1>
-        <p class="page-hero-lede">系统化支持，助力学生成功，让家长安心</p>
+        <p class="page-hero-lede">系统化支持，助力学生成功，让家长安心。</p>
       </div>
     </section>
 
-    <section class="section pillars" aria-labelledby="pillars-title">
+    <section class="section">
+      <div class="wrap">
+        <div class="frame" style="--ratio: 21/9;" data-reveal>
+          <img src="/images/difference-support.png" alt="国际学生在校园结伴而行" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="pillars-title">
       <div class="wrap">
         <h2 class="sr-only" id="pillars-title">我们的服务支柱</h2>
-        
-        <div class="pillar" data-reveal>
-          <div class="pillar-header">
+
+        <!-- Pillar 01 -->
+        <div class="grid pillar" data-reveal style="align-items: start;">
+          <div class="col-3 pillar-label">
             <span class="pillar-number">01</span>
             <h3>抵达与安置</h3>
           </div>
-          <div class="pillar-content">
-            <p class="pillar-outcome">学生安全抵达，住房无忧</p>
-            <ul class="pillar-details">
+          <div class="col-9 stack">
+            <p><strong>学生安全抵达，住房无忧。</strong></p>
+            <ul>
               <li>出发前移民与文件审核</li>
               <li>住房需求评估与验证房源</li>
               <li>实地租约审查与搬入协调</li>
@@ -64,14 +75,15 @@
           </div>
         </div>
 
-        <div class="pillar" data-reveal>
-          <div class="pillar-header">
+        <!-- Pillar 02 -->
+        <div class="grid pillar" data-reveal style="align-items: start;">
+          <div class="col-3 pillar-label">
             <span class="pillar-number">02</span>
             <h3>健康与福祉</h3>
           </div>
-          <div class="pillar-content">
-            <p class="pillar-outcome">全年维护身心健康</p>
-            <ul class="pillar-details">
+          <div class="col-9 stack">
+            <p><strong>全年维护身心健康。</strong></p>
+            <ul>
               <li>家庭医生注册与医疗保险指导</li>
               <li>心理健康资源协调</li>
               <li>24/7 紧急响应热线</li>
@@ -82,14 +94,15 @@
           </div>
         </div>
 
-        <div class="pillar" data-reveal>
-          <div class="pillar-header">
+        <!-- Pillar 03 -->
+        <div class="grid pillar" data-reveal style="align-items: start;">
+          <div class="col-3 pillar-label">
             <span class="pillar-number">03</span>
             <h3>学业监测与支持服务</h3>
           </div>
-          <div class="pillar-content">
-            <p class="pillar-outcome">学业监测及必要时的干预措施。</p>
-            <ul class="pillar-details">
+          <div class="col-9 stack">
+            <p><strong>学业监测及必要时的干预措施。</strong></p>
+            <ul>
               <li>选课与课程表指导</li>
               <li>学术支持资源对接</li>
               <li>学习技巧与时间管理辅导</li>
@@ -99,14 +112,15 @@
           </div>
         </div>
 
-        <div class="pillar" data-reveal>
-          <div class="pillar-header">
+        <!-- Pillar 04 -->
+        <div class="grid pillar" data-reveal style="align-items: start;">
+          <div class="col-3 pillar-label">
             <span class="pillar-number">04</span>
             <h3>文化适应</h3>
           </div>
-          <div class="pillar-content">
-            <p class="pillar-outcome">学生建立社交圈，适应新环境</p>
-            <ul class="pillar-details">
+          <div class="col-9 stack">
+            <p><strong>学生建立社交圈，适应新环境。</strong></p>
+            <ul>
               <li>普通话导师协助日常生活</li>
               <li>预算管理、交通、生活技能指导</li>
               <li>社交活动与同伴社区建设</li>
@@ -116,14 +130,15 @@
           </div>
         </div>
 
-        <div class="pillar" data-reveal>
-          <div class="pillar-header">
+        <!-- Pillar 05 -->
+        <div class="grid pillar" data-reveal style="align-items: start;">
+          <div class="col-3 pillar-label">
             <span class="pillar-number">05</span>
             <h3>家庭沟通</h3>
           </div>
-          <div class="pillar-content">
-            <p class="pillar-outcome">家长远程了解孩子状况，保持联系</p>
-            <ul class="pillar-details">
+          <div class="col-9 stack">
+            <p><strong>家长远程了解孩子状况，保持联系。</strong></p>
+            <ul>
               <li>每月提供数字版学生身心健康更新报告</li>
               <li>专属顾问直接答疑</li>
               <li>重大事项即时通知</li>
@@ -133,14 +148,15 @@
           </div>
         </div>
 
-        <div class="pillar" data-reveal>
-          <div class="pillar-header">
+        <!-- Pillar 06 -->
+        <div class="grid pillar" data-reveal style="align-items: start;">
+          <div class="col-3 pillar-label">
             <span class="pillar-number">06</span>
             <h3>安全与保护</h3>
           </div>
-          <div class="pillar-content">
-            <p class="pillar-outcome">学生随时可获得信任的安全支持网络。</p>
-            <ul class="pillar-details">
+          <div class="col-9 stack">
+            <p><strong>学生随时可获得信任的安全支持网络。</strong></p>
+            <ul>
               <li>与Community Patrol合作，提供优先协助。</li>
               <li>Crestway Assist：应用内24/7安全按钮，可即时联系了解学生情况的人。</li>
               <li>入住前的住房核实（包括消防安全检查、房东审核及社区实地考察）。</li>
@@ -149,53 +165,56 @@
             </ul>
           </div>
         </div>
+
+        <div class="frame" style="--ratio: 21/9; margin-block: var(--s3);" data-reveal>
+          <img src="/images/difference-proactive.png" alt="学生一起学习" />
+        </div>
       </div>
     </section>
 
-    <section class="section approach" aria-labelledby="approach-title">
+    <section class="section bg-sand" aria-labelledby="approach-title">
       <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head stack" data-reveal>
           <p class="eyebrow">我们的方式</p>
           <h2 id="approach-title">以引导为主，而非被动应对的指导方式。</h2>
           <p>在Crestway Global，我们的目标是帮助学生在学术旅程中保持专注并取得成功。通过定期沟通、周密规划和持续互动，为学生提供结构化支持，助力其在新国家自信应对生活挑战。小问题早发现，确保学生专注学业、个人成长与成功。</p>
         </div>
-        <div class="approach-grid" data-reveal>
-          <div class="approach-item">
+        <div class="grid" data-reveal>
+          <div class="col-4 stack">
             <h3>定期检查</h3>
-            <p>固定沟通确保持续关注，而非仅在危机时响应</p>
+            <p>固定沟通确保持续关注，而非仅在危机时响应。</p>
           </div>
-          <div class="approach-item">
+          <div class="col-4 stack">
             <h3>专属顾问</h3>
-            <p>每位学生配备固定顾问，深入了解学生情况</p>
+            <p>每位学生配备固定顾问，深入了解学生情况。</p>
           </div>
-          <div class="approach-item">
+          <div class="col-4 stack">
             <h3>记录存档</h3>
-            <p>所有互动记录在案，确保服务连续性与家长透明</p>
+            <p>所有互动记录在案，确保服务连续性与家长透明。</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section packages" aria-labelledby="packages-title">
+    <section class="section" aria-labelledby="packages-title">
       <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head stack" data-reveal>
           <p class="eyebrow">费用</p>
           <h2 id="packages-title">根据学生需求定制</h2>
           <p>项目根据年龄、校区、住房情况与支持需求量身定制。费用在家庭咨询与需求评估后提供。</p>
         </div>
-        <div class="pricing-content" data-reveal>
-          <div class="pricing-info">
+        <div class="grid" data-reveal style="align-items: center;">
+          <div class="col-8 stack">
             <h3>定价方式</h3>
             <p>每个家庭的情况各不相同。在咨询过程中，我们会评估您学生的具体需求并推荐合适的支持等级。根据所需服务提供透明定价。</p>
-            <ul class="pricing-points">
+            <ul>
               <li>首次咨询免费</li>
               <li>根据评估定制方案</li>
               <li>明确的预付费标准</li>
               <li>无隐藏费用或意外收费</li>
             </ul>
           </div>
-          <div class="pricing-cta">
-            <p>准备好讨论您家庭的需求了吗？</p>
+          <div class="col-4 cta-actions">
             <a class="btn primary" href="/zh/book/">预约咨询</a>
           </div>
         </div>
@@ -204,29 +223,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <div>
-        <p class="brand-mark">Crestway Global</p>
-        <p>加拿大国际学生专业监护服务</p>
+    <div class="wrap">
+      <div class="footer-top">
+        <div>
+          <p class="brand-mark">Crestway Global</p>
+          <p>为加拿大国际学生提供教育监护和支持服务。</p>
+        </div>
+        <div class="footer-links">
+          <a href="/zh/about/">关于我们</a>
+          <a href="/zh/services/">服务</a>
+          <a href="/zh/governance/">治理</a>
+          <a href="/zh/difference/">独特优势</a>
+          <a href="/zh/partnerships/">合作伙伴</a>
+          <a href="/zh/ambassadors/">学生大使</a>
+          <a href="/zh/book/">预约咨询</a>
+        </div>
       </div>
-      <div>
-        <p class="footer-title">联系</p>
-        <p><a href="mailto:hello@crestwayglobal.com">hello@crestwayglobal.com</a></p>
-        <p>110 Sheppard Ave E, Suite 110</p><p>North York, ON M2N 6K1</p>
-      </div>
-      <div>
-        <p class="footer-title">了解更多</p>
-        <a href="/zh/about/">关于我们</a>
-        <a href="/zh/services/">服务内容</a>
-        <a href="/zh/governance/">治理与保障</a>
-        <a href="/zh/difference/">独特优势</a>
-        <a href="/zh/partnerships/">合作伙伴</a>
-        <a href="/zh/ambassadors/">学生大使</a>
-        <a href="/zh/book/">预约咨询</a>
-        <p class="footer-title" style="margin-top:1rem">Follow Us</p>
-        <a href="https://www.instagram.com/crestway_global" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://www.facebook.com/share/1GAZFDcU7j/" target="_blank" rel="noopener">Facebook</a>
-        <a href="https://xhslink.com/m/98GgNHDDpUi" target="_blank" rel="noopener">RedNote (小红书)</a>
+      <div class="footer-bottom">
+        <p>110 Sheppard Ave E, Suite 110, North York, ON M2N 6K1 · <a href="mailto:hello@crestwayglobal.com">hello@crestwayglobal.com</a></p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/crestway_global" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.facebook.com/share/1GAZFDcU7j/" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://xhslink.com/m/98GgNHDDpUi" target="_blank" rel="noopener">RedNote (小红书)</a>
+        </div>
       </div>
     </div>
   </footer>
