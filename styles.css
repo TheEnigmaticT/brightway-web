@@ -399,9 +399,10 @@ h1, h2, h3, h4 { color: var(--ink); }
   color: var(--forest-dark);
 }
 
-.lang-btn.is-active {
+.nav .lang-btn.is-active {
   background: var(--forest-dark);
   color: #fff;
+  border-color: transparent;
 }
 
 .menu-toggle {
