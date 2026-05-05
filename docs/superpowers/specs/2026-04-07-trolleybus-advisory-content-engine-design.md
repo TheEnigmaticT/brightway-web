@@ -116,6 +116,14 @@ WEBSITE (advisory pages) ←── drives traffic ──────────
 - Excludes: paid ad spend (optional, ~$300-500/mo if added after month 2)
 - Excludes: direct outreach / prospecting list building
 
+### Crestway Adjustment (bundled pitch)
+
+Proposal includes a proactive Crestway cost reduction:
+- Crestway drops from $4,500/mo → $2,500/mo (pace slowing, targeting 40-60 students by September, not hundreds)
+- Trolleybus Advisory at $4,000/mo
+- Total: $6,500/mo (up from $4,500/mo, but $2k/mo saved on Crestway offsets nearly half the new engagement)
+- Framing: honest about reduced Crestway intensity, redirecting focus to where the growth opportunity is
+
 ---
 
 ## Success Criteria

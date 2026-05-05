@@ -242,7 +242,7 @@
 | footer-brand | Crestway Global | Crestway Global |
 | footer-description | Educational guardianship and support services for international students in Canada. | 加拿大国际学生专业监护服务。 |
 | footer-contact-title | Contact | 联系 |
-| footer-email | hello@crestwayglobal.com | hello@crestwayglobal.com |
+| footer-email | info@crestwayglobal.com | info@crestwayglobal.com |
 | footer-city | Toronto | 多伦多 |
 | footer-explore-title | Explore | 了解更多 |
 | footer-link-about | About Us | 关于我们 |
@@ -273,12 +273,12 @@
 | dave-alt | Dave Murray as a young police officer | 年轻时的 Dave Murray |
 | dave-caption | Dave at age 20, early in his police career | Dave 20岁时，警察生涯早期 |
 | dave-name | Dave Murray | Dave Murray |
-| dave-title | Co-Founder & Director of Operations | 联合创始人兼运营总监 |
+| dave-title | Co-Founder & Director of Safety & Director of Operations | 联合创始人兼运营总监 |
 | dave-p1 | Dave Murray served the City of Toronto for 31 years as a police officer, retiring at the rank of Staff Sergeant. His career included seven years as a criminal investigator, developing expertise in safety assessment, risk management, and community protection protocols. | Dave Murray 在多伦多市警察局服务31年，以 Staff Sergeant 级别退休。他的职业生涯包括七年刑事调查员经历，培养了安全评估、风险管理和社区保护协议方面的 expertise。 |
 | dave-p2 | This background directly informs Crestway Global's safeguarding procedures. Dave established our housing verification protocols, emergency response systems, and staff training programs. His institutional knowledge of Toronto's support systems—healthcare, law enforcement, social services—enables Crestway Global to navigate complex situations effectively. | 这一背景直接 inform Crestway Global 的 safeguarding 程序。Dave 建立了我们的住房验证协议、紧急响应系统和员工培训项目。他对多伦多支持系统——医疗、执法、社会服务——的制度 knowledge 使 Crestway Global 能够有效 navigate 复杂情况。 |
 | dave-p3 | Dave leads operations with an emphasis on documented procedures, accountability, and preventive care. His approach ensures that Crestway Global's support is both personally attentive and professionally structured. | Dave 以强调文档化程序、问责和 preventive care 的方式领导运营。他的方法确保 Crestway Global 的支持既个人 attentive 又专业 structured。 |
 | doug-name | Doug Hochglaube | Doug Hochglaube |
-| doug-title | Co-Founder & Strategic Director | 联合创始人兼战略总监 |
+| doug-title | Co-Founder & Director of Safety & Strategic Director | 联合创始人兼战略总监 |
 | doug-p1 | Doug Hochglaube is a real estate developer with nearly two decades of experience in student housing and community-focused projects across Ontario. His work has involved the development and management of housing for thousands of students, giving him direct insight into the gaps between institutional support and student needs. | Doug Hochglaube 是一位房地产开发商，在安大略省学生住房和社区 focus 项目方面有将近二十年经验。他的工作涉及开发和管理数千名学生的住房，使他对机构支持与学生需求之间的 gap 有直接 insight。 |
 | doug-p2 | This operational background shapes Crestway Global's structural approach. Doug developed our partnership frameworks with universities, our housing assessment protocols, and our scalability planning. His experience with regulatory compliance, insurance, and risk management informs our governance standards. | 这种运营背景塑造 Crestway Global 的结构化方法。Doug 开发了我们与大学的合作框架、住房评估协议和可扩展性规划。他在 regulatory compliance、保险和风险管理方面的经验 inform 我们的治理标准。 |
 | doug-p3 | Doug directs Crestway Global's institutional relationships and strategic development, ensuring that our growth maintains service quality and professional standards. His focus is on building sustainable systems that can deliver consistent, accountable support at scale. | Doug 指导 Crestway Global 的机构关系和战略发展，确保我们的增长保持服务质量和专业标准。他的 focus 是建立可持续系统，能够在规模上提供一致、可问责的支持。 |

@@ -682,7 +682,7 @@ Replace the existing 3-column footer in every HTML file with the new 2-row foote
       </div>
     </div>
     <div class="footer-bottom">
-      <p>110 Sheppard Ave E, Suite 110, North York, ON M2N 6K1 · <a href="mailto:hello@crestwayglobal.com">hello@crestwayglobal.com</a></p>
+      <p>110 Sheppard Ave E, Suite 110, North York, ON M2N 6K1 · <a href="mailto:info@crestwayglobal.com">info@crestwayglobal.com</a></p>
       <div class="footer-social">
         <a href="https://www.instagram.com/crestway_global" target="_blank" rel="noopener">Instagram</a>
         <a href="https://www.facebook.com/share/1GAZFDcU7j/" target="_blank" rel="noopener">Facebook</a>
@@ -1444,7 +1444,7 @@ Founder markup:
   <div class="stack">
     <div>
       <h3>Dave Murray</h3>
-      <p class="founder-title">Co-Founder & Director of Operations</p>
+      <p class="founder-title">Co-Founder & Director of Safety & Director of Operations</p>
     </div>
     <p>Dave Murray served the City of Toronto for 31 years...</p>
     <!-- remaining bio paragraphs -->
